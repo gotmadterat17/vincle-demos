@@ -1,0 +1,26 @@
+# Quine Heating & Air Conditioning
+
+> Quine Heating & Air Conditioning is a heating & air business at 1308 S Midkiff Rd Suite 219, Midland, TX, rated 4.9 from 65 Google reviews. Phone (432) 689-7167.
+
+## Key facts
+- Business: Quine Heating & Air Conditioning
+- Location: 1308 S Midkiff Rd Suite 219, Midland, TX 79701
+- Rating: 4.9★ from 65 Google reviews
+- Phone: (432) 689-7167
+- Phone: (432) 689-7167
+- Address: 1308 S Midkiff Rd Suite 219, Midland, TX 79701
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: AC Repair, Heating & Furnaces, New System Installs, Tune-Ups, Ductwork, Service Calls
+
+## FAQ
+- Q: Where is Quine Heating & Air Conditioning located?
+  A: 1308 S Midkiff Rd Suite 219, Midland, TX 79701.
+- Q: What are Quine Heating & Air Conditioning's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Quine Heating & Air Conditioning?
+  A: Call (432) 689-7167.
+- Q: Is Quine Heating & Air Conditioning well reviewed?
+  A: Yes. It is rated 4.9 stars from 65 Google reviews.
+
+## Page
+- [Quine Heating & Air Conditioning](https://gotmadterat17.github.io/vincle-demos/quine-heating-air-conditioning-midland/)
