@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/power-roofing-and-carpentry-san-antonio/sitemap.xml
