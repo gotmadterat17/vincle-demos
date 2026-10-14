@@ -26,4 +26,4 @@
   A: It is rated 4.9 stars from 53 Google reviews. Customers praise quick response and fair pricing.
 
 ## Page
-- [Jones Mobile Mechanic](https://jones-mobile-mechanic-demo.netlify.app/)
+- [Jones Mobile Mechanic](https://gotmadterat17.github.io/vincle-demos/jones-mobile-mechanic/)

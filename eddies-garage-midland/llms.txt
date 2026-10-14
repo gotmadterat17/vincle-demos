@@ -26,4 +26,4 @@
   A: It is rated 5.0 stars from 84 Google reviews. Customers call him the best mechanic in the area.
 
 ## Page
-- [Eddie's Garage Mobile Diesel Repair](https://eddies-garage-demo.netlify.app/)
+- [Eddie's Garage Mobile Diesel Repair](https://gotmadterat17.github.io/vincle-demos/eddies-garage-midland/)

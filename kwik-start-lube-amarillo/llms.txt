@@ -28,4 +28,4 @@
   A: Yes. On Wednesdays, Ladies Day gives $5 off oil changes.
 
 ## Page
-- [Kwik Start Lube & Tune](https://kwik-start-lube-demo.netlify.app/)
+- [Kwik Start Lube & Tune](https://gotmadterat17.github.io/vincle-demos/kwik-start-lube-amarillo/)

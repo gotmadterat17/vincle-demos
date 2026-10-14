@@ -27,4 +27,4 @@
   A: It is rated 4.9 stars from 98 Google reviews. Reviews call it the best front-end service in Amarillo.
 
 ## Page
-- [Miller Front End Alignment](https://miller-front-end-demo.netlify.app/)
+- [Miller Front End Alignment](https://gotmadterat17.github.io/vincle-demos/miller-front-end-amarillo/)

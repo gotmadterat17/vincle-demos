@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://miller-front-end-demo.netlify.app/sitemap.xml
+Sitemap: https://gotmadterat17.github.io/vincle-demos/miller-front-end-amarillo/sitemap.xml

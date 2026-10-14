@@ -26,4 +26,4 @@
   A: It is rated 4.5 stars from 139 Google reviews. Reviews mention honesty and no upselling.
 
 ## Page
-- [Pat's Mobile Mechanic](https://pats-mobile-mechanic-demo.netlify.app/)
+- [Pat's Mobile Mechanic](https://gotmadterat17.github.io/vincle-demos/pats-mobile-mechanic-lubbock/)

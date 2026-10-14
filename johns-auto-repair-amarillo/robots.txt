@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://johns-auto-repair-demo.netlify.app/sitemap.xml
+Sitemap: https://gotmadterat17.github.io/vincle-demos/johns-auto-repair-amarillo/sitemap.xml

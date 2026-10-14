@@ -25,4 +25,4 @@
   A: It is rated 4.5 stars from 132 Google reviews. Regulars describe them as good, honest people who back up their work.
 
 ## Page
-- [John's Auto Repair](https://johns-auto-repair-demo.netlify.app/)
+- [John's Auto Repair](https://gotmadterat17.github.io/vincle-demos/johns-auto-repair-amarillo/)

@@ -27,4 +27,4 @@
   A: It is rated 4.8 stars from 145 Google reviews. A recent review called Kroozers "the very definition of integrity."
 
 ## Page
-- [Kroozers Tire & Automotive](https://kroozers-tire-demo.netlify.app/)
+- [Kroozers Tire & Automotive](https://gotmadterat17.github.io/vincle-demos/kroozers-tire-amarillo/)

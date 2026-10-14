@@ -26,4 +26,4 @@
   A: It is rated 4.6 stars from 227 Google reviews. CARFAX lists it as a Top-Rated Service Center.
 
 ## Page
-- [Barney's Auto Service](https://barneys-auto-service-demo.netlify.app/)
+- [Barney's Auto Service](https://gotmadterat17.github.io/vincle-demos/barneys-auto-service-amarillo/)

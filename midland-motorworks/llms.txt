@@ -25,4 +25,4 @@
   A: It is rated 5.0 stars from 53 Google reviews. Customers describe it as honest, skilled and fairly priced.
 
 ## Page
-- [Midland Motorworks](https://midland-motorworks-demo.netlify.app/)
+- [Midland Motorworks](https://gotmadterat17.github.io/vincle-demos/midland-motorworks/)

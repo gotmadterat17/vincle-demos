@@ -30,4 +30,4 @@
   A: Yes. Reviews from out-of-town drivers say the shop fit them in quickly and kept them updated on progress and costs.
 
 ## Page
-- [Chauncy's Automotive](https://chauncys-automotive-demo.netlify.app/)
+- [Chauncy's Automotive](https://gotmadterat17.github.io/vincle-demos/chauncys-automotive-amarillo/)

@@ -28,4 +28,4 @@
   A: Yes. Customers say Mr. Han will install parts you bring.
 
 ## Page
-- [American Auto Clinic](https://american-auto-clinic-demo.netlify.app/)
+- [American Auto Clinic](https://gotmadterat17.github.io/vincle-demos/american-auto-clinic-lubbock/)

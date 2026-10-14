@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://eddies-garage-demo.netlify.app/sitemap.xml
+Sitemap: https://gotmadterat17.github.io/vincle-demos/eddies-garage-midland/sitemap.xml

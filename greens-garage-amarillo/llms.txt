@@ -26,4 +26,4 @@
   A: It is rated 4.7 stars from 174 Google reviews. Customers mention fast, friendly service with a hometown feel.
 
 ## Page
-- [Greens Garage](https://greens-garage-demo.netlify.app/)
+- [Greens Garage](https://gotmadterat17.github.io/vincle-demos/greens-garage-amarillo/)

@@ -26,4 +26,4 @@
   A: It is rated 4.8 stars from 106 Google reviews. Long-time customers praise Abdul's honesty.
 
 ## Page
-- [Abdul Auto Repair & Tires](https://abdul-auto-repair-demo.netlify.app/)
+- [Abdul Auto Repair & Tires](https://gotmadterat17.github.io/vincle-demos/abdul-auto-repair-amarillo/)
