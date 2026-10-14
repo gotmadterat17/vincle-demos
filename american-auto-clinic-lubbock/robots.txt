@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://american-auto-clinic-demo.netlify.app/sitemap.xml

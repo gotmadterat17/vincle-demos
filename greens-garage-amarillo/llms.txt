@@ -1,0 +1,29 @@
+# Greens Garage
+
+> Greens Garage is a family-owned auto repair shop on Ortega Rd in Amarillo, Texas, known for fast, friendly service with a hometown feel.
+
+## Key facts
+- Business: Greens Garage
+- Owner: the Green family
+- Location: 13601 Ortega Rd, Amarillo, TX 79118
+- Specialties: auto repair, oil changes, vehicle maintenance, mechanic repairs
+- Rating: 4.7 stars from 174 Google reviews
+- Phone: (806) 622-3656
+- Address: 13601 Ortega Rd, Amarillo, TX 79118
+- Hours: Mon – Fri 8:00 AM – 5:00 PM; Sat – Sun Closed
+- Services: Auto Repair, Oil Changes, Vehicle Maintenance, Mechanic Repairs
+
+## FAQ
+- Q: Where is Greens Garage located?
+  A: Greens Garage is at 13601 Ortega Rd, Amarillo, TX 79118.
+- Q: What are Greens Garage's hours?
+  A: Mon – Fri: 8:00 AM – 5:00 PM; Sat – Sun: Closed.
+- Q: What services does Greens Garage offer?
+  A: Auto Repair, Oil Changes, Vehicle Maintenance, Mechanic Repairs.
+- Q: How do I schedule service with Greens Garage?
+  A: Call (806) 622-3656 to describe the problem and set up a time.
+- Q: Is Greens Garage a good mechanic in Amarillo?
+  A: It is rated 4.7 stars from 174 Google reviews. Customers mention fast, friendly service with a hometown feel.
+
+## Page
+- [Greens Garage](https://greens-garage-demo.netlify.app/)

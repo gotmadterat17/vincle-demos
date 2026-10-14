@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://locations-carnival-private-websites.trycloudflare.com/callaways-mobile-mechanic/sitemap.xml

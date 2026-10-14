@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://midland-motorworks-demo.netlify.app/sitemap.xml

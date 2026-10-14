@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://locations-carnival-private-websites.trycloudflare.com/anything-handy-now-conroe/sitemap.xml

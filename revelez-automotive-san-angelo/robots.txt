@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://locations-carnival-private-websites.trycloudflare.com/revelez-automotive-san-angelo/sitemap.xml

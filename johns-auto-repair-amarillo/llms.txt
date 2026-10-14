@@ -1,0 +1,28 @@
+# John's Auto Repair
+
+> John's Auto Repair is an auto repair shop at 300 S Ross St in Amarillo, Texas, open seven days, offering brakes, steering, body and emergency repairs.
+
+## Key facts
+- Business: John's Auto Repair
+- Location: 300 S Ross St, Amarillo, TX
+- Specialties: brake repair, steering & suspension, bumper & body repair, exhaust, emergency drop-ins, general repair
+- Rating: 4.5 stars from 132 Google reviews
+- Phone: (806) 372-4335
+- Address: 300 S Ross St, Amarillo, TX
+- Hours: Every day 8:00 AM – 5:00 PM
+- Services: Brake Repair, Steering & Suspension, Bumper & Body Repair, Exhaust, Emergency Drop-Ins, General Repair
+
+## FAQ
+- Q: Where is John's Auto Repair located?
+  A: John's Auto Repair is at 300 S Ross St, Amarillo, TX.
+- Q: What are John's Auto Repair's hours?
+  A: Every day: 8:00 AM – 5:00 PM.
+- Q: What services does John's Auto Repair offer?
+  A: Brake Repair, Steering & Suspension, Bumper & Body Repair, Exhaust, Emergency Drop-Ins, General Repair.
+- Q: How do I schedule service with John's Auto Repair?
+  A: Call (806) 372-4335 to describe the problem and set up a time.
+- Q: Is John's Auto Repair a good mechanic in Amarillo?
+  A: It is rated 4.5 stars from 132 Google reviews. Regulars describe them as good, honest people who back up their work.
+
+## Page
+- [John's Auto Repair](https://johns-auto-repair-demo.netlify.app/)

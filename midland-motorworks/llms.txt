@@ -1,0 +1,28 @@
+# Midland Motorworks
+
+> Midland Motorworks is an auto repair shop on Garden City Hwy in Midland, Texas, offering repairs, tune-ups, brakes, suspension and trailer repair, rated 5.0 on Google.
+
+## Key facts
+- Business: Midland Motorworks
+- Location: 2605 Garden City Hwy, Midland, TX 79701
+- Specialties: auto repair, tune-ups, brakes, suspension, trailer repair, battery replacement
+- Rating: 5.0 stars from 53 Google reviews
+- Phone: (432) 247-1000
+- Address: 2605 Garden City Hwy, Midland, TX 79701
+- Hours: Mon – Fri 7:30 AM – 6:00 PM; Sat – Sun Closed
+- Services: Auto Repair, Tune-Ups, Brakes, Suspension, Trailer Repair, Battery Replacement
+
+## FAQ
+- Q: Where is Midland Motorworks located?
+  A: Midland Motorworks is at 2605 Garden City Hwy, Midland, TX 79701.
+- Q: What are Midland Motorworks's hours?
+  A: Mon – Fri: 7:30 AM – 6:00 PM; Sat – Sun: Closed.
+- Q: What services does Midland Motorworks offer?
+  A: Auto Repair, Tune-Ups, Brakes, Suspension, Trailer Repair, Battery Replacement.
+- Q: How do I schedule service with Midland Motorworks?
+  A: Call (432) 247-1000 to describe the problem and set up a time.
+- Q: Is Midland Motorworks a good mechanic in Midland?
+  A: It is rated 5.0 stars from 53 Google reviews. Customers describe it as honest, skilled and fairly priced.
+
+## Page
+- [Midland Motorworks](https://midland-motorworks-demo.netlify.app/)

@@ -1,0 +1,31 @@
+# Kwik Start Lube & Tune
+
+> Kwik Start Lube & Tune is a family-owned oil change and auto repair shop on Bell St in Amarillo, Texas, owned by Eddie and Claudia Mercer, known for quick, affordable service.
+
+## Key facts
+- Business: Kwik Start Lube & Tune
+- Owner: Eddie & Claudia Mercer
+- Location: 7105 Bell St, Amarillo, TX 79109
+- Specialties: oil changes, brake diagnosis & repair, battery replacement, general auto repair, ladies day wednesdays, same-day service
+- Rating: 4.6 stars from 285 Google reviews
+- Phone: (806) 351-1300
+- Address: 7105 Bell St, Amarillo, TX 79109
+- Hours: Mon – Fri 8:00 AM – 6:00 PM; Saturday 9:00 AM – 12:00 PM; Sunday Closed
+- Services: Oil Changes, Brake Diagnosis & Repair, Battery Replacement, General Auto Repair, Ladies Day Wednesdays, Same-Day Service
+
+## FAQ
+- Q: Where is Kwik Start Lube & Tune located?
+  A: Kwik Start Lube & Tune is at 7105 Bell St, Amarillo, TX 79109.
+- Q: What are Kwik Start Lube & Tune's hours?
+  A: Mon – Fri: 8:00 AM – 6:00 PM; Saturday: 9:00 AM – 12:00 PM; Sunday: Closed.
+- Q: What services does Kwik Start Lube & Tune offer?
+  A: Oil Changes, Brake Diagnosis & Repair, Battery Replacement, General Auto Repair, Ladies Day Wednesdays, Same-Day Service.
+- Q: How do I schedule service with Kwik Start Lube & Tune?
+  A: Call (806) 351-1300 to describe the problem and set up a time.
+- Q: Is Kwik Start Lube & Tune a good oil change and repair shop in Amarillo?
+  A: It is rated 4.6 stars from 285 Google reviews. Customers call it fast, honest and affordable.
+- Q: Does Kwik Start have a Ladies Day discount?
+  A: Yes. On Wednesdays, Ladies Day gives $5 off oil changes.
+
+## Page
+- [Kwik Start Lube & Tune](https://kwik-start-lube-demo.netlify.app/)

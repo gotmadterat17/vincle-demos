@@ -1,0 +1,30 @@
+# Miller Front End Alignment
+
+> Miller Front End Alignment is an owner-operated front-end and alignment shop in Amarillo, Texas, run by Terry, known for alignments on trucks, lifted vehicles and classic cars.
+
+## Key facts
+- Business: Miller Front End Alignment
+- Owner: Terry
+- Location: 1801 SW 3rd Ave, Amarillo, TX 79106
+- Specialties: front-end alignment, suspension work, lifted truck alignments, classic car front ends, brakes, routine maintenance
+- Rating: 4.9 stars from 98 Google reviews
+- Tip: call ahead to book; Terry keeps a waiting list
+- Phone: (806) 373-7520
+- Address: 1801 SW 3rd Ave, Amarillo, TX 79106
+- Hours: Mon – Thu 8:00 AM – 6:00 PM (call ahead); Fri – Sun Closed
+- Services: Front-End Alignment, Suspension Work, Lifted Truck Alignments, Classic Car Front Ends, Brakes, Routine Maintenance
+
+## FAQ
+- Q: Where is Miller Front End Alignment located?
+  A: Miller Front End Alignment is at 1801 SW 3rd Ave, Amarillo, TX 79106.
+- Q: What are Miller Front End Alignment's hours?
+  A: Mon – Thu: 8:00 AM – 6:00 PM (call ahead); Fri – Sun: Closed.
+- Q: What services does Miller Front End Alignment offer?
+  A: Front-End Alignment, Suspension Work, Lifted Truck Alignments, Classic Car Front Ends, Brakes, Routine Maintenance.
+- Q: How do I schedule service with Miller Front End Alignment?
+  A: Call (806) 373-7520 to describe the problem and set up a time.
+- Q: Is Miller Front End Alignment a good alignment shop in Amarillo?
+  A: It is rated 4.9 stars from 98 Google reviews. Reviews call it the best front-end service in Amarillo.
+
+## Page
+- [Miller Front End Alignment](https://miller-front-end-demo.netlify.app/)

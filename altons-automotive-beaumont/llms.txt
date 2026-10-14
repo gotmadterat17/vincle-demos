@@ -1,0 +1,26 @@
+# Alton's Automotive
+
+> Alton's Automotive is an auto repair shop at 1470 North St in Beaumont, Texas, rated 4.7 stars from 60 Google reviews.
+
+## Key facts
+- Location: 1470 North St, Beaumont, TX 77701
+- Specialties: diagnostics, maintenance, brakes, electrical, cooling
+- Rating: 4.7 stars from 60 Google reviews
+- Hours: Mon–Fri 7:30 AM – 4:00 PM
+- Phone: (409) 835-5378
+- Address: 1470 North St, Beaumont, TX 77701
+- Hours: Mon – Fri 7:30 AM – 4:00 PM; Sat – Sun Closed
+- Services: Diagnostics, Engine & Maintenance, Brakes, Electrical, Suspension & Steering, AC & Cooling
+
+## FAQ
+- Q: Where is Alton's Automotive located?
+  A: 1470 North St, Beaumont, TX 77701.
+- Q: What are the hours?
+  A: Monday through Friday, 7:30 AM to 4:00 PM.
+- Q: What services does Alton's offer?
+  A: Diagnostics, maintenance, brakes, electrical, suspension and cooling work.
+- Q: How do I schedule?
+  A: Call (409) 835-5378.
+
+## Page
+- [Alton's Automotive](https://locations-carnival-private-websites.trycloudflare.com/altons-automotive-beaumont/)

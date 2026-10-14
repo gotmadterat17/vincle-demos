@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shacks-plumbing-demo.netlify.app/sitemap.xml

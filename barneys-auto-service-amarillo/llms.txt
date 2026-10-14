@@ -1,0 +1,29 @@
+# Barney's Auto Service
+
+> Barney's Auto Service is a full-service auto repair shop on N Western St in Amarillo, Texas, a CARFAX Top-Rated Service Center offering brakes, diagnostics, engine, transmission and alignment work.
+
+## Key facts
+- Business: Barney's Auto Service
+- Location: 810 N Western St, Amarillo, TX 79106
+- Specialties: brake service, check engine diagnosis, engine & transmission, wheel alignment, steering & suspension, oil & maintenance
+- Rating: 4.6 stars from 227 Google reviews
+- Amenities: courtesy shuttle and free Wi-Fi
+- Phone: (806) 373-9746
+- Address: 810 N Western St, Amarillo, TX 79106
+- Hours: Mon – Fri 8:00 AM – 5:30 PM; Sat – Sun Closed
+- Services: Brake Service, Check Engine Diagnosis, Engine & Transmission, Wheel Alignment, Steering & Suspension, Oil & Maintenance
+
+## FAQ
+- Q: Where is Barney's Auto Service located?
+  A: Barney's Auto Service is at 810 N Western St, Amarillo, TX 79106.
+- Q: What are Barney's Auto Service's hours?
+  A: Mon – Fri: 8:00 AM – 5:30 PM; Sat – Sun: Closed.
+- Q: What services does Barney's Auto Service offer?
+  A: Brake Service, Check Engine Diagnosis, Engine & Transmission, Wheel Alignment, Steering & Suspension, Oil & Maintenance.
+- Q: How do I schedule service with Barney's Auto Service?
+  A: Call (806) 373-9746 to describe the problem and set up a time.
+- Q: Is Barney's Auto Service a good auto repair shop in Amarillo?
+  A: It is rated 4.6 stars from 227 Google reviews. CARFAX lists it as a Top-Rated Service Center.
+
+## Page
+- [Barney's Auto Service](https://barneys-auto-service-demo.netlify.app/)

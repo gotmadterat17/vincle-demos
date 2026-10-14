@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jones-mobile-mechanic-demo.netlify.app/sitemap.xml

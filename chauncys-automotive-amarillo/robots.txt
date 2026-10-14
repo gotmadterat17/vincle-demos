@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chauncys-automotive-demo.netlify.app/sitemap.xml

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abdul-auto-repair-demo.netlify.app/sitemap.xml

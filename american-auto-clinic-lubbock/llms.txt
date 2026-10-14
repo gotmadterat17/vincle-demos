@@ -1,0 +1,31 @@
+# American Auto Clinic
+
+> American Auto Clinic is an auto repair shop on Marsha Sharp Fwy in Lubbock, Texas, run by Mr. Han, known for precise diagnostics, fair prices and installing customer-supplied parts.
+
+## Key facts
+- Business: American Auto Clinic
+- Owner: Mr. Han
+- Location: 2301 Marsha Sharp Fwy W, Lubbock, TX 79415
+- Specialties: diagnostics, starters & batteries, struts & suspension, catalytic converters, bring your own parts, general repair
+- Rating: 4.5 stars from 141 Google reviews
+- Phone: (806) 744-5844
+- Address: 2301 Marsha Sharp Fwy W, Lubbock, TX 79415
+- Hours: Mon – Fri 9:00 AM – 5:30 PM; Saturday 10:00 AM – 2:00 PM; Sunday Closed
+- Services: Diagnostics, Starters & Batteries, Struts & Suspension, Catalytic Converters, Bring Your Own Parts, General Repair
+
+## FAQ
+- Q: Where is American Auto Clinic located?
+  A: American Auto Clinic is at 2301 Marsha Sharp Fwy W, Lubbock, TX 79415.
+- Q: What are American Auto Clinic's hours?
+  A: Mon – Fri: 9:00 AM – 5:30 PM; Saturday: 10:00 AM – 2:00 PM; Sunday: Closed.
+- Q: What services does American Auto Clinic offer?
+  A: Diagnostics, Starters & Batteries, Struts & Suspension, Catalytic Converters, Bring Your Own Parts, General Repair.
+- Q: How do I schedule service with American Auto Clinic?
+  A: Call (806) 744-5844 to describe the problem and set up a time.
+- Q: Is American Auto Clinic a good mechanic in Lubbock?
+  A: It is rated 4.5 stars from 141 Google reviews. Customers mention precise diagnosis and fair prices.
+- Q: Can I bring my own parts to American Auto Clinic?
+  A: Yes. Customers say Mr. Han will install parts you bring.
+
+## Page
+- [American Auto Clinic](https://american-auto-clinic-demo.netlify.app/)

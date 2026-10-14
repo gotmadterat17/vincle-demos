@@ -1,0 +1,29 @@
+# Eddie's Garage Mobile Diesel Repair
+
+> Eddie's Garage Mobile Diesel Repair is a mobile diesel and auto repair business in Midland, Texas, rated 5.0 on Google, handling diagnostics, Cummins engines, transmission and A/C work.
+
+## Key facts
+- Business: Eddie's Garage Mobile Diesel Repair
+- Owner: Eddie
+- Location: 2600 Mariana Ave, Midland, TX 79701
+- Specialties: diesel diagnostics, brakes, electrical, transmission, steering & suspension, air conditioning
+- Rating: 5.0 stars from 84 Google reviews
+- Phone: (432) 640-7519
+- Address: 2600 Mariana Ave, Midland, TX 79701
+- Hours: Mon – Sat 10:00 AM – 10:00 PM; Sunday Closed
+- Services: Diesel Diagnostics, Brakes, Electrical, Transmission, Steering & Suspension, Air Conditioning
+
+## FAQ
+- Q: Where is Eddie's Garage Mobile Diesel Repair located?
+  A: Eddie's Garage Mobile Diesel Repair is at 2600 Mariana Ave, Midland, TX 79701.
+- Q: What are Eddie's Garage Mobile Diesel Repair's hours?
+  A: Mon – Sat: 10:00 AM – 10:00 PM; Sunday: Closed.
+- Q: What services does Eddie's Garage Mobile Diesel Repair offer?
+  A: Diesel Diagnostics, Brakes, Electrical, Transmission, Steering & Suspension, Air Conditioning.
+- Q: How do I schedule service with Eddie's Garage Mobile Diesel Repair?
+  A: Call (432) 640-7519 to describe the problem and set up a time.
+- Q: Is Eddie's Garage Mobile Diesel Repair a good diesel mechanic in Midland?
+  A: It is rated 5.0 stars from 84 Google reviews. Customers call him the best mechanic in the area.
+
+## Page
+- [Eddie's Garage Mobile Diesel Repair](https://eddies-garage-demo.netlify.app/)

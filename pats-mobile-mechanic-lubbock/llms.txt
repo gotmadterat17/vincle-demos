@@ -1,0 +1,29 @@
+# Pat's Mobile Mechanic
+
+> Pat's Mobile Mechanic is a 24/7 mobile auto repair service in Lubbock, Texas, offering diagnostics, brakes, batteries, electrical and suspension repairs at your location.
+
+## Key facts
+- Business: Pat's Mobile Mechanic
+- Owner: Patrick
+- Location: Mobile service across Lubbock, TX
+- Specialties: engine diagnostics, brakes, battery & alternator, electrical, cv axles & suspension, oil & filters
+- Rating: 4.5 stars from 139 Google reviews
+- Phone: (806) 401-5102
+- Address: Mobile service across Lubbock, TX
+- Hours: Every day Open 24 hours
+- Services: Engine Diagnostics, Brakes, Battery & Alternator, Electrical, CV Axles & Suspension, Oil & Filters
+
+## FAQ
+- Q: Where is Pat's Mobile Mechanic located?
+  A: Pat's Mobile Mechanic is mobile and comes to you anywhere in Lubbock.
+- Q: What are Pat's Mobile Mechanic's hours?
+  A: Every day: Open 24 hours.
+- Q: What services does Pat's Mobile Mechanic offer?
+  A: Engine Diagnostics, Brakes, Battery & Alternator, Electrical, CV Axles & Suspension, Oil & Filters.
+- Q: How do I schedule service with Pat's Mobile Mechanic?
+  A: Call (806) 401-5102 to describe the problem and set up a time.
+- Q: Is Pat's Mobile Mechanic a good mobile mechanic in Lubbock?
+  A: It is rated 4.5 stars from 139 Google reviews. Reviews mention honesty and no upselling.
+
+## Page
+- [Pat's Mobile Mechanic](https://pats-mobile-mechanic-demo.netlify.app/)

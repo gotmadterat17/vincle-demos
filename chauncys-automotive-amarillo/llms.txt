@@ -1,0 +1,33 @@
+# Chauncy's Automotive
+
+> Chauncy's Automotive is a family-run auto repair shop in Amarillo, Texas, owned by Chauncy Hanke, offering maintenance, oil changes, alignments, steering and suspension, and tire service.
+
+## Key facts
+- Business: Chauncy's Automotive
+- Owner: Chauncy Hanke
+- Location: 2001 Paramount Blvd, Amarillo, TX 79109
+- Specialties: auto maintenance, oil changes, wheel alignment, steering & suspension, tire service, fluid flushes
+- Rating: 4.5 stars from 260 Google reviews
+- Community: donated a van to Hope Lives Here, a veterans organization
+- Member: Amarillo Chamber of Commerce
+- Phone: (806) 463-3149
+- Address: 2001 Paramount Blvd, Amarillo, TX 79109
+- Hours: Mon – Fri 8:00 AM – 6:00 PM; Sat – Sun Closed
+- Services: Auto Maintenance, Oil Changes, Wheel Alignment, Steering & Suspension, Tire Service, Fluid Flushes
+
+## FAQ
+- Q: Where is Chauncy's Automotive located?
+  A: Chauncy's Automotive is at 2001 Paramount Blvd, Amarillo, TX 79109.
+- Q: What are Chauncy's Automotive's hours?
+  A: Mon – Fri: 8:00 AM – 6:00 PM; Sat – Sun: Closed.
+- Q: What services does Chauncy's Automotive offer?
+  A: Auto Maintenance, Oil Changes, Wheel Alignment, Steering & Suspension, Tire Service, Fluid Flushes.
+- Q: How do I schedule service with Chauncy's Automotive?
+  A: Call (806) 463-3149 to describe the problem and set up a time.
+- Q: Is Chauncy's Automotive a good mechanic in Amarillo?
+  A: It is rated 4.5 stars from 260 Google reviews. Customers often mention honest, knowledgeable service and fair alignment prices.
+- Q: Does Chauncy's help travelers passing through Amarillo?
+  A: Yes. Reviews from out-of-town drivers say the shop fit them in quickly and kept them updated on progress and costs.
+
+## Page
+- [Chauncy's Automotive](https://chauncys-automotive-demo.netlify.app/)

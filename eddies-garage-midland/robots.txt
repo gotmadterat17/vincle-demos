@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://eddies-garage-demo.netlify.app/sitemap.xml

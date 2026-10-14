@@ -1,0 +1,32 @@
+# Shack's Plumbing
+
+> Shack's Plumbing is a licensed plumbing company in Dallas and North Texas owned by master plumber Ray Mays, with over 40 years of experience, voted a Nextdoor Neighborhood Favorite 2021–2025.
+
+## Key facts
+- Business: Shack's Plumbing
+- Owner: Ray Mays
+- Location: Serving Dallas, North Dallas, Plano & Allen, TX
+- Specialties: cast iron & sewer drains, water service lines, leak repair, gas piping & ranges, water heaters, clogs & pool lines
+- Recognition: Nextdoor Neighborhood Favorite 2021–2025
+- Licensing: licensed and insured; pulls city permits
+- Phone: (214) 900-5430
+- Address: Serving Dallas, North Dallas, Plano & Allen, TX
+- Hours: Every day 8:00 AM – 9:00 PM
+- Services: Cast Iron & Sewer Drains, Water Service Lines, Leak Repair, Gas Piping & Ranges, Water Heaters, Clogs & Pool Lines
+
+## FAQ
+- Q: Where is Shack's Plumbing located?
+  A: Shack's Plumbing serves Dallas and North Texas, including North Dallas, Plano and Allen.
+- Q: What are Shack's Plumbing's hours?
+  A: Every day: 8:00 AM – 9:00 PM.
+- Q: What services does Shack's Plumbing offer?
+  A: Cast Iron & Sewer Drains, Water Service Lines, Leak Repair, Gas Piping & Ranges, Water Heaters, Clogs & Pool Lines.
+- Q: How do I schedule service with Shack's Plumbing?
+  A: Call (214) 900-5430 to describe the problem and set up a time.
+- Q: Is Shack's Plumbing licensed?
+  A: Yes. Ray Mays is a licensed, insured master plumber who pulls the required city permits.
+- Q: Does Shack's give free estimates?
+  A: Yes, free estimates for cast-iron replacement.
+
+## Page
+- [Shack's Plumbing](https://shacks-plumbing-demo.netlify.app/)

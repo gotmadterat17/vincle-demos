@@ -1,0 +1,30 @@
+# Kroozers Tire & Automotive
+
+> Kroozers Tire & Automotive is an Amarillo, Texas tire and auto repair shop owned by Max Albright, in business since 1992, offering tires, alignment, brakes and major mechanical repairs.
+
+## Key facts
+- Business: Kroozers Tire & Automotive
+- Owner: Max Albright
+- Location: 3228 Commerce St, Amarillo, TX 79109
+- Specialties: tire sales & install, all-wheel alignment, brake service, oil, filter & lube, shocks & struts, major repairs
+- Rating: 4.8 stars from 145 Google reviews
+- In business since: 1992
+- Phone: (806) 354-9688
+- Address: 3228 Commerce St, Amarillo, TX 79109
+- Hours: Mon – Fri 8:00 AM – 5:30 PM; Sat – Sun Closed
+- Services: Tire Sales & Install, All-Wheel Alignment, Brake Service, Oil, Filter & Lube, Shocks & Struts, Major Repairs
+
+## FAQ
+- Q: Where is Kroozers Tire & Automotive located?
+  A: Kroozers Tire & Automotive is at 3228 Commerce St, Amarillo, TX 79109.
+- Q: What are Kroozers Tire & Automotive's hours?
+  A: Mon – Fri: 8:00 AM – 5:30 PM; Sat – Sun: Closed.
+- Q: What services does Kroozers Tire & Automotive offer?
+  A: Tire Sales & Install, All-Wheel Alignment, Brake Service, Oil, Filter & Lube, Shocks & Struts, Major Repairs.
+- Q: How do I schedule service with Kroozers Tire & Automotive?
+  A: Call (806) 354-9688 to describe the problem and set up a time.
+- Q: Is Kroozers Tire & Automotive a good tire and auto shop in Amarillo?
+  A: It is rated 4.8 stars from 145 Google reviews. A recent review called Kroozers "the very definition of integrity."
+
+## Page
+- [Kroozers Tire & Automotive](https://kroozers-tire-demo.netlify.app/)

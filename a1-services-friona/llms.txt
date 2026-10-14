@@ -1,0 +1,23 @@
+# A-1 Services Center
+
+> A-1 Services Center is an auto repair shop at 1799 US-60 in Friona, Texas, rated 4.3 stars from 60 Google reviews.
+
+## Key facts
+- Location: 1799 US-60, Friona, TX 79035
+- Specialties: inspections, lights, cooling, general repair
+- Rating: 4.3 stars from 60 Google reviews
+- Phone: (806) 250-2731
+- Address: 1799 US-60, Friona, TX 79035
+- Hours: Mon – Fri 8:00 AM – 6:00 PM; Sat – Sun Closed
+- Services: Diagnostics, Engine & Maintenance, Brakes, Electrical, Suspension & Steering, AC & Cooling
+
+## FAQ
+- Q: Where is A-1 Services Center located?
+  A: 1799 US-60, Friona, TX 79035.
+- Q: What are the hours?
+  A: Monday through Friday, 8:00 AM to 6:00 PM.
+- Q: How do I book?
+  A: Call (806) 250-2731.
+
+## Page
+- [A-1 Services Center](https://locations-carnival-private-websites.trycloudflare.com/a1-services-friona/)

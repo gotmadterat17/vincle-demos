@@ -1,0 +1,24 @@
+# Jake's Plumbing Services
+
+> Jake's Plumbing Services is a family-owned plumbing company in Amarillo, Texas, with a master plumber who has over 15 years of experience.
+
+## Key facts
+- Business: Jake's Plumbing Services
+- Location: 3314 Paramount Blvd, Amarillo, TX 79109
+- Experience: 15+ years; master plumber 6+ years
+- Rating: 5.0 stars from recent Google reviews
+- Phone: (806) 654-5496
+- Address: 3314 Paramount Blvd, Amarillo, TX 79109
+- Hours: Mon – Fri 8:00 AM – 5:00 PM; Sat – Sun Closed
+- Services: Drain Cleaning, Leak Repair, Water Heaters, Fixtures, Gas Lines, Emergency Service
+
+## FAQ
+- Q: Where is Jake's Plumbing located?
+  A: 3314 Paramount Blvd, Amarillo, TX 79109.
+- Q: What are the hours?
+  A: Monday through Friday, 8:00 AM to 5:00 PM.
+- Q: How do I book?
+  A: Call (806) 654-5496.
+
+## Page
+- [Jake's Plumbing Services](https://locations-carnival-private-websites.trycloudflare.com/jakes-plumbing-amarillo/)

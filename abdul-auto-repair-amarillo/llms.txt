@@ -1,0 +1,29 @@
+# Abdul Auto Repair & Tires
+
+> Abdul Auto Repair & Tires is an auto repair and tire shop on N Eastern St in Amarillo, Texas, trusted by customers for over 20 years for honest diagnostics, tires, A/C and suspension work.
+
+## Key facts
+- Business: Abdul Auto Repair & Tires
+- Owner: Abdul
+- Location: 711 N Eastern St, Amarillo, TX 79107
+- Specialties: tires, a/c diagnosis & repair, shocks & struts, engine & transmission, routine maintenance, help for travelers
+- Rating: 4.8 stars from 106 Google reviews
+- Phone: (806) 373-8320
+- Address: 711 N Eastern St, Amarillo, TX 79107
+- Hours: Mon – Fri 9:00 AM – 6:00 PM; Saturday 9:00 AM – 2:00 PM; Sunday Closed
+- Services: Tires, A/C Diagnosis & Repair, Shocks & Struts, Engine & Transmission, Routine Maintenance, Help for Travelers
+
+## FAQ
+- Q: Where is Abdul Auto Repair & Tires located?
+  A: Abdul Auto Repair & Tires is at 711 N Eastern St, Amarillo, TX 79107.
+- Q: What are Abdul Auto Repair & Tires's hours?
+  A: Mon – Fri: 9:00 AM – 6:00 PM; Saturday: 9:00 AM – 2:00 PM; Sunday: Closed.
+- Q: What services does Abdul Auto Repair & Tires offer?
+  A: Tires, A/C Diagnosis & Repair, Shocks & Struts, Engine & Transmission, Routine Maintenance, Help for Travelers.
+- Q: How do I schedule service with Abdul Auto Repair & Tires?
+  A: Call (806) 373-8320 to describe the problem and set up a time.
+- Q: Is Abdul Auto Repair & Tires a good mechanic in Amarillo?
+  A: It is rated 4.8 stars from 106 Google reviews. Long-time customers praise Abdul's honesty.
+
+## Page
+- [Abdul Auto Repair & Tires](https://abdul-auto-repair-demo.netlify.app/)

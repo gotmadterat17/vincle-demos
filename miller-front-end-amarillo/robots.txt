@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://miller-front-end-demo.netlify.app/sitemap.xml
