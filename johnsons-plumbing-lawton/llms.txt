@@ -1,0 +1,26 @@
+# Johnson's Plumbing
+
+> Johnson's Plumbing is a plumbing business at 902 SE 2nd St, Lawton, OK, rated 4.1 from 24 Google reviews. Phone (580) 350-1500.
+
+## Key facts
+- Business: Johnson's Plumbing
+- Location: 902 SE 2nd St, Lawton, OK 73501
+- Rating: 4.1★ from 24 Google reviews
+- Phone: (580) 350-1500
+- Phone: (580) 350-1500
+- Address: 902 SE 2nd St, Lawton, OK 73501
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: Leak Repair, Drain Cleaning, Water Heaters, Sewer & Water Lines, Fixtures, Service Calls
+
+## FAQ
+- Q: Where is Johnson's Plumbing located?
+  A: 902 SE 2nd St, Lawton, OK 73501.
+- Q: What are Johnson's Plumbing's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Johnson's Plumbing?
+  A: Call (580) 350-1500.
+- Q: Is Johnson's Plumbing well reviewed?
+  A: Yes. It is rated 4.1 stars from 24 Google reviews.
+
+## Page
+- [Johnson's Plumbing](https://gotmadterat17.github.io/vincle-demos/johnsons-plumbing-lawton/)
