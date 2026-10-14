@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/mike-reyes-heating-and-air-conditioning-services-fort-worth/sitemap.xml
