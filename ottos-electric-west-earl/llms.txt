@@ -1,0 +1,23 @@
+# Otto's Electric
+
+> Otto's Electric is a electrician serving West Earl Twp, PA. Phone (717) 675-3415.
+
+## Key facts
+- Location: 550 Old Akron Rd, West Earl Twp, PA 17522
+- Rating: 5.0★ from 31 Google reviews
+- Phone: (717) 675-3415
+- Phone: (717) 675-3415
+- Address: 550 Old Akron Rd, West Earl Twp, PA 17522
+- Hours: Mon, Tue, Thu, Fri 6:00 AM – 6:00 PM; Wednesday 6:00 AM – 3:00 PM; Sat – Sun Closed
+- Services: Panel Upgrades, Wiring & Rewiring, Lighting, Troubleshooting, Generators, Service Calls
+
+## FAQ
+- Q: Where are you located?
+  A: 550 Old Akron Rd, West Earl Twp, PA 17522.
+- Q: How early do you start?
+  A: 6:00 AM Monday–Friday.
+- Q: How do I book?
+  A: Call (717) 675-3415.
+
+## Page
+- [Otto's Electric](https://gotmadterat17.github.io/vincle-demos/ottos-electric-west-earl/)

@@ -1,0 +1,23 @@
+# Rubi Electric
+
+> Rubi Electric is a electrician serving Valencia, CA. Phone (818) 388-9912.
+
+## Key facts
+- Owner: Marco
+- Area: Valencia & Santa Clarita, CA
+- Phone: (818) 388-9912
+- Phone: (818) 388-9912
+- Address: Valencia, CA 91354
+- Hours: Mon – Fri 8:00 AM – 5:00 PM; Saturday 8:00 AM – 2:00 PM; Sunday Closed
+- Services: Panel Upgrades, Wiring & Rewiring, Lighting, Troubleshooting, Generators, Service Calls
+
+## FAQ
+- Q: What areas do you serve?
+  A: Valencia and the Santa Clarita Valley.
+- Q: Are you open Saturdays?
+  A: Yes, 8 AM–2 PM.
+- Q: How do I book?
+  A: Call (818) 388-9912.
+
+## Page
+- [Rubi Electric](https://gotmadterat17.github.io/vincle-demos/rubi-electric-valencia/)
