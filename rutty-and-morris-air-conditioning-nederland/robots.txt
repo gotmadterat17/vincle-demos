@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://gotmadterat17.github.io/vincle-demos/rutty-and-morris-air-conditioning-nederland/sitemap.xml
