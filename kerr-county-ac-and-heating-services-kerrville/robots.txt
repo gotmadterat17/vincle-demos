@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/kerr-county-ac-and-heating-services-kerrville/sitemap.xml
