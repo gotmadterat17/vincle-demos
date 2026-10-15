@@ -1,0 +1,26 @@
+# Hub City Pest Control
+
+> Hub City Pest Control is a pest control business serving Jackson, TN, rated 5.0 from 43 Google reviews. Phone (731) 394-8969.
+
+## Key facts
+- Business: Hub City Pest Control
+- Service area: Serving Jackson, TN and nearby areas
+- Rating: 5.0★ from 43 Google reviews
+- Phone: (731) 394-8969
+- Phone: (731) 394-8969
+- Address: Serving Jackson, TN and nearby areas
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: General Pest Control, Termite Treatment, Rodent Control, Mosquito & Yard, Bed Bugs, Free Inspections
+
+## FAQ
+- Q: Where does Hub City Pest Control work?
+  A: Serving Jackson, TN and nearby areas.
+- Q: What are Hub City Pest Control's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Hub City Pest Control?
+  A: Call (731) 394-8969.
+- Q: Is Hub City Pest Control well reviewed?
+  A: Yes. It is rated 5.0 stars from 43 Google reviews.
+
+## Page
+- [Hub City Pest Control](https://gotmadterat17.github.io/vincle-demos/hub-city-pest-control-jackson/)
