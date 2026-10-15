@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/gumm-heating-and-air-llc-white-hall/sitemap.xml

@@ -1,0 +1,26 @@
+# EZ Roofing
+
+> EZ Roofing is a roofing business at 13 Nalley Rd # C, Cabot, AR, rated 4.8 from 278 Google reviews. Phone (501) 443-7552.
+
+## Key facts
+- Business: EZ Roofing
+- Location: 13 Nalley Rd # C, Cabot, AR 72023
+- Rating: 4.8★ from 278 Google reviews
+- Phone: (501) 443-7552
+- Phone: (501) 443-7552
+- Address: 13 Nalley Rd # C, Cabot, AR 72023
+- Hours: Monday Open 24 hours; Tuesday Open 24 hours; Wednesday Open 24 hours; Thursday Open 24 hours; Friday Open 24 hours; Saturday Open 24 hours; Sunday Open 24 hours
+- Services: Roof Replacement, Roof Repair, Storm & Hail Damage, Insurance Claims, Free Estimates, Gutters & Vents
+
+## FAQ
+- Q: Where is EZ Roofing located?
+  A: 13 Nalley Rd # C, Cabot, AR 72023.
+- Q: What are EZ Roofing's hours?
+  A: Monday: Open 24 hours; Tuesday: Open 24 hours; Wednesday: Open 24 hours; Thursday: Open 24 hours; Friday: Open 24 hours; Saturday: Open 24 hours; Sunday: Open 24 hours.
+- Q: How do I get service from EZ Roofing?
+  A: Call (501) 443-7552.
+- Q: Is EZ Roofing well reviewed?
+  A: Yes. It is rated 4.8 stars from 278 Google reviews.
+
+## Page
+- [EZ Roofing](https://gotmadterat17.github.io/vincle-demos/ez-roofing-cabot/)
