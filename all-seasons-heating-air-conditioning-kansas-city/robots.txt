@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/all-seasons-heating-air-conditioning-kansas-city/sitemap.xml
