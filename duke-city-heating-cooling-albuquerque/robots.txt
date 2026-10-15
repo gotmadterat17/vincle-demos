@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/duke-city-heating-cooling-albuquerque/sitemap.xml

@@ -1,0 +1,26 @@
+# Hyde Roofing
+
+> Hyde Roofing is a roofing business at 1 Perimeter Park S, Birmingham, AL, rated 5.0 from 177 Google reviews. Phone (256) 221-5743.
+
+## Key facts
+- Business: Hyde Roofing
+- Location: 1 Perimeter Park S, Birmingham, AL 35243
+- Rating: 5.0★ from 177 Google reviews
+- Phone: (256) 221-5743
+- Phone: (256) 221-5743
+- Address: 1 Perimeter Park S, Birmingham, AL 35243
+- Hours: Monday Open 24 hours; Tuesday Open 24 hours; Wednesday Open 24 hours; Thursday Open 24 hours; Friday Open 24 hours; Saturday Open 24 hours; Sunday Open 24 hours
+- Services: Roof Replacement, Roof Repair, Storm & Hail Damage, Insurance Claims, Free Estimates, Gutters & Vents
+
+## FAQ
+- Q: Where is Hyde Roofing located?
+  A: 1 Perimeter Park S, Birmingham, AL 35243.
+- Q: What are Hyde Roofing's hours?
+  A: Monday: Open 24 hours; Tuesday: Open 24 hours; Wednesday: Open 24 hours; Thursday: Open 24 hours; Friday: Open 24 hours; Saturday: Open 24 hours; Sunday: Open 24 hours.
+- Q: How do I get service from Hyde Roofing?
+  A: Call (256) 221-5743.
+- Q: Is Hyde Roofing well reviewed?
+  A: Yes. It is rated 5.0 stars from 177 Google reviews.
+
+## Page
+- [Hyde Roofing](https://gotmadterat17.github.io/vincle-demos/hyde-roofing-birmingham/)
