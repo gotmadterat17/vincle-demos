@@ -1,9 +1,9 @@
-# TLC Services - HVAC
+# TLC Services
 
-> TLC Services - HVAC is a heating & air business at 410 Akron Ave, Ardmore, OK, rated 4.9 from 644 Google reviews. Phone (580) 226-2460.
+> TLC Services is a heating & air business at 410 Akron Ave, Ardmore, OK, rated 4.9 from 644 Google reviews. Phone (580) 226-2460.
 
 ## Key facts
-- Business: TLC Services - HVAC
+- Business: TLC Services
 - Location: 410 Akron Ave, Ardmore, OK 73401
 - Rating: 4.9★ from 644 Google reviews
 - Phone: (580) 226-2460
@@ -13,14 +13,14 @@
 - Services: AC Repair, Heating & Furnaces, New System Installs, Tune-Ups, Ductwork, Service Calls
 
 ## FAQ
-- Q: Where is TLC Services - HVAC located?
+- Q: Where is TLC Services located?
   A: 410 Akron Ave, Ardmore, OK 73401.
-- Q: What are TLC Services - HVAC's hours?
+- Q: What are TLC Services's hours?
   A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
-- Q: How do I get service from TLC Services - HVAC?
+- Q: How do I get service from TLC Services?
   A: Call (580) 226-2460.
-- Q: Is TLC Services - HVAC well reviewed?
+- Q: Is TLC Services well reviewed?
   A: Yes. It is rated 4.9 stars from 644 Google reviews.
 
 ## Page
-- [TLC Services - HVAC](https://gotmadterat17.github.io/vincle-demos/tlc-services-hvac-ardmore/)
+- [TLC Services](https://gotmadterat17.github.io/vincle-demos/tlc-services-hvac-ardmore/)
