@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/keith-hodge-plumbing-llc-ooltewah/sitemap.xml

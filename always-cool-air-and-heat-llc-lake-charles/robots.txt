@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/always-cool-air-and-heat-llc-lake-charles/sitemap.xml
