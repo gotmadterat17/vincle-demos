@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/jones-tree-service-inc-peachtree-city/sitemap.xml

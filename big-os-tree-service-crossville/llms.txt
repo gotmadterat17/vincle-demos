@@ -1,0 +1,26 @@
+# Big O's Tree Service
+
+> Big O's Tree Service is a tree service business at 3076 US-70, Crossville, TN, rated 4.9 from 40 Google reviews. Phone (931) 287-6528.
+
+## Key facts
+- Business: Big O's Tree Service
+- Location: 3076 US-70, Crossville, TN 38555
+- Rating: 4.9★ from 40 Google reviews
+- Phone: (931) 287-6528
+- Phone: (931) 287-6528
+- Address: 3076 US-70, Crossville, TN 38555
+- Hours: Monday 7 AM – 5 PM; Tuesday 7 AM – 5 PM; Wednesday 7 AM – 5 PM; Thursday 7 AM – 5 PM; Friday 7 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: Tree Removal, Trimming & Pruning, Storm Cleanup, Stump Grinding, Lot & Brush Clearing, Free Estimates
+
+## FAQ
+- Q: Where is Big O's Tree Service located?
+  A: 3076 US-70, Crossville, TN 38555.
+- Q: What are Big O's Tree Service's hours?
+  A: Monday: 7 AM – 5 PM; Tuesday: 7 AM – 5 PM; Wednesday: 7 AM – 5 PM; Thursday: 7 AM – 5 PM; Friday: 7 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Big O's Tree Service?
+  A: Call (931) 287-6528.
+- Q: Is Big O's Tree Service well reviewed?
+  A: Yes. It is rated 4.9 stars from 40 Google reviews.
+
+## Page
+- [Big O's Tree Service](https://gotmadterat17.github.io/vincle-demos/big-os-tree-service-crossville/)
