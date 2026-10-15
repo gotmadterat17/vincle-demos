@@ -1,0 +1,26 @@
+# Ryan's Electric Service
+
+> Ryan's Electric Service is a electrical business at 1108 Holiday St, Salina, KS, rated 5.0 from 37 Google reviews. Phone (785) 819-1588.
+
+## Key facts
+- Business: Ryan's Electric Service
+- Location: 1108 Holiday St, Salina, KS 67401
+- Rating: 5.0★ from 37 Google reviews
+- Phone: (785) 819-1588
+- Phone: (785) 819-1588
+- Address: 1108 Holiday St, Salina, KS 67401
+- Hours: Hours Call for availability
+- Services: Panel Upgrades, Wiring & Rewiring, Lighting, Troubleshooting, Generators, Service Calls
+
+## FAQ
+- Q: Where is Ryan's Electric Service located?
+  A: 1108 Holiday St, Salina, KS 67401.
+- Q: What are Ryan's Electric Service's hours?
+  A: Hours: Call for availability.
+- Q: How do I get service from Ryan's Electric Service?
+  A: Call (785) 819-1588.
+- Q: Is Ryan's Electric Service well reviewed?
+  A: Yes. It is rated 5.0 stars from 37 Google reviews.
+
+## Page
+- [Ryan's Electric Service](https://gotmadterat17.github.io/vincle-demos/ryans-electric-service-salina/)

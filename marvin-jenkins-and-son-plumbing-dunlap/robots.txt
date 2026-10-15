@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/marvin-jenkins-and-son-plumbing-dunlap/sitemap.xml
