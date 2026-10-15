@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/top-notch-pressure-washing-llc-cape-girardeau/sitemap.xml
