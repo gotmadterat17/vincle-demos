@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/true-pressure-washing-and-gutter-cleaning-columbus-ga-columb/sitemap.xml
