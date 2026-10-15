@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/elite-exteriors-roofing-restoration-hot-springs/sitemap.xml
