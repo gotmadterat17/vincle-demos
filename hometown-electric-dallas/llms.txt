@@ -1,0 +1,26 @@
+# HomeTown Electric
+
+> HomeTown Electric is a electrical business at 168 N Johnston St Unit 101, Dallas, GA, rated 4.8 from 448 Google reviews. Phone (770) 485-5153.
+
+## Key facts
+- Business: HomeTown Electric
+- Location: 168 N Johnston St Unit 101, Dallas, GA 30132
+- Rating: 4.8★ from 448 Google reviews
+- Phone: (770) 485-5153
+- Phone: (770) 485-5153
+- Address: 168 N Johnston St Unit 101, Dallas, GA 30132
+- Hours: Hours Call for availability
+- Services: Panel Upgrades, Wiring & Rewiring, Lighting, Troubleshooting, Generators, Service Calls
+
+## FAQ
+- Q: Where is HomeTown Electric located?
+  A: 168 N Johnston St Unit 101, Dallas, GA 30132.
+- Q: What are HomeTown Electric's hours?
+  A: Hours: Call for availability.
+- Q: How do I get service from HomeTown Electric?
+  A: Call (770) 485-5153.
+- Q: Is HomeTown Electric well reviewed?
+  A: Yes. It is rated 4.8 stars from 448 Google reviews.
+
+## Page
+- [HomeTown Electric](https://gotmadterat17.github.io/vincle-demos/hometown-electric-dallas/)
