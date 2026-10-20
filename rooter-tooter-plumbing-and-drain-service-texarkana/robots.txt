@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/rooter-tooter-plumbing-and-drain-service-texarkana/sitemap.xml
