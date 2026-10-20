@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/cc-plumbing-supply-corpus-christi/sitemap.xml
