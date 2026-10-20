@@ -1,0 +1,26 @@
+# Red's Plumbing
+
+> Red's Plumbing is a plumbing business serving Columbia, TN, rated 4.9 from 61 Google reviews. Phone (931) 982-4875.
+
+## Key facts
+- Business: Red's Plumbing
+- Service area: Serving Columbia, TN and nearby areas
+- Rating: 4.9★ from 61 Google reviews
+- Phone: (931) 982-4875
+- Phone: (931) 982-4875
+- Address: Serving Columbia, TN and nearby areas
+- Hours: Monday Open 24 hours; Tuesday Open 24 hours; Wednesday Open 24 hours; Thursday Open 24 hours; Friday Open 24 hours; Saturday Open 24 hours; Sunday Open 24 hours
+- Services: Leak Repair, Drain Cleaning, Water Heaters, Sewer & Water Lines, Fixtures, Service Calls
+
+## FAQ
+- Q: Where does Red's Plumbing work?
+  A: Serving Columbia, TN and nearby areas.
+- Q: What are Red's Plumbing's hours?
+  A: Monday: Open 24 hours; Tuesday: Open 24 hours; Wednesday: Open 24 hours; Thursday: Open 24 hours; Friday: Open 24 hours; Saturday: Open 24 hours; Sunday: Open 24 hours.
+- Q: How do I get service from Red's Plumbing?
+  A: Call (931) 982-4875.
+- Q: Is Red's Plumbing well reviewed?
+  A: Yes. It is rated 4.9 stars from 61 Google reviews.
+
+## Page
+- [Red's Plumbing](https://gotmadterat17.github.io/vincle-demos/reds-plumbing-columbia/)
