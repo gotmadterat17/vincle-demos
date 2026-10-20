@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/b-e-hewett-electrical-service-pine-mountain/sitemap.xml
