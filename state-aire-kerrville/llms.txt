@@ -1,0 +1,26 @@
+# State Aire
+
+> State Aire is a heating & air business at 2472 Junction Hwy, Kerrville, TX, rated 4.6 from 122 Google reviews. Phone (830) 367-4131.
+
+## Key facts
+- Business: State Aire
+- Location: 2472 Junction Hwy, Kerrville, TX 78028
+- Rating: 4.6★ from 122 Google reviews
+- Phone: (830) 367-4131
+- Phone: (830) 367-4131
+- Address: 2472 Junction Hwy, Kerrville, TX 78028
+- Hours: Monday Open 24 hours; Tuesday Open 24 hours; Wednesday Open 24 hours; Thursday Open 24 hours; Friday Open 24 hours; Saturday Closed; Sunday Closed
+- Services: AC Repair, Heating & Furnaces, New System Installs, Tune-Ups, Ductwork, Service Calls
+
+## FAQ
+- Q: Where is State Aire located?
+  A: 2472 Junction Hwy, Kerrville, TX 78028.
+- Q: What are State Aire's hours?
+  A: Monday: Open 24 hours; Tuesday: Open 24 hours; Wednesday: Open 24 hours; Thursday: Open 24 hours; Friday: Open 24 hours; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from State Aire?
+  A: Call (830) 367-4131.
+- Q: Is State Aire well reviewed?
+  A: Yes. It is rated 4.6 stars from 122 Google reviews.
+
+## Page
+- [State Aire](https://gotmadterat17.github.io/vincle-demos/state-aire-kerrville/)
