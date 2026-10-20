@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/john-wayne-plumbing-drain-services-tuscaloosa/sitemap.xml
