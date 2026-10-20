@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/pitch-perfect-roofing-llc-north-little-rock/sitemap.xml
