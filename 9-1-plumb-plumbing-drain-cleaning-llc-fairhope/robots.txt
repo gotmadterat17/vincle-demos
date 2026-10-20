@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/9-1-plumb-plumbing-drain-cleaning-llc-fairhope/sitemap.xml
