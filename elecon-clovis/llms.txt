@@ -1,0 +1,26 @@
+# EleCon
+
+> EleCon is a electrical business at 1412 Wilshire Blvd, Clovis, NM, rated 4.9 from 40 Google reviews. Phone (575) 366-2211.
+
+## Key facts
+- Business: EleCon
+- Location: 1412 Wilshire Blvd, Clovis, NM 88101
+- Rating: 4.9★ from 40 Google reviews
+- Phone: (575) 366-2211
+- Phone: (575) 366-2211
+- Address: 1412 Wilshire Blvd, Clovis, NM 88101
+- Hours: Hours Call for availability
+- Services: Panel Upgrades, Wiring & Rewiring, Lighting, Troubleshooting, Generators, Service Calls
+
+## FAQ
+- Q: Where is EleCon located?
+  A: 1412 Wilshire Blvd, Clovis, NM 88101.
+- Q: What are EleCon's hours?
+  A: Hours: Call for availability.
+- Q: How do I get service from EleCon?
+  A: Call (575) 366-2211.
+- Q: Is EleCon well reviewed?
+  A: Yes. It is rated 4.9 stars from 40 Google reviews.
+
+## Page
+- [EleCon](https://gotmadterat17.github.io/vincle-demos/elecon-clovis/)
