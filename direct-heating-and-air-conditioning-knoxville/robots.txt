@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/direct-heating-and-air-conditioning-knoxville/sitemap.xml
