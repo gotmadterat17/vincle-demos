@@ -1,0 +1,26 @@
+# The Heat and Air Guy
+
+> The Heat and Air Guy is a heating & air business at 120 Naomi Ln, Newcastle, OK, rated 4.8 from 689 Google reviews. Phone (405) 358-7795.
+
+## Key facts
+- Business: The Heat and Air Guy
+- Location: 120 Naomi Ln, Newcastle, OK 73065
+- Rating: 4.8★ from 689 Google reviews
+- Phone: (405) 358-7795
+- Phone: (405) 358-7795
+- Address: 120 Naomi Ln, Newcastle, OK 73065
+- Hours: Monday Open 24 hours; Tuesday Open 24 hours; Wednesday Open 24 hours; Thursday Open 24 hours; Friday Open 24 hours; Saturday Open 24 hours; Sunday Open 24 hours
+- Services: AC Repair, Heating & Furnaces, New System Installs, Tune-Ups, Ductwork, Service Calls
+
+## FAQ
+- Q: Where is The Heat and Air Guy located?
+  A: 120 Naomi Ln, Newcastle, OK 73065.
+- Q: What are The Heat and Air Guy's hours?
+  A: Monday: Open 24 hours; Tuesday: Open 24 hours; Wednesday: Open 24 hours; Thursday: Open 24 hours; Friday: Open 24 hours; Saturday: Open 24 hours; Sunday: Open 24 hours.
+- Q: How do I get service from The Heat and Air Guy?
+  A: Call (405) 358-7795.
+- Q: Is The Heat and Air Guy well reviewed?
+  A: Yes. It is rated 4.8 stars from 689 Google reviews.
+
+## Page
+- [The Heat and Air Guy](https://gotmadterat17.github.io/vincle-demos/the-heat-and-air-guy-newcastle/)
