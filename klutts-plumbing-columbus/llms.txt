@@ -1,0 +1,26 @@
+# Klutts Plumbing
+
+> Klutts Plumbing is a plumbing business serving Columbus, MS, rated 4.5 from 67 Google reviews. Phone (662) 275-7065.
+
+## Key facts
+- Business: Klutts Plumbing
+- Service area: Serving Columbus, MS and nearby areas
+- Rating: 4.5★ from 67 Google reviews
+- Phone: (662) 275-7065
+- Phone: (662) 275-7065
+- Address: Serving Columbus, MS and nearby areas
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: Leak Repair, Drain Cleaning, Water Heaters, Sewer & Water Lines, Fixtures, Service Calls
+
+## FAQ
+- Q: Where does Klutts Plumbing work?
+  A: Serving Columbus, MS and nearby areas.
+- Q: What are Klutts Plumbing's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Klutts Plumbing?
+  A: Call (662) 275-7065.
+- Q: Is Klutts Plumbing well reviewed?
+  A: Yes. It is rated 4.5 stars from 67 Google reviews.
+
+## Page
+- [Klutts Plumbing](https://gotmadterat17.github.io/vincle-demos/klutts-plumbing-columbus/)
