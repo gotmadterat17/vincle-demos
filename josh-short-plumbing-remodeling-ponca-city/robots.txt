@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/josh-short-plumbing-remodeling-ponca-city/sitemap.xml
