@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/keel-painting-pressure-washing-co-glencoe/sitemap.xml
