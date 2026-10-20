@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/mighty-mikes-plumbing-electrical-hvac-pharr/sitemap.xml
