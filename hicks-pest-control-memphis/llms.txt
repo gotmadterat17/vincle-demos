@@ -1,0 +1,26 @@
+# Hicks Pest Control
+
+> Hicks Pest Control is a pest control business at 6000 Poplar Ave Suite 250, Memphis, TN, rated 5.0 from 105 Google reviews. Phone (901) 609-5015.
+
+## Key facts
+- Business: Hicks Pest Control
+- Location: 6000 Poplar Ave Suite 250, Memphis, TN 38119
+- Rating: 5.0★ from 105 Google reviews
+- Phone: (901) 609-5015
+- Phone: (901) 609-5015
+- Address: 6000 Poplar Ave Suite 250, Memphis, TN 38119
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: General Pest Control, Termite Treatment, Rodent Control, Mosquito & Yard, Bed Bugs, Free Inspections
+
+## FAQ
+- Q: Where is Hicks Pest Control located?
+  A: 6000 Poplar Ave Suite 250, Memphis, TN 38119.
+- Q: What are Hicks Pest Control's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Hicks Pest Control?
+  A: Call (901) 609-5015.
+- Q: Is Hicks Pest Control well reviewed?
+  A: Yes. It is rated 5.0 stars from 105 Google reviews.
+
+## Page
+- [Hicks Pest Control](https://gotmadterat17.github.io/vincle-demos/hicks-pest-control-memphis/)
