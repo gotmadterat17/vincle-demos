@@ -1,0 +1,26 @@
+# Jake's Plumbing
+
+> Jake's Plumbing is a plumbing business serving Bethany, OK, rated 4.9 from 116 Google reviews. Phone (405) 410-3844.
+
+## Key facts
+- Business: Jake's Plumbing
+- Service area: Serving Bethany, OK and nearby areas
+- Rating: 4.9★ from 116 Google reviews
+- Phone: (405) 410-3844
+- Phone: (405) 410-3844
+- Address: Serving Bethany, OK and nearby areas
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: Leak Repair, Drain Cleaning, Water Heaters, Sewer & Water Lines, Fixtures, Service Calls
+
+## FAQ
+- Q: Where does Jake's Plumbing work?
+  A: Serving Bethany, OK and nearby areas.
+- Q: What are Jake's Plumbing's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Jake's Plumbing?
+  A: Call (405) 410-3844.
+- Q: Is Jake's Plumbing well reviewed?
+  A: Yes. It is rated 4.9 stars from 116 Google reviews.
+
+## Page
+- [Jake's Plumbing](https://gotmadterat17.github.io/vincle-demos/jakes-plumbing-bethany/)
