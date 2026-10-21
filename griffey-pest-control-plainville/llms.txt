@@ -1,0 +1,26 @@
+# Griffey Pest Control
+
+> Griffey Pest Control is a pest control business at 141 Marlatt St, Plainville, IN, rated 5.0 from 41 Google reviews. Phone (812) 631-5726.
+
+## Key facts
+- Business: Griffey Pest Control
+- Location: 141 Marlatt St, Plainville, IN 47568
+- Rating: 5.0★ from 41 Google reviews
+- Phone: (812) 631-5726
+- Phone: (812) 631-5726
+- Address: 141 Marlatt St, Plainville, IN 47568
+- Hours: Monday 8 AM – 6 PM; Tuesday 8 AM – 6 PM; Wednesday 8 AM – 6 PM; Thursday 8 AM – 6 PM; Friday 8 AM – 6 PM; Saturday 8 AM – 6 PM; Sunday Closed
+- Services: General Pest Control, Termite Treatment, Rodent Control, Mosquito & Yard, Bed Bugs, Free Inspections
+
+## FAQ
+- Q: Where is Griffey Pest Control located?
+  A: 141 Marlatt St, Plainville, IN 47568.
+- Q: What are Griffey Pest Control's hours?
+  A: Monday: 8 AM – 6 PM; Tuesday: 8 AM – 6 PM; Wednesday: 8 AM – 6 PM; Thursday: 8 AM – 6 PM; Friday: 8 AM – 6 PM; Saturday: 8 AM – 6 PM; Sunday: Closed.
+- Q: How do I get service from Griffey Pest Control?
+  A: Call (812) 631-5726.
+- Q: Is Griffey Pest Control well reviewed?
+  A: Yes. It is rated 5.0 stars from 41 Google reviews.
+
+## Page
+- [Griffey Pest Control](https://gotmadterat17.github.io/vincle-demos/griffey-pest-control-plainville/)
