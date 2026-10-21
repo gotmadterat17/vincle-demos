@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/southwick-electrical-services-inc-bellevue/sitemap.xml
