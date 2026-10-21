@@ -1,0 +1,26 @@
+# Sample Garage Door Co
+
+> Sample Garage Door Co is a garage door business at 100 Main St, Springfield, IL, rated 4.9 from 48 Google reviews. Phone (555) 010-0100.
+
+## Key facts
+- Business: Sample Garage Door Co
+- Location: 100 Main St, Springfield, IL 62701
+- Rating: 4.9★ from 48 Google reviews
+- Phone: (555) 010-0100
+- Phone: (555) 010-0100
+- Address: 100 Main St, Springfield, IL 62701
+- Hours: Hours Call for availability
+- Services: Garage Door Repair, Spring Replacement, Opener Repair & Install, New Garage Doors, Cables & Rollers, Service Calls
+
+## FAQ
+- Q: Where is Sample Garage Door Co located?
+  A: 100 Main St, Springfield, IL 62701.
+- Q: What are Sample Garage Door Co's hours?
+  A: Hours: Call for availability.
+- Q: How do I get service from Sample Garage Door Co?
+  A: Call (555) 010-0100.
+- Q: Is Sample Garage Door Co well reviewed?
+  A: Yes. It is rated 4.9 stars from 48 Google reviews.
+
+## Page
+- [Sample Garage Door Co](https://gotmadterat17.github.io/vincle-demos/template-garage-preview/)

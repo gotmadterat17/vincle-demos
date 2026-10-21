@@ -1,0 +1,26 @@
+# Sample Flooring Co
+
+> Sample Flooring Co is a flooring business at 100 Main St, Springfield, IL, rated 4.9 from 48 Google reviews. Phone (555) 010-0100.
+
+## Key facts
+- Business: Sample Flooring Co
+- Location: 100 Main St, Springfield, IL 62701
+- Rating: 4.9★ from 48 Google reviews
+- Phone: (555) 010-0100
+- Phone: (555) 010-0100
+- Address: 100 Main St, Springfield, IL 62701
+- Hours: Hours Call for availability
+- Services: Hardwood Floors, Laminate & Vinyl Plank, Tile, Carpet, Floor Repair, Free Quotes
+
+## FAQ
+- Q: Where is Sample Flooring Co located?
+  A: 100 Main St, Springfield, IL 62701.
+- Q: What are Sample Flooring Co's hours?
+  A: Hours: Call for availability.
+- Q: How do I get service from Sample Flooring Co?
+  A: Call (555) 010-0100.
+- Q: Is Sample Flooring Co well reviewed?
+  A: Yes. It is rated 4.9 stars from 48 Google reviews.
+
+## Page
+- [Sample Flooring Co](https://gotmadterat17.github.io/vincle-demos/template-flooring-preview/)
