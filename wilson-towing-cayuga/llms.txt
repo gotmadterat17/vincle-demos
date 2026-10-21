@@ -1,0 +1,26 @@
+# Wilson Towing
+
+> Wilson Towing is a towing business at 110 S Division St, Cayuga, IN, rated 4.7 from 30 Google reviews. Phone (765) 492-3704.
+
+## Key facts
+- Business: Wilson Towing
+- Location: 110 S Division St, Cayuga, IN 47928
+- Rating: 4.7★ from 30 Google reviews
+- Phone: (765) 492-3704
+- Phone: (765) 492-3704
+- Address: 110 S Division St, Cayuga, IN 47928
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: 24/7 Towing, Roadside Assistance, Flatbed Towing, Accident Recovery, Winch-Outs, Fuel Delivery
+
+## FAQ
+- Q: Where is Wilson Towing located?
+  A: 110 S Division St, Cayuga, IN 47928.
+- Q: What are Wilson Towing's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Wilson Towing?
+  A: Call (765) 492-3704.
+- Q: Is Wilson Towing well reviewed?
+  A: Yes. It is rated 4.7 stars from 30 Google reviews.
+
+## Page
+- [Wilson Towing](https://gotmadterat17.github.io/vincle-demos/wilson-towing-cayuga/)

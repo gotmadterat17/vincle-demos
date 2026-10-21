@@ -1,0 +1,26 @@
+# Camel Tow
+
+> Camel Tow is a towing business at 2835 Pearl Ave, Lorain, OH, rated 4.5 from 75 Google reviews. Phone (440) 753-1123.
+
+## Key facts
+- Business: Camel Tow
+- Location: 2835 Pearl Ave, Lorain, OH 44055
+- Rating: 4.5★ from 75 Google reviews
+- Phone: (440) 753-1123
+- Phone: (440) 753-1123
+- Address: 2835 Pearl Ave, Lorain, OH 44055
+- Hours: Monday 10 AM – 5 PM; Tuesday 10 AM – 5 PM; Wednesday 10 AM – 5 PM; Thursday 10 AM – 5 PM; Friday 10 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: 24/7 Towing, Roadside Assistance, Flatbed Towing, Accident Recovery, Winch-Outs, Fuel Delivery
+
+## FAQ
+- Q: Where is Camel Tow located?
+  A: 2835 Pearl Ave, Lorain, OH 44055.
+- Q: What are Camel Tow's hours?
+  A: Monday: 10 AM – 5 PM; Tuesday: 10 AM – 5 PM; Wednesday: 10 AM – 5 PM; Thursday: 10 AM – 5 PM; Friday: 10 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Camel Tow?
+  A: Call (440) 753-1123.
+- Q: Is Camel Tow well reviewed?
+  A: Yes. It is rated 4.5 stars from 75 Google reviews.
+
+## Page
+- [Camel Tow](https://gotmadterat17.github.io/vincle-demos/camel-tow-lorain/)
