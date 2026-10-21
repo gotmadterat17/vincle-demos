@@ -1,0 +1,26 @@
+# Eddie's Tree Service
+
+> Eddie's Tree Service is a tree service business at 4484 Rutgers Rd, Mobile, AL, rated 4.5 from 23 Google reviews. Phone (251) 391-7457.
+
+## Key facts
+- Business: Eddie's Tree Service
+- Location: 4484 Rutgers Rd, Mobile, AL 36619
+- Rating: 4.5★ from 23 Google reviews
+- Phone: (251) 391-7457
+- Phone: (251) 391-7457
+- Address: 4484 Rutgers Rd, Mobile, AL 36619
+- Hours: Hours Call for availability
+- Services: Tree Removal, Trimming & Pruning, Storm Cleanup, Stump Grinding, Lot & Brush Clearing, Free Estimates
+
+## FAQ
+- Q: Where is Eddie's Tree Service located?
+  A: 4484 Rutgers Rd, Mobile, AL 36619.
+- Q: What are Eddie's Tree Service's hours?
+  A: Hours: Call for availability.
+- Q: How do I get service from Eddie's Tree Service?
+  A: Call (251) 391-7457.
+- Q: Is Eddie's Tree Service well reviewed?
+  A: Yes. It is rated 4.5 stars from 23 Google reviews.
+
+## Page
+- [Eddie's Tree Service](https://gotmadterat17.github.io/vincle-demos/eddies-tree-service-mobile/)
