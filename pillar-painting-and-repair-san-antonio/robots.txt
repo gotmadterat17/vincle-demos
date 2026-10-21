@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/pillar-painting-and-repair-san-antonio/sitemap.xml
