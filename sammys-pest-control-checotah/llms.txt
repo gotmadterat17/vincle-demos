@@ -1,0 +1,26 @@
+# Sammy's Pest Control
+
+> Sammy's Pest Control is a pest control business at 210 SE Main St, Checotah, OK, rated 4.9 from 31 Google reviews. Phone (918) 348-9441.
+
+## Key facts
+- Business: Sammy's Pest Control
+- Location: 210 SE Main St, Checotah, OK 74426
+- Rating: 4.9★ from 31 Google reviews
+- Phone: (918) 348-9441
+- Phone: (918) 348-9441
+- Address: 210 SE Main St, Checotah, OK 74426
+- Hours: Monday 7 AM – 6 PM; Tuesday 7 AM – 6 PM; Wednesday 7 AM – 6 PM; Thursday 7 AM – 6 PM; Friday 7 AM – 6 PM; Saturday 7 AM – 6 PM; Sunday Closed
+- Services: General Pest Control, Termite Treatment, Rodent Control, Mosquito & Yard, Bed Bugs, Free Inspections
+
+## FAQ
+- Q: Where is Sammy's Pest Control located?
+  A: 210 SE Main St, Checotah, OK 74426.
+- Q: What are Sammy's Pest Control's hours?
+  A: Monday: 7 AM – 6 PM; Tuesday: 7 AM – 6 PM; Wednesday: 7 AM – 6 PM; Thursday: 7 AM – 6 PM; Friday: 7 AM – 6 PM; Saturday: 7 AM – 6 PM; Sunday: Closed.
+- Q: How do I get service from Sammy's Pest Control?
+  A: Call (918) 348-9441.
+- Q: Is Sammy's Pest Control well reviewed?
+  A: Yes. It is rated 4.9 stars from 31 Google reviews.
+
+## Page
+- [Sammy's Pest Control](https://gotmadterat17.github.io/vincle-demos/sammys-pest-control-checotah/)

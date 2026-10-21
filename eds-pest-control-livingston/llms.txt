@@ -1,0 +1,26 @@
+# Ed's Pest Control
+
+> Ed's Pest Control is a pest control business at 617 N Washington Ave, Livingston, TX, rated 4.8 from 126 Google reviews. Phone (936) 327-9368.
+
+## Key facts
+- Business: Ed's Pest Control
+- Location: 617 N Washington Ave, Livingston, TX 77351
+- Rating: 4.8★ from 126 Google reviews
+- Phone: (936) 327-9368
+- Phone: (936) 327-9368
+- Address: 617 N Washington Ave, Livingston, TX 77351
+- Hours: Monday 8 AM – 5 PM; Tuesday 8 AM – 5 PM; Wednesday 8 AM – 5 PM; Thursday 8 AM – 5 PM; Friday 8 AM – 5 PM; Saturday Closed; Sunday Closed
+- Services: General Pest Control, Termite Treatment, Rodent Control, Mosquito & Yard, Bed Bugs, Free Inspections
+
+## FAQ
+- Q: Where is Ed's Pest Control located?
+  A: 617 N Washington Ave, Livingston, TX 77351.
+- Q: What are Ed's Pest Control's hours?
+  A: Monday: 8 AM – 5 PM; Tuesday: 8 AM – 5 PM; Wednesday: 8 AM – 5 PM; Thursday: 8 AM – 5 PM; Friday: 8 AM – 5 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Ed's Pest Control?
+  A: Call (936) 327-9368.
+- Q: Is Ed's Pest Control well reviewed?
+  A: Yes. It is rated 4.8 stars from 126 Google reviews.
+
+## Page
+- [Ed's Pest Control](https://gotmadterat17.github.io/vincle-demos/eds-pest-control-livingston/)
