@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gotmadterat17.github.io/vincle-demos/dutton-electrical-air-conditioning-service-hartselle/sitemap.xml

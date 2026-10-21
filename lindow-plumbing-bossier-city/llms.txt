@@ -1,0 +1,26 @@
+# Lindow Plumbing
+
+> Lindow Plumbing is a plumbing business serving Bossier City, LA, rated 4.8 from 46 Google reviews. Phone (318) 934-3499.
+
+## Key facts
+- Business: Lindow Plumbing
+- Service area: Serving Bossier City, LA and nearby areas
+- Rating: 4.8★ from 46 Google reviews
+- Phone: (318) 934-3499
+- Phone: (318) 934-3499
+- Address: Serving Bossier City, LA and nearby areas
+- Hours: Monday 8 AM – 4:30 PM; Tuesday 8 AM – 4:30 PM; Wednesday 8 AM – 4:30 PM; Thursday 8 AM – 4:30 PM; Friday 8 AM – 4:30 PM; Saturday Closed; Sunday Closed
+- Services: Leak Repair, Drain Cleaning, Water Heaters, Sewer & Water Lines, Fixtures, Service Calls
+
+## FAQ
+- Q: Where does Lindow Plumbing work?
+  A: Serving Bossier City, LA and nearby areas.
+- Q: What are Lindow Plumbing's hours?
+  A: Monday: 8 AM – 4:30 PM; Tuesday: 8 AM – 4:30 PM; Wednesday: 8 AM – 4:30 PM; Thursday: 8 AM – 4:30 PM; Friday: 8 AM – 4:30 PM; Saturday: Closed; Sunday: Closed.
+- Q: How do I get service from Lindow Plumbing?
+  A: Call (318) 934-3499.
+- Q: Is Lindow Plumbing well reviewed?
+  A: Yes. It is rated 4.8 stars from 46 Google reviews.
+
+## Page
+- [Lindow Plumbing](https://gotmadterat17.github.io/vincle-demos/lindow-plumbing-bossier-city/)
