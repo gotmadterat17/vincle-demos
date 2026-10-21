@@ -1,0 +1,26 @@
+# Wolfe’s Towing
+
+> Wolfe’s Towing is a towing business at 1005 N Bridge St, Brady, TX, rated 4.7 from 81 Google reviews. Phone (325) 243-5599.
+
+## Key facts
+- Business: Wolfe’s Towing
+- Location: 1005 N Bridge St, Brady, TX 76825
+- Rating: 4.7★ from 81 Google reviews
+- Phone: (325) 243-5599
+- Phone: (325) 243-5599
+- Address: 1005 N Bridge St, Brady, TX 76825
+- Hours: Monday Open 24 hours; Tuesday Open 24 hours; Wednesday Open 24 hours; Thursday Open 24 hours; Friday Open 24 hours; Saturday Open 24 hours; Sunday Open 24 hours
+- Services: 24/7 Towing, Roadside Assistance, Flatbed Towing, Accident Recovery, Winch-Outs, Fuel Delivery
+
+## FAQ
+- Q: Where is Wolfe’s Towing located?
+  A: 1005 N Bridge St, Brady, TX 76825.
+- Q: What are Wolfe’s Towing's hours?
+  A: Monday: Open 24 hours; Tuesday: Open 24 hours; Wednesday: Open 24 hours; Thursday: Open 24 hours; Friday: Open 24 hours; Saturday: Open 24 hours; Sunday: Open 24 hours.
+- Q: How do I get service from Wolfe’s Towing?
+  A: Call (325) 243-5599.
+- Q: Is Wolfe’s Towing well reviewed?
+  A: Yes. It is rated 4.7 stars from 81 Google reviews.
+
+## Page
+- [Wolfe’s Towing](https://gotmadterat17.github.io/vincle-demos/wolfe-s-towing-brady/)
