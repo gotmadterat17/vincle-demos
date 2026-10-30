@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gotmadterat17.github.io/vincle-demos/dan-oneal-power-washing-raleigh-v2/sitemap.xml
