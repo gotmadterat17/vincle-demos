@@ -310,8 +310,13 @@ html[dir="rtl"] .hud-callout.c2 .line{margin-inline-start:0;margin-inline-end:au
 
 .visit-card,.contact-aside{padding:var(--space-5)}
 .visit-form{display:flex;flex-direction:column;gap:var(--space-3)}
+.field-label{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin:0 0 6px;font-size:14px;font-weight:600;color:#F4F7FC}
+.field-label .req{font-size:12px;font-weight:500;color:#E4D3F1}
 .visit-form input,.visit-form textarea{
-  width:100%;padding:12px 14px;border-radius:14px;border:1px solid rgba(244,247,252,.12);background:rgba(0,0,0,.38)}
+  width:100%;padding:12px 14px;border-radius:14px;border:1px solid rgba(244,247,252,.62);
+  background:#120c18;color:#F4F7FC}
+.visit-form input::placeholder,.visit-form textarea::placeholder{color:#D5DEEC;opacity:1}
+.visit-form input:focus-visible,.visit-form textarea:focus-visible{outline:2px solid #F4F7FC;outline-offset:2px}
 .visit-form input.is-invalid,.visit-form textarea.is-invalid{border-color:#e07090}
 .form-hint{margin:0;font-size:12px;color:var(--muted)}
 .form-status{margin:4px 0 0;font-size:14px;color:var(--teal)}

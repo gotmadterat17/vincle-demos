@@ -119,3 +119,29 @@ Runtime, not a score. Chrome headless, no console errors in the 1440 and 390 pas
 Qamaria v6 desktop recording sampled at 2s, 25s, and 48s (file duration 62.84s): full-bleed farm photograph with one glass card, then three photo plates, then a contact form on a dim photograph. Coffee green and those photographs were not copied. Off Script’s matching behavior is the locked HUD hero, then owned stills as chapter grounds with frosted plates, then the copy-draft form on the banner ground. It is not a claim of equal footage density. Six owned stills are the whole sequence. No new frame pack exists in the saved inventory.
 
 This entry is not publication approval. Live Pages stays on `main` until a person merges.
+
+## 2026-11-07 — independent review of run 6, then this correction
+
+The attached critique judged run 6 not ready. It is not an approval. This pass does not certify the reviewer’s acceptance.
+
+Missing asset, named: there is no licensed frame-by-frame shoot of one job (idea board, script page, camera frame, and edit of the same piece). The six saved stills are different rooms. Crossfading them was not a story. They are no longer the sequence. The nebula poster remains only as the ground. Studio photos beside مخيال / ساويرس / إكسبو are labeled as studio references, not frames from those programs.
+
+What the sequence is now: one illustration of the studio’s own line, «نكتب / ما يبقى / خارج النص», built from `logo-mark-float.png` and IBM Plex. Anime.js moves those same three words. Idea: words apart. Script: one line. Frame: a viewfinder closes on that line. Edit: «خارج النص» stays and the other two words drop back. One caption updates with that progress. At the middle of a step the caption says what is moving. There is no second card and no second photograph.
+
+Scroll length is the change itself. On a phone the picture and its caption sit together and fill the screen. Reduced motion and save-data hide the sticky track and show the four settled states in order.
+
+Measured in Chrome, not a score:
+
+- Zero console errors in the gate pass. Zero `<video>` elements.
+- Overflow 0 at 360, 390, 430, and 1440, Arabic and English, including the 0/25/50/75/100 points of each of the three steps, recorded downward and upward.
+- No sequence word was outside the stage, and the caption was not under the header, at those points.
+- Collaboration button stayed `rgb(107, 47, 140)`. The nav contact button stayed `rgb(16, 136, 208)`. Those blue controls were not restyled.
+- Phone menu opened, the «المثال» link closed the menu, and `#gallery` landed at top 156 in an 844px viewport.
+- Empty submit set the name field `aria-invalid=true` and the status «يرجى تعبئة الحقول المطلوبة ببريد صالح.» A filled test brief returned «تم نسخ المسودة… لم يُرسل شيء تلقائياً.»
+- Field label and input text on `#120c18` measured contrast about 17.9. Placeholder and the copy hint measured about 14.2.
+- Reduced motion set `story-static`, hid the track, and showed 4 settled cards.
+- English toggle set `lang=en` and `dir=ltr`.
+
+Tours are 496 frames at 8 fps, 62.0 seconds. Desktop ends at scroll 6756/6756 with the footer in a 900px viewport. Mobile ends at 8051/8051 with the footer in an 844px viewport. Both files contain zero video elements. They are browse recordings, not a claim that an independent reviewer has watched them.
+
+Hero files were not edited. This is not publication.
