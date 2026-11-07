@@ -6,9 +6,11 @@
   const frames = [...document.querySelectorAll('.seq-frame')];
   const steps = [...document.querySelectorAll('.seq-step')];
   const label = document.getElementById('seqLabel');
+  const grounds = [...document.querySelectorAll('.band-glow img')];
+  const beats = [...document.querySelectorAll('.beat-still')];
+  const rails = [...document.querySelectorAll('.stance-rail i, .method-thread i')];
   const engine = typeof window.anime === 'function' ? window.anime : null;
-  let active = -1;
-  let wide = wideQuery.matches;
+  let shown = -1;
 
   function visibleLabel(step) {
     const node = step.querySelector('.seq-label');
@@ -21,10 +23,6 @@
 
   function staticMode() {
     root.classList.add('story-static');
-    frames.forEach((img) => {
-      img.style.opacity = '1';
-      img.style.transform = 'none';
-    });
   }
 
   if (reduce || save || !engine || !frames.length) {
@@ -33,117 +31,134 @@
   }
 
   root.classList.add('story-motion');
-  document.documentElement.dataset.anime = engine.version || 'loaded';
+  root.dataset.anime = engine.version || 'loaded';
+
+  function sourceFor(img) {
+    return wideQuery.matches ? img.getAttribute('data-full') : img.getAttribute('data-poster');
+  }
 
   function loadFrame(img) {
-    if (img.getAttribute('src')) return;
-    const full = img.getAttribute('data-src');
-    if (full) img.src = full;
+    const next = sourceFor(img);
+    if (!next || img.getAttribute('src') === next) return;
+    img.src = next;
   }
 
-  if (wide) frames.forEach(loadFrame);
+  frames.forEach((img, index) => {
+    if (index < 2) loadFrame(img);
+  });
 
-  function go(index) {
-    if (index === active || index < 0 || index >= frames.length) return;
-    const prev = active >= 0 ? frames[active] : null;
-    active = index;
-    const next = frames[index];
-    loadFrame(next);
-    engine.remove(frames);
-    if (prev) {
-      engine({
-        targets: prev,
-        opacity: 0,
-        scale: 1.045,
-        duration: 480,
-        easing: 'easeInOutCubic'
-      });
-    }
+  function setLabel(index) {
+    if (!label || !steps[index] || index === shown) return;
+    shown = index;
+    const text = visibleLabel(steps[index]);
+    engine.remove(label);
     engine({
-      targets: next,
-      opacity: [0, 1],
-      scale: [1.06, 1],
-      duration: 700,
-      easing: 'easeOutCubic'
+      targets: label,
+      opacity: [1, 0],
+      translateY: [0, -10],
+      duration: 140,
+      easing: 'easeInQuad',
+      complete() {
+        if (shown !== index) return;
+        label.textContent = text;
+        engine({
+          targets: label,
+          opacity: [0, 1],
+          translateY: [12, 0],
+          duration: 420,
+          easing: 'easeOutCubic'
+        });
+      }
     });
-    steps.forEach((step, i) => step.classList.toggle('is-current', i === index));
-    if (label && steps[index]) {
-      engine.remove(label);
-      engine({
-        targets: label,
-        opacity: [1, 0],
-        translateY: [0, -8],
-        duration: 160,
-        easing: 'easeInQuad',
-        complete() {
-          if (index !== active) return;
-          label.textContent = visibleLabel(steps[index]);
-          engine({
-            targets: label,
-            opacity: [0, 1],
-            translateY: [12, 0],
-            duration: 420,
-            easing: 'easeOutCubic'
-          });
-        }
-      });
-    }
   }
 
-  const phoneNodes = [...document.querySelectorAll('.seq-phone, .still-reveal')];
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      engine({
-        targets: entry.target,
-        opacity: [0, 1],
-        translateY: [16, 0],
-        duration: 640,
-        easing: 'easeOutCubic'
-      });
-      io.unobserve(entry.target);
-    });
-  }, { threshold: 0.2 });
-  if (!wide) phoneNodes.forEach((node) => io.observe(node));
+  function progressOf(rect) {
+    const span = Math.max(1, rect.height - window.innerHeight * 0.28);
+    return Math.min(1, Math.max(0, -rect.top / span));
+  }
 
-  function nearest() {
-    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-    if (window.scrollY >= maxScroll - 8) return steps.length - 1;
-    const mid = window.innerHeight * 0.42;
-    let best = 0;
-    let bestDistance = Infinity;
-    for (let i = 0; i < steps.length; i++) {
-      const rect = steps[i].getBoundingClientRect();
-      const distance = Math.abs(rect.top + Math.min(rect.height * 0.28, 160) - mid);
-      if (distance < bestDistance) {
-        bestDistance = distance;
-        best = i;
-      }
+  function paint() {
+    const wide = wideQuery.matches;
+    const stepsBox = document.querySelector('.seq-steps');
+    if (stepsBox) {
+      const p = progressOf(stepsBox.getBoundingClientRect());
+      const last = frames.length - 1;
+      const f = p * last;
+      const index = Math.min(last, Math.floor(f));
+      const mix = f - index;
+      frames.forEach((img, k) => {
+        let opacity = 0;
+        if (k === index) opacity = index === last ? 1 : 1 - mix;
+        else if (k === index + 1) opacity = mix;
+        if (opacity > 0.02) loadFrame(img);
+        engine.set(img, { opacity, scale: 1.045 - opacity * 0.045 });
+      });
+      steps.forEach((step, i) => step.classList.toggle('is-current', i === index));
+      setLabel(index);
     }
-    return best;
+
+    grounds.forEach((img) => {
+      const section = img.closest('section');
+      if (!section) return;
+      const rect = section.getBoundingClientRect();
+      const span = Math.max(1, rect.height + window.innerHeight);
+      const p = Math.min(1, Math.max(0, (window.innerHeight - rect.top) / span));
+      engine.set(img, { translateY: (0.5 - p) * (wide ? 48 : 24), scale: 1.08 });
+    });
+
+    beats.forEach((img) => {
+      const rect = img.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (window.innerHeight * 0.8 - rect.top) / (window.innerHeight + rect.height)));
+      engine.set(img, { translateY: (0.5 - p) * 28, scale: 1.04 });
+    });
+
+    rails.forEach((bar) => {
+      const host = bar.closest('section');
+      if (!host) return;
+      const rect = host.getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (window.innerHeight * 0.72 - rect.top) / Math.max(1, rect.height)));
+      engine.set(bar, bar.closest('.method-thread') ? { scaleY: p } : { scaleX: p });
+    });
+
+    document.querySelectorAll('[data-chapter] h2').forEach((heading) => {
+      if (heading.dataset.handed) return;
+      const rect = heading.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.78 && rect.bottom > 0) {
+        heading.dataset.handed = '1';
+        engine({
+          targets: heading,
+          translateY: [22, 0],
+          opacity: [0.2, 1],
+          duration: 680,
+          easing: 'easeOutCubic'
+        });
+      }
+    });
   }
 
   let ticking = false;
-  function onFrame() {
-    ticking = false;
-    wide = wideQuery.matches;
-    if (!wide) return;
-    go(nearest());
-  }
   function request() {
     if (ticking) return;
     ticking = true;
-    requestAnimationFrame(onFrame);
-  }
-  document.getElementById('langToggle')?.addEventListener('click', () => {
     requestAnimationFrame(() => {
-      if (label && steps[active]) label.textContent = visibleLabel(steps[active]);
+      ticking = false;
+      paint();
     });
+  }
+
+  document.getElementById('langToggle')?.addEventListener('click', () => {
+    shown = -1;
+    requestAnimationFrame(() => {
+      const current = steps.findIndex((step) => step.classList.contains('is-current'));
+      if (current >= 0 && label) label.textContent = visibleLabel(steps[current]);
+    });
+  });
+  wideQuery.addEventListener('change', () => {
+    frames.forEach((img) => { img.removeAttribute('src'); });
+    frames.slice(0, 2).forEach(loadFrame);
+    request();
   });
   addEventListener('scroll', request, { passive: true });
   addEventListener('resize', request, { passive: true });
-  if (wide) {
-    frames.forEach((img, i) => { img.style.opacity = i === 0 ? '1' : '0'; });
-    request();
-  }
+  paint();
 })();

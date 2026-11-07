@@ -5,7 +5,7 @@
 |---|---|---|
 | `assets/logo.jpg`, `mark.png`, `mark-bubble.png` | Owner brand | Owner |
 | `assets/logo-hero-ondark.png` | Derived from `logo-transparent.png`. Emblem pixels unchanged. Near-black letterforms recolored to `#F3F5FA` for dark grounds. Originals kept. | Owner |
-| Media stills | `media/stills/` and `media/posters/`. Owner / build, carried with the site. Used as the ordered image sequence. Not a third-party sequence pack. | Owner / build |
+| Media stills | `media/stills/` and `media/posters/`. Owner / build, carried with the site. Ordered sequence and chapter grounds. Not a third-party sequence pack. | Owner / build |
 | Anime.js | Package tag 3.2.2 at https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js (jsDelivr header `x-jsd-version: 3.2.2`, package.json version 3.2.2). The file’s own `anime.version` string is `3.2.1`. MIT, Copyright (c) 2019 Julian Garnier. https://github.com/juliangarnier/anime | MIT |
 
 Not used, and not downloaded: 3dicons Bulb (CC0 item page, not a sequence), Megaphone (license pending), Lummi (license unverified), Oversight Cyanotype (account-gated), SceneAI (premium reference only).

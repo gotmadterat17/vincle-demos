@@ -49,7 +49,7 @@
   .band .meta,.eyebrow{line-height:1.6}
   .grid-phi,.journey-grid,.offer-rail,.method-grid,.gal-grid,.contact-channels{grid-template-columns:minmax(0,1fr);gap:20px;align-items:start}
   .grid-phi>*{min-width:0}
-  .journey-card,.offer-card,.method-step,.contact-aside,.visit-card{min-width:0;width:100%;border-radius:18px;backdrop-filter:none;-webkit-backdrop-filter:none}
+  .journey-card,.offer-card,.method-step,.contact-aside,.visit-card{min-width:0;width:100%;border-radius:18px;-webkit-backdrop-filter:blur(12px) saturate(140%);backdrop-filter:blur(12px) saturate(140%)}
   .journey-card .body,.offer-card,.method-step,.contact-aside,.visit-card{padding:24px}
   .offer-card{min-height:180px}
   .offer-copy{max-width:100%}

@@ -86,3 +86,36 @@ Request t703u / t704u (U, via parent): keep Qamaria richness, movement, long mea
 Narrative Scroll Craft skill file was not on disk. The recipe in the parent brief was followed: locks, 8 chapters, alternating media/text/process, native scroll, then browser checks.
 
 Uncertainty kept: historical owner quotes are incomplete; v6 recordings are evidence of mechanism only after they are actually watched; this ledger is not exhaustive.
+
+## 2026-11-07 20:48 Asia/Riyadh — run 5 rejected
+
+Owner wording, exact: «غباء اصطناعي وين كل مهاراتك وين جلاسس مورفزم ويعن الخلفيات وين سكرول انميشن وين وين وين !!! علمتك كثير النهاية النتيجة كذا». This is a rejection, not approval. The previous image pass had kept the stills and Anime.js, then reduced the page to six threshold crossfades on a flat ink ground. Phones hid the sticky stage and listed posters. That is what flattened the craft.
+
+This correction stays on the same unmerged branch. Hero geometry, `logo-hero-ondark.png`, and the violet collaboration button were not edited. No `<video>` was added. No new asset was downloaded. 3dicons, Lummi, Oversight, and SceneAI stay unused for the same license and sequence-pack reasons as the t707 note.
+
+What changed:
+
+- Story bands are translucent over the existing nebula atmosphere. Each chapter ground is one owned poster already on the site: mic, nebula, city, edit, interview, banner.
+- Copy, offer, method, and contact plates use a frosted fill (`rgba(10,6,16,.58)`), a 16px blur, and a light inset edge. Reduced transparency turns that fill solid.
+- `story-scroll.js` no longer waits for a step threshold. On each frame Anime.js sets the opacity and scale of adjacent stills from scroll progress, moves the chapter grounds and work stills, and grows the method thread. A heading handoff runs once when the heading enters. Wide screens load the larger still; phones keep the poster.
+- Sequence cards are only as tall as the sentence. The picture stays visible beside them on a wide screen and above them on a phone. Reduced motion and save-data still use `story-static`: no sticky stage, posters in the reading order, no Anime writes.
+
+Three failures seen in the first browser pass of this correction, then changed:
+
+1. Desktop sequence steps were 68vh empty glass slabs, so the chapter looked like a dark void.
+2. Glass fills at .74 covered the chapter photographs, so the blur had nothing to show.
+3. On a 390px screen the tall glass steps slid over the sticky picture and left a dark smear.
+
+Runtime, not a score. Chrome headless, no console errors in the 1440 and 390 passes.
+
+- Collaboration button measured `rgb(107, 47, 140)`. Hero opening frame is still the faceted magenta / blue / teal HUD with the light wordmark. Hero files were not edited.
+- Zero `<video>` elements. `documentElement.dataset.anime` read `3.2.1` from the 3.2.2 file. Class `story-motion`.
+- At the middle of the sequence, adjacent frames were both opacity 0.50: desktop `interview.jpg` with `edit.jpg`, phone posters `card-interview.jpg` with `card-edit.jpg`. That is a scroll-progress mix, not a threshold swap.
+- Glass plate computed `rgba(10, 6, 16, 0.58)` and `blur(16px) saturate(1.7)`. Chapter ground image opacity 0.72. Band fill `rgba(7, 11, 20, 0.22)`.
+- Horizontal overflow 0 at 360, 390, 430, and 1440. English toggle set `lang=en` and `dir=ltr`, hid `.ar-only`, and kept overflow 0.
+- Reduced motion set `story-static`, hid the sticky stage (`display: none`), and showed the phone posters (`display: block`). Videos stayed 0.
+- Tours are 496 frames at 8 fps, 62.0s each, hero through footer. Desktop ended at scroll 7853/7853 with the footer in a 900px viewport. Mobile ended at 9002/9002 with the footer in an 844px viewport. Files: `offscript-desktop-glass-tour.mp4`, `offscript-mobile-glass-tour.mp4`.
+
+Qamaria v6 desktop recording sampled at 2s, 25s, and 48s (file duration 62.84s): full-bleed farm photograph with one glass card, then three photo plates, then a contact form on a dim photograph. Coffee green and those photographs were not copied. Off Script’s matching behavior is the locked HUD hero, then owned stills as chapter grounds with frosted plates, then the copy-draft form on the banner ground. It is not a claim of equal footage density. Six owned stills are the whole sequence. No new frame pack exists in the saved inventory.
+
+This entry is not publication approval. Live Pages stays on `main` until a person merges.
