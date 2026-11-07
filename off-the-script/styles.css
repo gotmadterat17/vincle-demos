@@ -2,6 +2,7 @@
   --void:#0a0610;--void2:#200820;--ink:#070B14;--elev:#0E1524;
   --paper:#F4F7FC;--muted:#B8C2D4;--lavender:#b098c8;--glass-lav:#9078a8;
   --mag:#dc0cc4;--violet:#9810d8;--violet-sp:#6020a0;--deep:#3010d0;--deep-sp:#502098;
+  --collab:#6B2F8C;--collab-hover:#552570;--collab-pressed:#431C5C;
   --sky:#1088d0;--cyan:#3aa3e0;--teal:#18d090;
   --glass:rgba(10,6,16,.55);--glass-strong:rgba(10,6,16,.72);
   --line:rgba(244,247,252,.14);--φ:1.6180339887;
@@ -1051,3 +1052,36 @@ html.variant-nebula .hero-mark-overlay::before{opacity:.55;filter:blur(52px)}
 
 /* Comparison chrome is opt-in, never overlays mobile content by default. */
 .variant-chip[hidden]{display:none!important}
+
+/* Hero lockup on dark: light letterforms, no glow plate. Collaboration CTA only. */
+.hero-mark-overlay .hero-logo-real,
+.emblem-fallback-wrap .hero-logo-real{
+  filter:none!important;
+  box-shadow:none!important;
+  background:transparent!important;
+  border-radius:0!important;
+  width:min(34%,260px);
+  height:auto;
+  max-height:min(46vh,340px);
+  object-fit:contain;
+}
+.hero-card .btn-primary{
+  background:var(--collab);
+  color:#fff;
+  box-shadow:0 8px 20px rgba(74,30,112,.28);
+  min-height:44px;
+  min-width:44px;
+}
+.hero-card .btn-primary:hover{
+  background:var(--collab-hover);
+  box-shadow:0 10px 22px rgba(52,20,80,.34);
+  transform:scale(1.03);
+}
+.hero-card .btn-primary:active{
+  background:var(--collab-pressed);
+  transform:scale(.98);
+}
+.hero-card .btn-primary:focus-visible{
+  outline:2px solid var(--paper);
+  outline-offset:3px;
+}
