@@ -179,37 +179,58 @@
 </section>
 
 <div class="fog-band fog-band--soft" aria-hidden="true"></div>
-<section class="band band--atm band--stance" id="stance" data-story data-chapter="standard">
+<section class="band band--atm band--stance" id="stance" data-story data-chapter="sequence">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
-  <div class="wrap">
+  <div class="wrap cut-intro">
     <p class="story-kicker">03</p>
-    <p class="meta">STANDARD</p>
-    <h2 class="ar-only">ما يبقى خارج النص.</h2>
-    <h2 class="en-only">What stays off the script.</h2>
-    <div class="stance-list">
-      <article class="stance-line" data-beat>
-        <span class="num">01</span>
-        <p class="lede ar-only">هدف الجمهور والنبرة قبل أي تصوير.</p>
-        <p class="lede en-only">Audience goal and tone before any shoot.</p>
-      </article>
-      <article class="stance-line" data-beat>
-        <span class="num">02</span>
-        <p class="lede ar-only">ضيف وزاوية بمعايير ذوق ثابتة.</p>
-        <p class="lede en-only">A guest and an angle held to a fixed taste.</p>
-      </article>
-      <article class="stance-line" data-beat>
-        <span class="num">03</span>
-        <p class="lede ar-only">كابشن قصير، واقتباس قوي، وموافقة بشرية.</p>
-        <p class="lede en-only">A short caption, a strong quote, and a human sign-off.</p>
-      </article>
-      <article class="stance-line" data-beat>
-        <span class="num">04</span>
-        <p class="lede ar-only">الأعمال تُذكر كحقائق عامة، بلا شهادات مخترعة.</p>
-        <p class="lede en-only">Work is named as public fact, without invented testimonials.</p>
-      </article>
-    </div>
-    <div class="stance-rail" aria-hidden="true"><i></i></div>
+    <p class="meta">SEQUENCE</p>
+    <h2 class="ar-only">من الفكرة إلى المونتاج.</h2>
+    <h2 class="en-only">From idea to edit.</h2>
+    <p class="lede ar-only">تسلسل للنظر في الشغل — ليس نتائج عملاء ولا أرقاماً.</p>
+    <p class="lede en-only">A way of looking at the work — not client results or figures.</p>
+  </div>
+  <div class="cut-run">
+    <article class="cut-plate" data-scene data-move="push">
+      <div class="cut-visual">
+        <video muted loop playsinline preload="none" data-lazy data-src="media/videos/hero-nebula.mp4" poster="media/posters/hero-nebula.jpg"></video>
+      </div>
+      <div class="cut-caption glass">
+        <p class="story-kicker">01 · <span class="ar-only">فكرة</span><span class="en-only">Idea</span></p>
+        <p class="ar-only">نجمع الحروف المتفرقة حتى تصبح جملة.</p>
+        <p class="en-only">Scattered letters, gathered into a line.</p>
+      </div>
+    </article>
+    <article class="cut-plate" data-scene data-move="wipe">
+      <div class="cut-visual">
+        <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-mic.mp4" poster="media/posters/card-mic.jpg"></video>
+      </div>
+      <div class="cut-caption glass">
+        <p class="story-kicker">02 · <span class="ar-only">سكربت</span><span class="en-only">Script</span></p>
+        <p class="ar-only">هدف الجمهور والنبرة قبل أي تصوير.</p>
+        <p class="en-only">Audience goal and tone before any shoot.</p>
+      </div>
+    </article>
+    <article class="cut-plate" data-scene data-move="drift">
+      <div class="cut-visual">
+        <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-interview.mp4" poster="media/posters/card-interview.jpg"></video>
+      </div>
+      <div class="cut-caption glass">
+        <p class="story-kicker">03 · <span class="ar-only">إطار</span><span class="en-only">Frame</span></p>
+        <p class="ar-only">الضيف يروي قصته بلا مبالغة تسويقية.</p>
+        <p class="en-only">The guest tells the story without marketing fluff.</p>
+      </div>
+    </article>
+    <article class="cut-plate" data-scene data-move="open">
+      <div class="cut-visual">
+        <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-edit.mp4" poster="media/posters/card-edit.jpg"></video>
+      </div>
+      <div class="cut-caption glass">
+        <p class="story-kicker">04 · <span class="ar-only">مونتاج</span><span class="en-only">Edit</span></p>
+        <p class="ar-only">كابشن قصير، واقتباس قوي، وموافقة بشرية.</p>
+        <p class="en-only">A short caption, a strong quote, and a human sign-off.</p>
+      </div>
+    </article>
   </div>
 </section>
 
@@ -226,7 +247,7 @@
       <p class="lede ar-only">حقائق عامة فقط — بلا أرقام مخترعة ولا شهادات وهمية.</p>
       <p class="lede en-only">Public facts only — no invented metrics or fake testimonials.</p>
     </div>
-    <article class="story-beat" data-beat data-tone="mag">
+    <article class="story-beat" data-beat data-scene data-move="push" data-tone="mag">
       <div class="vid-frame">
         <div class="story-parallax">
           <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-mic.mp4" poster="media/posters/card-mic.jpg"></video>
@@ -240,7 +261,7 @@
         <p class="lede en-only">A long-form interview show with classic journalistic identity — the guest tells their story without marketing fluff.</p>
       </div>
     </article>
-    <article class="story-beat" data-beat data-tone="sky">
+    <article class="story-beat" data-beat data-scene data-move="wipe" data-tone="sky">
       <div class="vid-frame">
         <div class="story-parallax">
           <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-edit.mp4" poster="media/posters/card-edit.jpg"></video>
@@ -254,7 +275,7 @@
         <p class="lede en-only">An episode that passed one million YouTube views — a clear hook and a heavyweight guest story.</p>
       </div>
     </article>
-    <article class="story-beat" data-beat data-tone="teal">
+    <article class="story-beat" data-beat data-scene data-move="drift" data-tone="teal">
       <div class="vid-frame">
         <div class="story-parallax">
           <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-city.mp4" poster="media/posters/card-city.jpg"></video>

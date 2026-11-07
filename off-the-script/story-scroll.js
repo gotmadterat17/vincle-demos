@@ -4,7 +4,7 @@
   const save = navigator.connection && navigator.connection.saveData;
   const chapters = document.querySelectorAll('[data-chapter]');
   const beats = document.querySelectorAll('[data-beat]');
-  const parallax = document.querySelectorAll('.story-parallax');
+  const scenes = document.querySelectorAll('[data-scene]');
   const workBeats = document.querySelectorAll('.story-beat');
 
   if (reduce || save) {
@@ -31,8 +31,10 @@
   function frame() {
     ticking = false;
     const vh = window.innerHeight;
-    const amp = wide ? 8 : 0;
     const mid = vh * 0.46;
+    const start = vh * 0.92;
+    const end = vh * 0.2;
+    const span = start - end;
     for (let i = 0; i < chapters.length; i++) {
       const el = chapters[i];
       const rect = el.getBoundingClientRect();
@@ -40,13 +42,15 @@
       const p = total > 0 ? Math.min(1, Math.max(0, (vh - rect.top) / total)) : 0;
       el.style.setProperty('--p', p.toFixed(3));
     }
-    for (let i = 0; i < parallax.length; i++) {
-      const el = parallax[i];
-      const host = el.closest('[data-beat]') || el.closest('[data-chapter]');
-      const rect = host.getBoundingClientRect();
-      const total = rect.height + vh;
-      const p = total > 0 ? Math.min(1, Math.max(0, (vh - rect.top) / total)) : 0.5;
-      el.style.transform = 'translate3d(0,' + ((p - 0.5) * amp).toFixed(2) + 'px,0)';
+    for (let i = 0; i < scenes.length; i++) {
+      const el = scenes[i];
+      const rect = el.getBoundingClientRect();
+      let reveal = span > 0 ? (start - rect.top) / span : 1;
+      if (reveal < 0) reveal = 0;
+      else if (reveal > 1) reveal = 1;
+      el.style.setProperty('--reveal', reveal.toFixed(3));
+      const cover = wide && el.classList.contains('cut-plate') && i > 0 ? reveal : 1;
+      el.style.setProperty('--cover', cover.toFixed(3));
     }
     let best = null;
     let bestDistance = Infinity;

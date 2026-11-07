@@ -44,9 +44,25 @@ Runtime, not a score:
 - Qamaria recordings were sampled, not scored. Desktop file is 62.84s. Frames at the start, middle, and near the end show a landscape hero with a glass card, then farm/prep/cup plates, then a menu, then the contact form with the footer. Mobile file is 56.12s. A frame at 48s shows the contact form and the footer. The coffee green and photographs were not copied. A frame extracted from the last fraction of the mobile file was a bad seek and was not used.
 - Off Script recordings, 111 frames each, 13.5s, under 2 MB: `/opt/cursor/artifacts/offscript-desktop-hero-to-footer.mp4` and `/opt/cursor/artifacts/offscript-mobile-hero-to-footer.mp4`. Last frames show the copy-draft form and the footer links.
 
+## 2026-11-07 second craft pass
+
+The first lower page was still mostly the same small rise plus an 8px picture shift. That was not enough for the asked movement. Replaced the type-only standard list with four picture scenes — idea, script, frame, edit — using the nebula, mic, interview, and edit clips already on the site. The lines are the site’s existing sentences, labeled as a way of looking, not as client results. On a wide screen each next picture sticks and fades over the one before it. The four scenes do not share one effect: push-in, side wipe, drift inside the frame, and a top open. The three work rows use push, wipe, and drift. The old 8px page parallax writer was removed so nothing else sets `transform` on those pictures. Fog bands are 28px and 16px. Section padding is the smaller step, not an empty viewport.
+
+Loop seams, mean absolute sample on a 160×90 difference, before → after forward/reverse rewrap of the same frames:
+
+| File | Frames | First vs last before | First vs last after | Turn frames after |
+|---|---|---|---|---|
+| card-mic.mp4 | 150 → 300 | 11.25 | 0.62 | 0.13 |
+| card-city.mp4 | 150 → 300 | 21.61 | 2.27 | 0.20 |
+| hero-nebula.mp4 | 200 → 400 | 18.25 | 0.82 | 0.01 |
+
+The six mp4s together are about 5.9 MB. No new pictures.
+
+Slow tours, 478 frames at 8 fps, 59.75s each. Desktop file 2.4 MB. Mobile file 1.1 MB. Both start on the hero and end at max scroll with the footer in view. Desktop end scroll 9288/9288, footer top 727 in a 900px viewport. Mobile end scroll 8921/8921, footer top 649 in an 844px viewport. A desktop frame during the sequence shows the nebula plate with the microphone plate fading in over it. Phone load: 14 of 14 videos expose controls. Desktop load: 0 of 14 expose controls, so wide screens can play in view and phones cannot autoplay. The hero canvas was hidden only after it had left the viewport, so later frames could be captured; the opening frame is the real faceted hero.
+
 ## Remaining gaps
 
-- Existing Ken Burns files can still snap if the browser loops them. They were not re-encoded.
+- card-city.mp4 still shows a small first/last difference (2.27), much smaller than 21.61, not zero.
 - The chapter order is a proposal. The unrecovered 2026-11-06 owner quotes are still incomplete.
 - v6 smooth is a mechanism reference. This pass does not claim every v6 detail was approved.
 - Live Pages still serves `main` until this pull request is merged. It was not merged.
