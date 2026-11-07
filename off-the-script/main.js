@@ -260,7 +260,7 @@
   }
 
   if (!reduce) {
-    const revealables = [...document.querySelectorAll('.journey-card, .menu-card, .method-step, .gal-grid .vid-frame')];
+    const revealables = [...document.querySelectorAll('.journey-card, .menu-card, .method-step, .gal-grid .vid-frame')].filter((el) => !el.closest('[data-story]'));
     const show = (el, i) => {
       const d = fibDelays[i % fibDelays.length];
       el.style.transition = `opacity 700ms cubic-bezier(.22,.61,.36,1) ${d}ms, transform 700ms cubic-bezier(.22,.61,.36,1) ${d}ms`;

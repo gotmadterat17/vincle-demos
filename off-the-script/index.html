@@ -20,6 +20,7 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="mobile.css">
+<link rel="stylesheet" href="story.css">
 <script type="importmap">
 {
   "imports": {
@@ -76,7 +77,7 @@
 </nav>
 
 <main id="main">
-<section class="hero" id="top" data-hero>
+<section class="hero" id="top" data-hero data-chapter="mark">
   <div class="hero-stage" id="heroStage" aria-hidden="true"></div>
   <div class="hero-fallback" id="heroFallback" aria-hidden="true">
     <div class="emblem-fallback-wrap">
@@ -152,11 +153,12 @@
 </section>
 
 <div class="fog-band" aria-hidden="true"></div>
-<section class="band band--atm band--about" id="about">
+<section class="band band--atm band--about" id="about" data-story data-chapter="pov">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap grid-phi">
-    <div>
+    <div data-beat class="story-copy">
+      <p class="story-kicker">02</p>
       <p class="meta">ABOUT</p>
       <h2 class="ar-only">من نحن.</h2>
       <h2 class="en-only">Who we are.</h2>
@@ -167,78 +169,121 @@
         <span class="chip glass glass--pill"><span class="ar-only">هوية سعودية</span><span class="en-only">Saudi identity</span></span>
       </div>
     </div>
-    <div class="vid-frame vid-frame--43">
-      <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-interview.mp4" poster="media/posters/card-interview.jpg"></video>
+    <div class="vid-frame vid-frame--43" data-beat>
+      <div class="story-parallax">
+        <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-interview.mp4" poster="media/posters/card-interview.jpg"></video>
+      </div>
       <span class="vid-cap glass glass--pill"><span class="ar-only">استوديو الحوار</span><span class="en-only">Interview set</span></span>
     </div>
   </div>
 </section>
 
 <div class="fog-band fog-band--soft" aria-hidden="true"></div>
-<section class="band band--atm band--work" id="work">
+<section class="band band--atm band--stance" id="stance" data-story data-chapter="standard">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap">
-    <div class="journey-head">
+    <p class="story-kicker">03</p>
+    <p class="meta">STANDARD</p>
+    <h2 class="ar-only">ما يبقى خارج النص.</h2>
+    <h2 class="en-only">What stays off the script.</h2>
+    <div class="stance-list">
+      <article class="stance-line" data-beat>
+        <span class="num">01</span>
+        <p class="lede ar-only">هدف الجمهور والنبرة قبل أي تصوير.</p>
+        <p class="lede en-only">Audience goal and tone before any shoot.</p>
+      </article>
+      <article class="stance-line" data-beat>
+        <span class="num">02</span>
+        <p class="lede ar-only">ضيف وزاوية بمعايير ذوق ثابتة.</p>
+        <p class="lede en-only">A guest and an angle held to a fixed taste.</p>
+      </article>
+      <article class="stance-line" data-beat>
+        <span class="num">03</span>
+        <p class="lede ar-only">كابشن قصير، واقتباس قوي، وموافقة بشرية.</p>
+        <p class="lede en-only">A short caption, a strong quote, and a human sign-off.</p>
+      </article>
+      <article class="stance-line" data-beat>
+        <span class="num">04</span>
+        <p class="lede ar-only">الأعمال تُذكر كحقائق عامة، بلا شهادات مخترعة.</p>
+        <p class="lede en-only">Work is named as public fact, without invented testimonials.</p>
+      </article>
+    </div>
+    <div class="stance-rail" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<div class="fog-band" aria-hidden="true"></div>
+<section class="band band--atm band--work" id="work" data-story data-chapter="work">
+  <div class="band-glow" aria-hidden="true"></div>
+  <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
+  <div class="wrap">
+    <div class="journey-head" data-beat>
+      <p class="story-kicker">04</p>
       <p class="meta">WORK</p>
       <h2 class="ar-only">أعمال مختارة.</h2>
       <h2 class="en-only">Selected work.</h2>
       <p class="lede ar-only">حقائق عامة فقط — بلا أرقام مخترعة ولا شهادات وهمية.</p>
       <p class="lede en-only">Public facts only — no invented metrics or fake testimonials.</p>
     </div>
-    <div class="journey-grid">
-      <article class="journey-card glass">
-        <div class="vid-frame">
+    <article class="story-beat" data-beat data-tone="mag">
+      <div class="vid-frame">
+        <div class="story-parallax">
           <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-mic.mp4" poster="media/posters/card-mic.jpg"></video>
-          <span class="vid-cap glass glass--pill">01 · مخيال</span>
         </div>
-        <div class="body">
-          <h3 class="ar-only">مخيال</h3>
-          <h3 class="en-only">Mikhyal</h3>
-          <p class="lede ar-only" style="margin:0">برنامج حواري طويل بهوية كلاسيكية صحافية — الضيف يروي قصته بلا مبالغة تسويقية.</p>
-          <p class="lede en-only" style="margin:0">A long-form interview show with classic journalistic identity — the guest tells their story without marketing fluff.</p>
-        </div>
-      </article>
-      <article class="journey-card glass">
-        <div class="vid-frame">
+        <span class="vid-cap glass glass--pill">01 · مخيال</span>
+      </div>
+      <div class="story-copy">
+        <h3 class="ar-only">مخيال</h3>
+        <h3 class="en-only">Mikhyal</h3>
+        <p class="lede ar-only">برنامج حواري طويل بهوية كلاسيكية صحافية — الضيف يروي قصته بلا مبالغة تسويقية.</p>
+        <p class="lede en-only">A long-form interview show with classic journalistic identity — the guest tells their story without marketing fluff.</p>
+      </div>
+    </article>
+    <article class="story-beat" data-beat data-tone="sky">
+      <div class="vid-frame">
+        <div class="story-parallax">
           <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-edit.mp4" poster="media/posters/card-edit.jpg"></video>
-          <span class="vid-cap glass glass--pill">02 · ساويرس</span>
         </div>
-        <div class="body">
-          <h3 class="ar-only">سميح ساويرس</h3>
-          <h3 class="en-only">Samih Sawiris</h3>
-          <p class="lede ar-only" style="margin:0">حلقة تجاوزت المليون مشاهدة على يوتيوب — عنوان بهوك واضح وقصة ضيف ثقيل.</p>
-          <p class="lede en-only" style="margin:0">An episode that passed one million YouTube views — a clear hook and a heavyweight guest story.</p>
-        </div>
-      </article>
-      <article class="journey-card glass">
-        <div class="vid-frame">
+        <span class="vid-cap glass glass--pill">02 · ساويرس</span>
+      </div>
+      <div class="story-copy">
+        <h3 class="ar-only">سميح ساويرس</h3>
+        <h3 class="en-only">Samih Sawiris</h3>
+        <p class="lede ar-only">حلقة تجاوزت المليون مشاهدة على يوتيوب — عنوان بهوك واضح وقصة ضيف ثقيل.</p>
+        <p class="lede en-only">An episode that passed one million YouTube views — a clear hook and a heavyweight guest story.</p>
+      </div>
+    </article>
+    <article class="story-beat" data-beat data-tone="teal">
+      <div class="vid-frame">
+        <div class="story-parallax">
           <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-city.mp4" poster="media/posters/card-city.jpg"></video>
-          <span class="vid-cap glass glass--pill">03 · إكسبو</span>
         </div>
-        <div class="body">
-          <h3 class="ar-only">إكسبو الرياض ٢٠٣٠</h3>
-          <h3 class="en-only">Expo Riyadh 2030</h3>
-          <p class="lede ar-only" style="margin:0">أعمال محتوى ظهرت علناً مرتبطة بإكسبو الرياض ٢٠٣٠ — نذكرها كعمل محتوى، لا كشراكة رسمية غير مؤكدة.</p>
-          <p class="lede en-only" style="margin:0">Public content work tied to Expo Riyadh 2030 — listed as content work, not an unverified official partnership.</p>
-        </div>
-      </article>
-    </div>
+        <span class="vid-cap glass glass--pill">03 · إكسبو</span>
+      </div>
+      <div class="story-copy">
+        <h3 class="ar-only">إكسبو الرياض ٢٠٣٠</h3>
+        <h3 class="en-only">Expo Riyadh 2030</h3>
+        <p class="lede ar-only">أعمال محتوى ظهرت علناً مرتبطة بإكسبو الرياض ٢٠٣٠ — نذكرها كعمل محتوى، لا كشراكة رسمية غير مؤكدة.</p>
+        <p class="lede en-only">Public content work tied to Expo Riyadh 2030 — listed as content work, not an unverified official partnership.</p>
+      </div>
+    </article>
   </div>
 </section>
 
-<div class="fog-band" aria-hidden="true"></div>
-<section class="band band--atm band--offer" id="offer">
+<div class="fog-band fog-band--soft" aria-hidden="true"></div>
+<section class="band band--atm band--offer" id="offer" data-story data-chapter="craft">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap">
+    <p class="story-kicker">05</p>
     <p class="meta">OFFER</p>
     <h2 class="ar-only">ماذا نقدم.</h2>
     <h2 class="en-only">What we offer.</h2>
     <p class="lede ar-only">ثلاثة مسارات إنتاج — التسعير يُحدَّد بعد موجز المشروع.</p>
     <p class="lede en-only">Three production tracks — pricing after a project brief.</p>
-    <div class="offer-rail" style="margin-top:var(--space-5)">
-      <article class="menu-card glass glow-mag offer-card">
+    <div class="offer-seq">
+      <article class="menu-card glass glow-mag offer-card" data-beat>
         <span class="offer-idx" aria-hidden="true">01</span>
         <div class="offer-accent" aria-hidden="true"></div>
         <p class="card-meta">TRACK · LONG</p>
@@ -248,7 +293,8 @@
         <p class="offer-copy en-only">Angle, guest, journalistic rhythm on screen.</p>
         <ul class="offer-ticks" aria-hidden="true"><li></li><li></li><li></li></ul>
       </article>
-      <article class="menu-card glass glow-sky offer-card">
+      <div class="offer-pair">
+      <article class="menu-card glass glow-sky offer-card" data-beat>
         <span class="offer-idx" aria-hidden="true">02</span>
         <div class="offer-accent" aria-hidden="true"></div>
         <p class="card-meta">TRACK · SHORT</p>
@@ -258,7 +304,7 @@
         <p class="offer-copy en-only">Question hooks or verbatim quotes in show identity.</p>
         <ul class="offer-ticks" aria-hidden="true"><li></li><li></li><li></li></ul>
       </article>
-      <article class="menu-card glass glow-teal offer-card">
+      <article class="menu-card glass glow-teal offer-card" data-beat>
         <span class="offer-idx" aria-hidden="true">03</span>
         <div class="offer-accent" aria-hidden="true"></div>
         <p class="card-meta">TRACK · ID</p>
@@ -268,41 +314,46 @@
         <p class="offer-copy en-only">Editorial voice and visual templates with fixed standards.</p>
         <ul class="offer-ticks" aria-hidden="true"><li></li><li></li><li></li></ul>
       </article>
+      </div>
     </div>
   </div>
 </section>
 
 <div class="fog-band fog-band--soft" aria-hidden="true"></div>
-<section class="band band--atm band--method" id="method">
+<section class="band band--atm band--method" id="method" data-story data-chapter="method">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
-  <div class="wrap">
-    <p class="meta">METHOD</p>
-    <h2 class="ar-only">من الموجز إلى النشر.</h2>
-    <h2 class="en-only">From brief to publish.</h2>
-    <div class="method-grid method-timeline" style="margin-top:var(--space-5)">
-      <article class="method-step glass" data-tone="mag">
+  <div class="wrap method-layout">
+    <div class="method-sticky">
+      <p class="story-kicker">06</p>
+      <p class="meta">METHOD</p>
+      <h2 class="ar-only">من الموجز إلى النشر.</h2>
+      <h2 class="en-only">From brief to publish.</h2>
+      <div class="method-thread" aria-hidden="true"><i></i></div>
+    </div>
+    <div class="method-steps">
+      <article class="method-step glass" data-beat data-tone="mag">
         <span class="num">01</span>
         <h3 class="ar-only">موجز</h3>
         <h3 class="en-only">Brief</h3>
         <p class="ar-only">هدف الجمهور والنبرة قبل أي تصوير.</p>
         <p class="en-only">Audience goal and tone before any shoot.</p>
       </article>
-      <article class="method-step glass" data-tone="violet">
+      <article class="method-step glass" data-beat data-tone="violet">
         <span class="num">02</span>
         <h3 class="ar-only">اختيار</h3>
         <h3 class="en-only">Select</h3>
         <p class="ar-only">ضيف وزاوية بمعايير ذوق ثابتة.</p>
         <p class="en-only">Guest and angle with fixed taste criteria.</p>
       </article>
-      <article class="method-step glass" data-tone="sky">
+      <article class="method-step glass" data-beat data-tone="sky">
         <span class="num">03</span>
         <h3 class="ar-only">إنتاج</h3>
         <h3 class="en-only">Produce</h3>
         <p class="ar-only">تصوير ميداني ثم بناء الحلقات والمقاطع.</p>
         <p class="en-only">Field shoot, then build episodes and cuts.</p>
       </article>
-      <article class="method-step glass" data-tone="teal">
+      <article class="method-step glass" data-beat data-tone="teal">
         <span class="num">04</span>
         <h3 class="ar-only">نشر واعٍ</h3>
         <h3 class="en-only">Publish</h3>
@@ -314,16 +365,17 @@
 </section>
 
 <div class="fog-band" aria-hidden="true"></div>
-<section class="band band--atm band--gallery" id="gallery">
+<section class="band band--atm band--gallery" id="gallery" data-story data-chapter="plates">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap">
+    <p class="story-kicker">07</p>
     <p class="meta">MOTION</p>
     <h2 class="ar-only">معرض حركة.</h2>
     <h2 class="en-only">Motion gallery.</h2>
     <p class="lede ar-only">لوحات سينمائية بدرجة طيف الشعار — استوديو، مونتاج، مدينة.</p>
     <p class="lede en-only">Cinematic plates graded with the logo spectrum — studio, edit bay, city.</p>
-    <div class="gal-grid" style="margin-top:var(--space-5)">
+    <div class="gal-grid gal-grid--story" style="margin-top:var(--space-5)">
       <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-mic.mp4" poster="media/posters/card-mic.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">مايك</span><span class="en-only">Mic</span></span></div>
       <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-edit.mp4" poster="media/posters/card-edit.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">مونتاج</span><span class="en-only">Edit</span></span></div>
       <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-interview.mp4" poster="media/posters/card-interview.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">حوار</span><span class="en-only">Talk</span></span></div>
@@ -335,11 +387,12 @@
 </section>
 
 <div class="fog-band fog-band--soft" aria-hidden="true"></div>
-<section class="band band--atm band--contact" id="contact">
+<section class="band band--atm band--contact" id="contact" data-story data-chapter="invite">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap grid-phi">
     <div class="visit-card glass glass--strong">
+      <p class="story-kicker">08</p>
       <p class="meta">CONTACT</p>
       <h2 class="ar-only">لنبنِ مشروعاً بذوق خارج النص.</h2>
       <h2 class="en-only">Let’s build with Off The Script taste.</h2>
@@ -413,6 +466,7 @@
 <script src="main.js"></script>
 <script src="mobile.js" defer></script>
 <script src="a-motion.js" defer></script>
+<script src="story-scroll.js" defer></script>
 <script type="module" src="hero-emblem.js"></script>
 
 <div class="variant-chip" hidden role="navigation" aria-label="Hero variants">
