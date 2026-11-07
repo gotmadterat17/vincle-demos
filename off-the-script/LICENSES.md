@@ -4,6 +4,7 @@
 | Asset | Source | License |
 |---|---|---|
 | `assets/logo.jpg`, `mark.png`, `mark-bubble.png` | Owner brand | Owner |
+| `assets/logo-hero-ondark.png` | Derived from `logo-transparent.png`. Emblem pixels unchanged. Near-black letterforms recolored to `#F3F5FA` for dark grounds. Originals kept. | Owner |
 | Media stills/videos | Carried from v2 (owner + generated Ken Burns) | Owner / build |
 
 ## Fonts
