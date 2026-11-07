@@ -1,0 +1,22 @@
+# LICENSES — خارج النص / Off The Script v3
+
+## Brand
+| Asset | Source | License |
+|---|---|---|
+| `assets/logo.jpg`, `mark.png`, `mark-bubble.png` | Owner brand | Owner |
+| Media stills/videos | Carried from v2 (owner + generated Ken Burns) | Owner / build |
+
+## Fonts
+| Font | Source | License |
+|---|---|---|
+| IBM Plex Sans Arabic | Google Fonts | OFL |
+| IBM Plex Mono | Google Fonts | OFL |
+
+## Libraries
+| Lib | URL | License | Note |
+|---|---|---|---|
+| three@0.170.0 | jsDelivr CDN | MIT | Glass speech-bubble emblem + bloom |
+| three/addons postprocessing | same | MIT | UnrealBloomPass, EffectComposer |
+
+## Style reference
+Glass-spider video aesthetic reverse-engineered for HUD + material language only. Emblem is original logo-derived speech-bubble mark — not a spider or robot mesh. No third-party video/model redistributed.

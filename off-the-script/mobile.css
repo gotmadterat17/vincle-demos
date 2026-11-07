@@ -1,0 +1,110 @@
+/* Full mobile adaptation. Desktop A is deliberately outside these queries. */
+.mobile-nav[hidden], #draftFallback[hidden]{display:none!important}
+@media(max-width:960px){
+  html{scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+  body{font-size:16px}
+  *,*::before,*::after{box-sizing:border-box}
+  .site-nav{min-height:64px;padding:8px max(16px,env(safe-area-inset-left,0px));padding-top:max(8px,env(safe-area-inset-top,0px));gap:12px}
+  .nav-end{display:flex;align-items:center;gap:8px}
+  .logo-mark img{width:36px}
+  .logo-word{display:inline;font-size:14px}
+  .nav-toggle,.lang-toggle{min-width:44px;min-height:44px}
+  .nav-toggle{display:inline-flex!important;justify-content:center;flex-direction:column;padding:12px}
+  .nav-links{display:none!important}
+  /* Older desktop CSS hides .mobile-nav from 701px up with !important, which also blanks the tablet and short-landscape menu. */
+  .mobile-nav:not([hidden]){display:flex!important;flex-direction:column}
+  .mobile-nav{position:fixed;inset-inline:12px;top:calc(68px + env(safe-area-inset-top,0px));max-height:calc(100dvh - 88px - env(safe-area-inset-top,0px));overflow-y:auto;z-index:60;padding:12px;background:#0d101c;border:1px solid rgba(58,163,224,.32);border-radius:16px;box-shadow:0 24px 64px #0009}
+  .mobile-nav a{min-height:48px;display:flex;align-items:center;padding:10px 16px;font-size:16px}
+  a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+  .wrap,.hero-grid{width:calc(100% - 32px);max-width:720px}
+  .hero{min-height:0;height:auto;display:block}
+  .hero-grid{display:grid;grid-template-columns:minmax(0,1fr);padding:16px 0 32px;gap:12px;align-content:start;align-items:start}
+  .hero-stage{inset:16px 0 auto;height:220px;width:100%;pointer-events:none}
+  .hero-stage canvas,.hero.is-ready .hero-stage canvas{opacity:.82!important;filter:none!important;touch-action:pan-y}
+  .hero-stage-hit{display:grid!important;order:-1;min-height:220px;height:220px;align-self:start;width:100%;pointer-events:none;touch-action:pan-y}
+  .hero-mark-overlay{position:absolute;inset:0;padding:0;display:grid;place-items:center}
+  .hero-mark-overlay::before{display:none!important}
+  .hero-mark-overlay .hero-logo-real{width:145px!important;max-width:45%;animation:none;filter:none}
+  .hero-logo-in-card{display:none!important}
+  .orbit-affordance{display:none!important}
+  .hero-fallback{inset:16px 0 auto;height:220px;background:transparent;pointer-events:none!important}
+  .emblem-fallback-wrap .hero-logo-real{width:150px!important;filter:none;animation:none}
+  .hero.is-fallback .hero-stage-hit .hero-logo-real{visibility:hidden}
+  .emblem-ring{display:none}
+  .hero-card{width:100%;max-width:none;margin:0;padding:22px 20px;text-align:start;border-radius:18px;background:rgba(10,6,16,.9)}
+  .hero-card .eyebrow{font-size:12px;line-height:1.5;margin:0 0 8px}
+  .hero-card h1{font-size:clamp(34px,8.8vw,48px);line-height:1.35;margin:0 0 10px}
+  .hero-card .lede{font-size:16px;line-height:1.7;margin:0;color:#cbd4e2;max-width:48ch}
+  .hero-card .chips{justify-content:flex-start;margin:14px 0;gap:6px}
+  .chip{padding:6px 10px;font-size:11px;max-width:100%;overflow-wrap:anywhere}
+  .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px;justify-content:stretch}
+  .hero-actions .btn{padding:10px 8px;font-size:14px;min-height:48px;text-align:center;white-space:normal}
+  .btn,.channel,.foot-grid nav a{min-height:44px}
+  .hud-top,.hud-bottom,.hud-spectral,.hud-reticle,.hud-brackets,.hud-rail,.hud-callout,.hud-status,.hud-scan{display:none!important}
+  .fog-band{height:28px}
+  .band,.band--about{padding:56px 0;scroll-margin-top:80px}
+  .band h2{font-size:clamp(28px,7vw,40px);line-height:1.4;margin-bottom:16px;max-width:22ch}
+  .band h3{font-size:22px;line-height:1.4}
+  .band .lede,.offer-copy,.method-step p{font-size:16px;line-height:1.8;max-width:58ch}
+  .band .meta,.eyebrow{line-height:1.6}
+  .grid-phi,.journey-grid,.offer-rail,.method-grid,.gal-grid,.contact-channels{grid-template-columns:minmax(0,1fr);gap:20px;align-items:start}
+  .grid-phi>*{min-width:0}
+  .journey-card,.offer-card,.method-step,.contact-aside,.visit-card{min-width:0;width:100%;border-radius:18px;backdrop-filter:none;-webkit-backdrop-filter:none}
+  .journey-card .body,.offer-card,.method-step,.contact-aside,.visit-card{padding:24px}
+  .offer-card{min-height:180px}
+  .offer-copy{max-width:100%}
+  .method-step{min-height:0}
+  .method-timeline::before{display:none}
+  .method-step .num{margin-bottom:12px}
+  .vid-frame,.vid-frame--43{aspect-ratio:16/10;width:100%;min-width:0}
+  .vid-frame video{display:block;width:100%;height:100%;object-fit:cover}
+  .vid-cap{max-width:calc(100% - 24px);font-size:12px;white-space:normal}
+  .gal-grid .vid-frame{aspect-ratio:16/10}
+  .contact-channels{gap:12px}
+  .channel{padding:18px;overflow-wrap:anywhere}
+  .channel--pending{opacity:.8}
+  .visit-form{gap:14px}
+  .visit-form label:not(.sr-only){display:block}
+  .visit-form input,.visit-form textarea{width:100%;max-width:100%;min-width:0;min-height:48px;font-size:16px;padding:14px;border-radius:10px;line-height:1.6}
+  .visit-form textarea{min-height:128px;resize:vertical}
+  .form-status,.form-hint{font-size:14px;line-height:1.7;overflow-wrap:anywhere}
+  .site-foot{padding:36px 0 max(28px,env(safe-area-inset-bottom,0px))}
+  .foot-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+  .foot-grid nav{display:flex;gap:4px 16px;flex-wrap:wrap}
+  .foot-grid nav a{display:inline-flex;align-items:center;padding:8px 0;font-size:16px}
+  .foot-logo{width:80px;height:auto;object-fit:contain}
+  .band-hud{opacity:.2}
+  .atm-bloom{filter:blur(40px);will-change:transform,opacity}
+  .film-grain{display:none}
+  .journey-card:hover,.method-step:hover,.channel:hover{transform:none}
+  .variant-chip{max-width:calc(100% - 24px);bottom:max(12px,env(safe-area-inset-bottom,0px));flex-wrap:wrap}
+  .variant-chip a{min-height:44px}
+}
+@media(min-width:600px) and (max-width:960px){
+  .hero-stage,.hero-stage-hit,.hero-fallback{height:260px;min-height:260px}
+  .hero-card{padding:28px}
+  .journey-grid,.offer-rail,.method-grid,.gal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .journey-card:last-child,.offer-card:last-child{grid-column:1/-1}
+}
+@media(max-width:430px){
+  .hero-stage,.hero-stage-hit,.hero-fallback{height:180px;min-height:180px}
+  .hero-card{padding:18px 16px}
+  .hero-grid{padding-top:12px;gap:8px}
+  .hero-card h1{font-size:34px}
+  .hero-card .lede{font-size:15px;line-height:1.65}
+  .hero-card .chips{margin:10px 0}
+  .band,.band--about{padding:44px 0}
+}
+@media(max-width:960px) and (orientation:landscape) and (max-height:600px){
+  .hero{min-height:0}
+  .hero-grid{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:16px;align-items:center;padding:16px 0 28px;direction:ltr}
+  .hero-card{direction:rtl;grid-column:2;grid-row:1}
+  html[dir=ltr] .hero-card{direction:ltr}
+  .hero-stage-hit{grid-column:1;grid-row:1;height:250px;min-height:250px}
+  .hero-stage{width:43%;height:250px;left:0;right:auto;top:16px}
+  .hero-fallback{width:43%;height:250px;left:0;right:auto}
+  .hero-card h1{font-size:32px}
+  .hero-card .chips{display:none}
+  .hero-card .lede{font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}.hero-card *{transition:none!important;animation:none!important}.atm-bloom,.fog-band::before,.fog-band::after{animation:none!important}.a-ambient-loop{display:none!important}}
