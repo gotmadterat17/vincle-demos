@@ -1,0 +1,13 @@
+# Browser QA requested
+- Screenshot reference (desktop, approved A): /workspace/sites/offthescript/v3/captures/hero-with-nebula.png. It is historical, not a new v5 shot.
+- Capture mobile 360x800, 390x844, 430x932 hero + full page. Check all sections, not just hero.
+- Capture 844x390 landscape and 768x1024 tablet. No sideways scroll, cropped words, overlapping media captions or compare pill by default.
+- On phones: primary CTA visible without opening menu; compact faceted art does not block vertical page swipe; dark logo is not mistaken for missing main brand headline.
+- AR/EN toggle: heading wrap, logical reading order and landscape card direction.
+- Keyboard: toggle Enter, ArrowDown first nav link, Tab through links, Escape returns toggle; chosen section receives focus without focus-scroll jump; outside click closes.
+- Work anchors/section links/media native controls; verify no dead fake filters.
+- Contact: invalid fields show error and focus, valid input copies draft; clipboard-denied reveals selectable draft; nothing sends. X link opens existing account.
+- Watch idle loop and gentle scroll; drag desktop stage and leave -> central BLUE stays blue (no sticky magenta highlight). Reduced motion reload gives fallback.
+- Compare desktop >=1280x800 against approved A. No geometry/material/camera change intended.
+- Reduced motion, save-data, hidden tab, offscreen media, low-end Android GPU performance need actual device validation.
+- Capture assets parent should produce: mobile-390-hero.png, mobile-390-full.png, desktop-A-regression.png, tablet-768.png, landscape-844.png. Do not mistake historical screenshots for these outputs.

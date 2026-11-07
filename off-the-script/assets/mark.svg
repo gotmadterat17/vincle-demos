@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140" role="img" aria-label="خارج النص">
+  <defs>
+    <linearGradient id="spec" x1="20" y1="12" x2="180" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#dc0cc4"/>
+      <stop offset="20%" stop-color="#9810d8"/>
+      <stop offset="42%" stop-color="#3010d0"/>
+      <stop offset="64%" stop-color="#1088d0"/>
+      <stop offset="84%" stop-color="#18d090"/>
+      <stop offset="100%" stop-color="#3ae0b0"/>
+    </linearGradient>
+    <mask id="slash">
+      <rect width="200" height="140" fill="#fff"/>
+      <path d="M116 4 L78 116" stroke="#000" stroke-width="13" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <g mask="url(#slash)">
+    <path fill="url(#spec)" d="M24 20
+      C24 11 31 6 40 6
+      H160
+      C169 6 176 11 176 20
+      V80
+      C176 89 169 94 160 94
+      H150
+      L174 128
+      L142 94
+      H40
+      C31 94 24 89 24 80
+      Z"/>
+  </g>
+</svg>
