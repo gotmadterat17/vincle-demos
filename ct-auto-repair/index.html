@@ -1,16 +1,36 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Auto Repair | CT</title><meta name="robots" content="noindex"><style>*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;color:#0f172a;background:#f8fafc}
-header{background:linear-gradient(135deg,#0f172a,#1e3a8a);color:#fff;padding:72px 20px 88px;text-align:center}
-.tag{display:inline-block;background:#ffffff1f;padding:6px 14px;border-radius:99px;font-size:14px}
-h1{font-size:clamp(32px,6vw,56px);margin:18px 0 10px}p.sub{opacity:.85;max-width:620px;margin:0 auto 28px;font-size:18px}
-.btn{display:inline-block;background:#f59e0b;color:#111;padding:14px 28px;border-radius:10px;font-weight:700;text-decoration:none}
-main{max-width:1000px;margin:-48px auto 0;padding:0 20px 60px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.card{background:#fff;border-radius:14px;padding:26px;box-shadow:0 8px 30px #0f172a14}h2{margin-top:56px}
-form{display:grid;gap:12px}input,textarea{padding:12px;border:1px solid #cbd5e1;border-radius:8px;font:inherit}
-.ph{color:#64748b;font-style:italic}footer{text-align:center;color:#64748b;padding:30px;font-size:14px}</style></head><body>
-<header><span class="tag">Now serving <span class="bc">Your City</span>, CT</span><h1 class="bn">Your Business Name</h1><p class="sub">Auto Repair for homes and businesses in <span class="bc">Your City</span> and nearby. Contact us to schedule.</p><a class="btn" href="#contact">Request a free quote</a></header>
-<main><div class="grid"><div class="card"><h3>Diagnostics &amp; check-engine</h3><p>Contact us to discuss your project and get a quote.</p></div><div class="card"><h3>Brakes &amp; suspension</h3><p>Contact us to discuss your project and get a quote.</p></div><div class="card"><h3>Oil changes &amp; maintenance</h3><p>Contact us to discuss your project and get a quote.</p></div></div>
-<h2>Why choose <span class="bn">Your Business Name</span></h2><div class="grid"><div class="card"><h3>Local</h3><p>Based in <span class="bc">Your City</span>, CT.</p></div><div class="card"><h3>Clear quotes</h3><p>Upfront pricing before work starts.</p></div><div class="card"><h3>Easy to reach</h3><p>Send a message and we'll get back to you.</p></div></div>
-<h2 id="contact">Contact us</h2><div class="card"><p>Phone: <span class="ph">Your phone here</span></p><form onsubmit="event.preventDefault();this.innerHTML='<p>Thanks! (demo form)</p>'"><input placeholder="Your name" required><input type="email" placeholder="Email" required><textarea rows="4" placeholder="How can we help?"></textarea><button class="btn" style="border:0;cursor:pointer">Send message</button></form></div></main>
-<footer>&copy; 2026 <span class="bn">Your Business Name</span> &middot; Demo preview &middot; Images and text are placeholders</footer><script>(function(){var q=new URLSearchParams(location.search);function g(k,d){var v=(q.get(k)||'').replace(/[<>]/g,'').trim().slice(0,60);return v||d}
-var n=g('n','Your Business Name'),c=g('c','Your City');document.title=n+' | '+c+', CT';
-document.querySelectorAll('.bn').forEach(function(e){e.textContent=n});document.querySelectorAll('.bc').forEach(function(e){e.textContent=c})})();</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto repair previews</title>
+<meta name="description" content="Demo previews for Connecticut Auto repair filings. Each business page has its name and city in the HTML.">
+<style>
+body{margin:0;font:1.05rem/1.5 system-ui,sans-serif;color:#141820;background:#f6f7f8}
+main{max-width:40rem;padding:3rem 1.25rem}
+a{color:#141820}
+</style>
+<script type="application/json" id="ct-routes">[{"n": "Dr. D's Express Auto", "c": "Unionville", "href": "pages/dr-d-s-express-auto-unionville/"}, {"n": "Armando Auto Repair", "c": "Danbury", "href": "pages/armando-auto-repair-danbury/"}, {"n": "G.i Mobile Auto Repair", "c": "Norwalk", "href": "pages/g-i-mobile-auto-repair-norwalk/"}, {"n": "Havens Repair", "c": "Bridgeport", "href": "pages/havens-repair-bridgeport/"}, {"n": "Eskay's Auto Repair And Sales", "c": "Hartford", "href": "pages/eskay-s-auto-repair-and-sales-hartford/"}, {"n": "Steel Road Undercoating", "c": "Meriden", "href": "pages/steel-road-undercoating-meriden/"}, {"n": "Chucky Man Tire & Accessories", "c": "East Hartford", "href": "pages/chucky-man-tire-accessories-east-hartford/"}, {"n": "Jnt Repair Service", "c": "Derby", "href": "pages/jnt-repair-service-derby/"}, {"n": "Glowworksct", "c": "Groton", "href": "pages/glowworksct-groton/"}, {"n": "Sjr Legacy Truck Services", "c": "Wallingford", "href": "pages/sjr-legacy-truck-services-wallingford/"}, {"n": "Auto Repair Point", "c": "Bridgeport", "href": "pages/auto-repair-point-bridgeport/"}, {"n": "Wallace & Mario Auto Services", "c": "Hamden", "href": "pages/wallace-mario-auto-services-hamden/"}, {"n": "All Ends Sales & Repair & Towing Solution", "c": "Bloomfield", "href": "pages/all-ends-sales-repair-towing-solution-bloomfield/"}, {"n": "Valley Truck Repair", "c": "Rocky Hill", "href": "pages/valley-truck-repair-rocky-hill/"}, {"n": "Reyes Automotive", "c": "Waterbury", "href": "pages/reyes-automotive-waterbury/"}, {"n": "Forge Line Industries", "c": "Danbury", "href": "pages/forge-line-industries-danbury/"}, {"n": "Sams Auto Repair", "c": "Danbury", "href": "pages/sams-auto-repair-danbury/"}, {"n": "Felix R. A", "c": "Meriden", "href": "pages/felix-r-a-meriden/"}, {"n": "Master Tech Leon", "c": "", "href": "pages/master-tech-leon/"}, {"n": "Efra'n Hermandez Electrical", "c": "Danbury", "href": "pages/efra-n-hermandez-electrical-danbury/"}, {"n": "The Automotive Curator", "c": "New Milford", "href": "pages/the-automotive-curator-new-milford/"}, {"n": "On Demand Mechanics", "c": "Ansonia", "href": "pages/on-demand-mechanics-ansonia/"}, {"n": "Rooster Auto Repair And Collision", "c": "Bridgeport", "href": "pages/rooster-auto-repair-and-collision-bridgeport/"}, {"n": "The Exiled", "c": "Branford", "href": "pages/the-exiled-branford/"}, {"n": "Fdc Roadside Solutions", "c": "Hartford", "href": "pages/fdc-roadside-solutions-hartford/"}, {"n": "Dan's Kb Auto", "c": "Manchester", "href": "pages/dan-s-kb-auto-manchester/"}, {"n": "Johansen", "c": "Bolton", "href": "pages/johansen-bolton/"}, {"n": "J & S Allstar Autobody Mechanic", "c": "Waterbury", "href": "pages/j-s-allstar-autobody-mechanic-waterbury/"}, {"n": "A1 Performance & Repair", "c": "Trumbull", "href": "pages/a1-performance-repair-trumbull/"}, {"n": "Rj Auto Repair", "c": "Danbury", "href": "pages/rj-auto-repair-danbury/"}, {"n": "Lal On-site Diesel Repair", "c": "Ashford", "href": "pages/lal-on-site-diesel-repair-ashford/"}, {"n": "Mz Auto Repair", "c": "Waterbury", "href": "pages/mz-auto-repair-waterbury/"}, {"n": "K.a.r.s", "c": "North Haven", "href": "pages/k-a-r-s-north-haven/"}, {"n": "Roadside Rush", "c": "Hartford", "href": "pages/roadside-rush-hartford/"}, {"n": "Magnoli Mobile Mechanics", "c": "Middletown", "href": "pages/magnoli-mobile-mechanics-middletown/"}, {"n": "Hmotorflow", "c": "Danbury", "href": "pages/hmotorflow-danbury/"}, {"n": "Palmer Precision Autocare", "c": "Trumbull", "href": "pages/palmer-precision-autocare-trumbull/"}, {"n": "R4 Autodiag", "c": "West Hartford", "href": "pages/r4-autodiag-west-hartford/"}]</script>
+<script>
+(function(){
+  var node=document.getElementById("ct-routes");
+  if(!node||!window.URLSearchParams) return;
+  var routes=JSON.parse(node.textContent||"[]");
+  var params=new URLSearchParams(location.search);
+  var name=params.get("n")||"";
+  var city=params.get("c")||"";
+  for(var i=0;i<routes.length;i++){
+    if(routes[i].n===name && routes[i].c===city){ location.replace(routes[i].href); return; }
+  }
+})();
+</script>
+</head>
+<body>
+<main>
+<h1>Auto repair previews</h1>
+<p>Each business preview is its own HTML page. The name and city are in that page, not filled in by a script.</p>
+<p>Links that were already sent use <code>ct-auto-repair/?n=&amp;c=</code>. The demo server answers those URLs with the business page. On a host that ignores the query string, the script above opens the same page when JavaScript is available.</p>
+<noscript><p>JavaScript is off, so this directory page cannot read the link’s parameters. Open the business’s static page, or request the original link from the demo server.</p></noscript>
+</main>
+</body>
+</html>

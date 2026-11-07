@@ -1,0 +1,1708 @@
+{
+  "trade_conflicts": [
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-property-services/?n=Mary%20Super%20Cleaning&c=Bridgeport",
+      "url_slug": "ct-property-services",
+      "query_name": "Mary Super Cleaning",
+      "query_city": "Bridgeport",
+      "registry_name": "MARY SUPER CLEANING LLC",
+      "display_name": "Mary Super Cleaning",
+      "city_source": "Bridgeport",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Other Services to Buildings and Dwellings (561790)",
+      "naics_code": "561790",
+      "niche": "property services",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-property-services/pages/mary-super-cleaning-bridgeport/index.html",
+      "filing_date": "2026-10-28"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Phoenix%20Roofing%20And%20Chimney&c=Lodi",
+      "url_slug": "ct-remodeling",
+      "query_name": "Phoenix Roofing And Chimney",
+      "query_city": "Lodi",
+      "registry_name": "Phoenix Roofing And Chimney LLC",
+      "display_name": "Phoenix Roofing And Chimney",
+      "city_source": "Lodi",
+      "display_city": "Lodi",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "roofing"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/phoenix-roofing-and-chimney-lodi/index.html",
+      "filing_date": "2026-10-28"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Friendship%20Painting&c=Bridgeport",
+      "url_slug": "ct-remodeling",
+      "query_name": "Friendship Painting",
+      "query_city": "Bridgeport",
+      "registry_name": "Friendship Painting LLC",
+      "display_name": "Friendship Painting",
+      "city_source": "Bridgeport",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "painting"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/friendship-painting-bridgeport/index.html",
+      "filing_date": "2026-10-27"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-specialty-contractor/?n=Spears%20Heritage%20Masonry%20%26%20Stone&c=Ledyard",
+      "url_slug": "ct-specialty-contractor",
+      "query_name": "Spears Heritage Masonry & Stone",
+      "query_city": "Ledyard",
+      "registry_name": "Spears Heritage Masonry & Stone LLC",
+      "display_name": "Spears Heritage Masonry & Stone",
+      "city_source": "Ledyard",
+      "display_city": "Ledyard",
+      "state": "CT",
+      "naics": "All Other Specialty Trade Contractors (238990)",
+      "naics_code": "238990",
+      "niche": "specialty contractor",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "masonry"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-specialty-contractor/pages/spears-heritage-masonry-stone-ledyard/index.html",
+      "filing_date": "2026-10-26"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Tedeschi%20Carpentry&c=Pawcatuck",
+      "url_slug": "ct-remodeling",
+      "query_name": "Tedeschi Carpentry",
+      "query_city": "Pawcatuck",
+      "registry_name": "Tedeschi Carpentry LLC",
+      "display_name": "Tedeschi Carpentry",
+      "city_source": "Pawcatuck",
+      "display_city": "Pawcatuck",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "carpentry"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/tedeschi-carpentry-pawcatuck/index.html",
+      "filing_date": "2026-10-24"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-building-finishing/?n=United%20Atlas%20Roofing&c=Hartford",
+      "url_slug": "ct-building-finishing",
+      "query_name": "United Atlas Roofing",
+      "query_city": "Hartford",
+      "registry_name": "United Atlas Roofing LLC",
+      "display_name": "United Atlas Roofing",
+      "city_source": "Hartford",
+      "display_city": "Hartford",
+      "state": "CT",
+      "naics": "Other Building Finishing Contractors (238390)",
+      "naics_code": "238390",
+      "niche": "building finishing",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "roofing"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-building-finishing/pages/united-atlas-roofing-hartford/index.html",
+      "filing_date": "2026-10-24"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Very%20Good%20Carpentry&c=Ellington",
+      "url_slug": "ct-remodeling",
+      "query_name": "Very Good Carpentry",
+      "query_city": "Ellington",
+      "registry_name": "Very Good Carpentry L.L.C.",
+      "display_name": "Very Good Carpentry",
+      "city_source": "Ellington",
+      "display_city": "Ellington",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "carpentry"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/very-good-carpentry-ellington/index.html",
+      "filing_date": "2026-10-21"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-flooring/?n=Mercier%27s%20Carpet%20Service&c=W%20Springfield",
+      "url_slug": "ct-flooring",
+      "query_name": "Mercier's Carpet Service",
+      "query_city": "W Springfield",
+      "registry_name": "Mercier's Carpet Service, Inc.",
+      "display_name": "Mercier's Carpet Service",
+      "city_source": "W SPRINGFIELD",
+      "display_city": "W Springfield",
+      "state": "CT",
+      "naics": "Flooring Contractors (238330)",
+      "naics_code": "238330",
+      "niche": "flooring",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "carpet cleaning"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-flooring/pages/mercier-s-carpet-service-w-springfield/index.html",
+      "filing_date": "2026-10-20"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Xtreme%20Cleaning%20%26%20Restoration&c=New%20Haven",
+      "url_slug": "ct-remodeling",
+      "query_name": "Xtreme Cleaning & Restoration",
+      "query_city": "New Haven",
+      "registry_name": "Xtreme Cleaning & Restoration, LLC",
+      "display_name": "Xtreme Cleaning & Restoration",
+      "city_source": "New Haven",
+      "display_city": "New Haven",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/xtreme-cleaning-restoration-new-haven/index.html",
+      "filing_date": "2026-10-20"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Manchas%20Painting&c=West%20Haven",
+      "url_slug": "ct-remodeling",
+      "query_name": "Manchas Painting",
+      "query_city": "West Haven",
+      "registry_name": "MANCHAS PAINTING LLC",
+      "display_name": "Manchas Painting",
+      "city_source": "West Haven",
+      "display_city": "West Haven",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "painting"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/manchas-painting-west-haven/index.html",
+      "filing_date": "2026-10-16"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-property-services/?n=Clearline%20Window%20Cleaning&c=Trumbull",
+      "url_slug": "ct-property-services",
+      "query_name": "Clearline Window Cleaning",
+      "query_city": "Trumbull",
+      "registry_name": "Clearline Window Cleaning LLC",
+      "display_name": "Clearline Window Cleaning",
+      "city_source": "Trumbull",
+      "display_city": "Trumbull",
+      "state": "CT",
+      "naics": "Other Services to Buildings and Dwellings (561790)",
+      "naics_code": "561790",
+      "niche": "property services",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-property-services/pages/clearline-window-cleaning-trumbull/index.html",
+      "filing_date": "2026-10-16"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Z.z%20Tile%20Home%20Improvement&c=Bridgeport",
+      "url_slug": "ct-remodeling",
+      "query_name": "Z.z Tile Home Improvement",
+      "query_city": "Bridgeport",
+      "registry_name": "Z.Z Tile Home Improvement Limited Liability Company",
+      "display_name": "Z.Z Tile Home Improvement",
+      "city_source": "Bridgeport",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "tile"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/z-z-tile-home-improvement-bridgeport/index.html",
+      "filing_date": "2026-10-15"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-auto-repair/?n=Efra%27n%20Hermandez%20Electrical&c=Danbury",
+      "url_slug": "ct-auto-repair",
+      "query_name": "Efra'n Hermandez Electrical",
+      "query_city": "Danbury",
+      "registry_name": "EFRA'N HERMANDEZ ELECTRICAL LLC",
+      "display_name": "EFRA'N Hermandez Electrical",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "Specialized Automotive Repair (811114)",
+      "naics_code": "811114",
+      "niche": "auto repair",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "electrical"
+      ],
+      "flags": [
+        "ambiguous_apostrophe:EFRA'N",
+        "trade_conflict"
+      ],
+      "static_path": "ct-auto-repair/pages/efra-n-hermandez-electrical-danbury/index.html",
+      "filing_date": "2026-10-15"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-building-finishing/?n=Argueta%20Roofing&c=East%20Hartford",
+      "url_slug": "ct-building-finishing",
+      "query_name": "Argueta Roofing",
+      "query_city": "East Hartford",
+      "registry_name": "Argueta Roofing L.L.C.",
+      "display_name": "Argueta Roofing",
+      "city_source": "East Hartford",
+      "display_city": "East Hartford",
+      "state": "CT",
+      "naics": "Other Building Finishing Contractors (238390)",
+      "naics_code": "238390",
+      "niche": "building finishing",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "roofing"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-building-finishing/pages/argueta-roofing-east-hartford/index.html",
+      "filing_date": "2026-10-15"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-building-finishing/?n=King%20Family%20Roofing&c=Hampton",
+      "url_slug": "ct-building-finishing",
+      "query_name": "King Family Roofing",
+      "query_city": "Hampton",
+      "registry_name": "King Family Roofing LLC",
+      "display_name": "King Family Roofing",
+      "city_source": "Hampton",
+      "display_city": "Hampton",
+      "state": "CT",
+      "naics": "Other Building Finishing Contractors (238390)",
+      "naics_code": "238390",
+      "niche": "building finishing",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "roofing"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-building-finishing/pages/king-family-roofing-hampton/index.html",
+      "filing_date": "2026-10-15"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-property-services/?n=Sdk%20Duct%20Cleaning%20Solutions&c=Sharon",
+      "url_slug": "ct-property-services",
+      "query_name": "Sdk Duct Cleaning Solutions",
+      "query_city": "Sharon",
+      "registry_name": "SDK DUCT CLEANING SOLUTIONS LLC",
+      "display_name": "SDK Duct Cleaning Solutions",
+      "city_source": "SHARON",
+      "display_city": "Sharon",
+      "state": "CT",
+      "naics": "Other Services to Buildings and Dwellings (561790)",
+      "naics_code": "561790",
+      "niche": "property services",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_initialism:SDK",
+        "trade_conflict"
+      ],
+      "static_path": "ct-property-services/pages/sdk-duct-cleaning-solutions-sharon/index.html",
+      "filing_date": "2026-10-14"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Tiago%27s%20Carpentry%20%26%20Painting&c=Montrose",
+      "url_slug": "ct-remodeling",
+      "query_name": "Tiago's Carpentry & Painting",
+      "query_city": "Montrose",
+      "registry_name": "TIAGO'S CARPENTRY & PAINTING LLC",
+      "display_name": "TIAGO'S Carpentry & Painting",
+      "city_source": "Montrose",
+      "display_city": "Montrose",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "painting",
+        "carpentry"
+      ],
+      "flags": [
+        "ambiguous_apostrophe:TIAGO'S",
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/tiago-s-carpentry-painting-montrose/index.html",
+      "filing_date": "2026-10-13"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-specialty-contractor/?n=Kga%20Electric&c=Chepachet",
+      "url_slug": "ct-specialty-contractor",
+      "query_name": "Kga Electric",
+      "query_city": "Chepachet",
+      "registry_name": "KGA Electric, LLC",
+      "display_name": "KGA Electric",
+      "city_source": "Chepachet",
+      "display_city": "Chepachet",
+      "state": "CT",
+      "naics": "All Other Specialty Trade Contractors (238990)",
+      "naics_code": "238990",
+      "niche": "specialty contractor",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "electrical"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-specialty-contractor/pages/kga-electric-chepachet/index.html",
+      "filing_date": "2026-10-13"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Emanuel%20Hs%20Painting%20Remodeling&c=New%20Britain",
+      "url_slug": "ct-remodeling",
+      "query_name": "Emanuel Hs Painting Remodeling",
+      "query_city": "New Britain",
+      "registry_name": "EMANUEL HS PAINTING REMODELING LLC",
+      "display_name": "Emanuel HS Painting Remodeling",
+      "city_source": "New Britain",
+      "display_city": "New Britain",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "painting"
+      ],
+      "flags": [
+        "ambiguous_initialism:HS",
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/emanuel-hs-painting-remodeling-new-britain/index.html",
+      "filing_date": "2026-10-09"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Westchester%20Paving%20%26%20Masonry&c=White%20Plains",
+      "url_slug": "ct-remodeling",
+      "query_name": "Westchester Paving & Masonry",
+      "query_city": "White Plains",
+      "registry_name": "Westchester Paving & Masonry Corp",
+      "display_name": "Westchester Paving & Masonry",
+      "city_source": "White Plains",
+      "display_city": "White Plains",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "masonry"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/westchester-paving-masonry-white-plains/index.html",
+      "filing_date": "2026-10-08"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-specialty-contractor/?n=Wilson%20Masonry%20Construction&c=Danbury",
+      "url_slug": "ct-specialty-contractor",
+      "query_name": "Wilson Masonry Construction",
+      "query_city": "Danbury",
+      "registry_name": "Wilson Masonry Construction LLC",
+      "display_name": "Wilson Masonry Construction",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "All Other Specialty Trade Contractors (238990)",
+      "naics_code": "238990",
+      "niche": "specialty contractor",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "masonry"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-specialty-contractor/pages/wilson-masonry-construction-danbury/index.html",
+      "filing_date": "2026-10-06"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-property-services/?n=Dgbs%20Cleaning%20Services&c=West%20Haven",
+      "url_slug": "ct-property-services",
+      "query_name": "Dgbs Cleaning Services",
+      "query_city": "West Haven",
+      "registry_name": "DGBS CLEANING SERVICES LLC",
+      "display_name": "DGBS Cleaning Services",
+      "city_source": "WEST HAVEN",
+      "display_city": "West Haven",
+      "state": "CT",
+      "naics": "Other Services to Buildings and Dwellings (561790)",
+      "naics_code": "561790",
+      "niche": "property services",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_initialism:DGBS",
+        "trade_conflict"
+      ],
+      "static_path": "ct-property-services/pages/dgbs-cleaning-services-west-haven/index.html",
+      "filing_date": "2026-10-05"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Bluesky%20Peak%20Roofing%20%26%20Siding&c=Waterbury",
+      "url_slug": "ct-remodeling",
+      "query_name": "Bluesky Peak Roofing & Siding",
+      "query_city": "Waterbury",
+      "registry_name": "BLUESKY PEAK ROOFING & SIDING LLC",
+      "display_name": "Bluesky Peak Roofing & Siding",
+      "city_source": "WATERBURY",
+      "display_city": "Waterbury",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "roofing",
+        "siding"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/bluesky-peak-roofing-siding-waterbury/index.html",
+      "filing_date": "2026-10-05"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Santos%20Remodeling%20And%20Cleaning%20Services&c=Waterbury",
+      "url_slug": "ct-remodeling",
+      "query_name": "Santos Remodeling And Cleaning Services",
+      "query_city": "Waterbury",
+      "registry_name": "SANTOS REMODELING AND CLEANING SERVICES LLC",
+      "display_name": "Santos Remodeling And Cleaning Services",
+      "city_source": "Waterbury",
+      "display_city": "Waterbury",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/santos-remodeling-and-cleaning-services-waterbury/index.html",
+      "filing_date": "2026-10-05"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Top%20Quality%20Remodeling%20%26%20Cleaning&c=New%20Britain",
+      "url_slug": "ct-remodeling",
+      "query_name": "Top Quality Remodeling & Cleaning",
+      "query_city": "New Britain",
+      "registry_name": "Top Quality Remodeling & Cleaning LLC",
+      "display_name": "Top Quality Remodeling & Cleaning",
+      "city_source": "New Britain",
+      "display_city": "New Britain",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/top-quality-remodeling-cleaning-new-britain/index.html",
+      "filing_date": "2026-10-02"
+    }
+  ],
+  "name_ambiguities": [
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Veronica%20Cleaning%20Services&c=Danbury",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Veronica Cleaning Services",
+      "query_city": "Danbury",
+      "registry_name": "veronica cleaning services LLC",
+      "display_name": "veronica cleaning services",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_all_lowercase"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/veronica-cleaning-services-danbury/index.html",
+      "filing_date": "2026-10-28"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Dgo%20House%20Buyers&c=Bridgeport",
+      "url_slug": "ct-remodeling",
+      "query_name": "Dgo House Buyers",
+      "query_city": "Bridgeport",
+      "registry_name": "DGO HOUSE BUYERS LLC",
+      "display_name": "DGO House Buyers",
+      "city_source": "Bridgeport",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_short_token:DGO"
+      ],
+      "static_path": "ct-remodeling/pages/dgo-house-buyers-bridgeport/index.html",
+      "filing_date": "2026-10-28"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Knd&c=Stratford",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Knd",
+      "query_city": "Stratford",
+      "registry_name": "KND L.L.C.",
+      "display_name": "KND",
+      "city_source": "Stratford",
+      "display_city": "Stratford",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:KND"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/knd-stratford/index.html",
+      "filing_date": "2026-10-28"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-tile/?n=Jx&c=Hartford",
+      "url_slug": "ct-tile",
+      "query_name": "Jx",
+      "query_city": "Hartford",
+      "registry_name": "JX LLC",
+      "display_name": "JX",
+      "city_source": "Hartford",
+      "display_city": "Hartford",
+      "state": "CT",
+      "naics": "Tile and Terrazzo Contractors (238340)",
+      "naics_code": "238340",
+      "niche": "tile",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:JX"
+      ],
+      "static_path": "ct-tile/pages/jx-hartford/index.html",
+      "filing_date": "2026-10-27"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Noe%20Construction&c=Hartford",
+      "url_slug": "ct-remodeling",
+      "query_name": "Noe Construction",
+      "query_city": "Hartford",
+      "registry_name": "NOE CONSTRUCTION LLC",
+      "display_name": "NOE Construction",
+      "city_source": "Hartford",
+      "display_city": "Hartford",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_short_token:NOE"
+      ],
+      "static_path": "ct-remodeling/pages/noe-construction-hartford/index.html",
+      "filing_date": "2026-10-27"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Jm%20%26%20Son%20Enterprises&c=Southwick",
+      "url_slug": "ct-remodeling",
+      "query_name": "Jm & Son Enterprises",
+      "query_city": "Southwick",
+      "registry_name": "JM & SON ENTERPRISES LLC",
+      "display_name": "JM & Son Enterprises",
+      "city_source": "Southwick",
+      "display_city": "Southwick",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:JM"
+      ],
+      "static_path": "ct-remodeling/pages/jm-son-enterprises-southwick/index.html",
+      "filing_date": "2026-10-26"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Yordy%27s%20Company&c=Danbury",
+      "url_slug": "ct-remodeling",
+      "query_name": "Yordy's Company",
+      "query_city": "Danbury",
+      "registry_name": "YORDY'S COMPANY LLC",
+      "display_name": "YORDY'S Company",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_apostrophe:YORDY'S"
+      ],
+      "static_path": "ct-remodeling/pages/yordy-s-company-danbury/index.html",
+      "filing_date": "2026-10-26"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Cozy%20And%20Clean%20Home%20Services&c=Stamford",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Cozy And Clean Home Services",
+      "query_city": "Stamford",
+      "registry_name": "cozy and clean home services L.L.C.",
+      "display_name": "cozy and clean home services",
+      "city_source": "Stamford",
+      "display_city": "Stamford",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_all_lowercase"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/cozy-and-clean-home-services-stamford/index.html",
+      "filing_date": "2026-10-25"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Hm%20Renovations&c=Bridgeport",
+      "url_slug": "ct-remodeling",
+      "query_name": "Hm Renovations",
+      "query_city": "Bridgeport",
+      "registry_name": "HM RENOVATIONS LLC",
+      "display_name": "HM Renovations",
+      "city_source": "BRIDGEPORT",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:HM"
+      ],
+      "static_path": "ct-remodeling/pages/hm-renovations-bridgeport/index.html",
+      "filing_date": "2026-10-23"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-auto-repair/?n=Jnt%20Repair%20Service&c=Derby",
+      "url_slug": "ct-auto-repair",
+      "query_name": "Jnt Repair Service",
+      "query_city": "Derby",
+      "registry_name": "JNT REPAIR SERVICE LLC",
+      "display_name": "JNT Repair Service",
+      "city_source": "Derby",
+      "display_city": "Derby",
+      "state": "CT",
+      "naics": "General Automotive Repair (811111)",
+      "naics_code": "811111",
+      "niche": "auto repair",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:JNT"
+      ],
+      "static_path": "ct-auto-repair/pages/jnt-repair-service-derby/index.html",
+      "filing_date": "2026-10-23"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Jha%20Multi%20Services&c=New%20Milford",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Jha Multi Services",
+      "query_city": "New Milford",
+      "registry_name": "JHA MULTI SERVICES, LLC",
+      "display_name": "JHA Multi Services",
+      "city_source": "NEW MILFORD",
+      "display_city": "New Milford",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_short_token:JHA"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/jha-multi-services-new-milford/index.html",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-painting/?n=Gms%20Painting&c=Bridgeport",
+      "url_slug": "ct-painting",
+      "query_name": "Gms Painting",
+      "query_city": "Bridgeport",
+      "registry_name": "GMS PAINTING LLC",
+      "display_name": "GMS Painting",
+      "city_source": "Bridgeport",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Painting and Wall Covering Contractors (238320)",
+      "naics_code": "238320",
+      "niche": "painting",
+      "trade_status": "verified",
+      "name_trades": [
+        "painting"
+      ],
+      "flags": [
+        "ambiguous_initialism:GMS"
+      ],
+      "static_path": "ct-painting/pages/gms-painting-bridgeport/index.html",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-masonry/?n=Ae%20Excavation&c=Stamford",
+      "url_slug": "ct-masonry",
+      "query_name": "Ae Excavation",
+      "query_city": "Stamford",
+      "registry_name": "AE EXCAVATION LLC",
+      "display_name": "AE Excavation",
+      "city_source": "Stamford",
+      "display_city": "Stamford",
+      "state": "CT",
+      "naics": "Masonry Contractors (238140)",
+      "naics_code": "238140",
+      "niche": "masonry",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_short_token:AE"
+      ],
+      "static_path": "ct-masonry/pages/ae-excavation-stamford/index.html",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Vc%20Construction&c=New%20Britain",
+      "url_slug": "ct-remodeling",
+      "query_name": "Vc Construction",
+      "query_city": "New Britain",
+      "registry_name": "VC CONSTRUCTION LLC",
+      "display_name": "VC Construction",
+      "city_source": "New Britain",
+      "display_city": "New Britain",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:VC"
+      ],
+      "static_path": "ct-remodeling/pages/vc-construction-new-britain/index.html",
+      "filing_date": "2026-10-22"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Construction%20Jlc&c=New%20Haven",
+      "url_slug": "ct-remodeling",
+      "query_name": "Construction Jlc",
+      "query_city": "New Haven",
+      "registry_name": "CONSTRUCTION JLC LLC",
+      "display_name": "Construction JLC",
+      "city_source": "New Haven",
+      "display_city": "New Haven",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:JLC"
+      ],
+      "static_path": "ct-remodeling/pages/construction-jlc-new-haven/index.html",
+      "filing_date": "2026-10-21"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Clean%20Business%20Solutions%20Vy&c=Newington",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Clean Business Solutions Vy",
+      "query_city": "Newington",
+      "registry_name": "CLEAN BUSINESS SOLUTIONS VY LLC",
+      "display_name": "Clean Business Solutions VY",
+      "city_source": "Newington",
+      "display_city": "Newington",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_initialism:VY"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/clean-business-solutions-vy-newington/index.html",
+      "filing_date": "2026-10-20"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-carpentry/?n=Gio%20Repairs&c=Waterbury",
+      "url_slug": "ct-carpentry",
+      "query_name": "Gio Repairs",
+      "query_city": "Waterbury",
+      "registry_name": "GIO REPAIRS LLC",
+      "display_name": "GIO Repairs",
+      "city_source": "Waterbury",
+      "display_city": "Waterbury",
+      "state": "CT",
+      "naics": "Finish Carpentry Contractors (238350)",
+      "naics_code": "238350",
+      "niche": "carpentry",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_short_token:GIO"
+      ],
+      "static_path": "ct-carpentry/pages/gio-repairs-waterbury/index.html",
+      "filing_date": "2026-10-20"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-plumbing-hvac/?n=Rbm%20Plumbing%20Services&c=Bridgeport",
+      "url_slug": "ct-plumbing-hvac",
+      "query_name": "Rbm Plumbing Services",
+      "query_city": "Bridgeport",
+      "registry_name": "RBM PLUMBING SERVICES LLC",
+      "display_name": "RBM Plumbing Services",
+      "city_source": "Bridgeport",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Plumbing, Heating, and Air-Conditioning Contractors (238220)",
+      "naics_code": "238220",
+      "niche": "plumbing / HVAC",
+      "trade_status": "verified",
+      "name_trades": [
+        "plumbing / HVAC"
+      ],
+      "flags": [
+        "ambiguous_initialism:RBM"
+      ],
+      "static_path": "ct-plumbing-hvac/pages/rbm-plumbing-services-bridgeport/index.html",
+      "filing_date": "2026-10-16"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-auto-repair/?n=Efra%27n%20Hermandez%20Electrical&c=Danbury",
+      "url_slug": "ct-auto-repair",
+      "query_name": "Efra'n Hermandez Electrical",
+      "query_city": "Danbury",
+      "registry_name": "EFRA'N HERMANDEZ ELECTRICAL LLC",
+      "display_name": "EFRA'N Hermandez Electrical",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "Specialized Automotive Repair (811114)",
+      "naics_code": "811114",
+      "niche": "auto repair",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "electrical"
+      ],
+      "flags": [
+        "ambiguous_apostrophe:EFRA'N",
+        "trade_conflict"
+      ],
+      "static_path": "ct-auto-repair/pages/efra-n-hermandez-electrical-danbury/index.html",
+      "filing_date": "2026-10-15"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-tile/?n=Jm%20Tile&c=Bethel",
+      "url_slug": "ct-tile",
+      "query_name": "Jm Tile",
+      "query_city": "Bethel",
+      "registry_name": "JM TILE LLC",
+      "display_name": "JM Tile",
+      "city_source": "Bethel",
+      "display_city": "Bethel",
+      "state": "CT",
+      "naics": "Tile and Terrazzo Contractors (238340)",
+      "naics_code": "238340",
+      "niche": "tile",
+      "trade_status": "verified",
+      "name_trades": [
+        "tile"
+      ],
+      "flags": [
+        "ambiguous_initialism:JM"
+      ],
+      "static_path": "ct-tile/pages/jm-tile-bethel/index.html",
+      "filing_date": "2026-10-14"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-property-services/?n=Sdk%20Duct%20Cleaning%20Solutions&c=Sharon",
+      "url_slug": "ct-property-services",
+      "query_name": "Sdk Duct Cleaning Solutions",
+      "query_city": "Sharon",
+      "registry_name": "SDK DUCT CLEANING SOLUTIONS LLC",
+      "display_name": "SDK Duct Cleaning Solutions",
+      "city_source": "SHARON",
+      "display_city": "Sharon",
+      "state": "CT",
+      "naics": "Other Services to Buildings and Dwellings (561790)",
+      "naics_code": "561790",
+      "niche": "property services",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_initialism:SDK",
+        "trade_conflict"
+      ],
+      "static_path": "ct-property-services/pages/sdk-duct-cleaning-solutions-sharon/index.html",
+      "filing_date": "2026-10-14"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Tiago%27s%20Carpentry%20%26%20Painting&c=Montrose",
+      "url_slug": "ct-remodeling",
+      "query_name": "Tiago's Carpentry & Painting",
+      "query_city": "Montrose",
+      "registry_name": "TIAGO'S CARPENTRY & PAINTING LLC",
+      "display_name": "TIAGO'S Carpentry & Painting",
+      "city_source": "Montrose",
+      "display_city": "Montrose",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "painting",
+        "carpentry"
+      ],
+      "flags": [
+        "ambiguous_apostrophe:TIAGO'S",
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/tiago-s-carpentry-painting-montrose/index.html",
+      "filing_date": "2026-10-13"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Usa%20Magic%20Cleaning%20Services&c=Danbury",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Usa Magic Cleaning Services",
+      "query_city": "Danbury",
+      "registry_name": "USA MAGIC CLEANING SERVICES LLC",
+      "display_name": "USA Magic Cleaning Services",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_short_token:USA"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/usa-magic-cleaning-services-danbury/index.html",
+      "filing_date": "2026-10-13"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-flooring/?n=Apg%20Hardwood%20Floors&c=Bridgeport",
+      "url_slug": "ct-flooring",
+      "query_name": "Apg Hardwood Floors",
+      "query_city": "Bridgeport",
+      "registry_name": "APG HARDWOOD FLOORS LLC",
+      "display_name": "APG Hardwood Floors",
+      "city_source": "Bridgeport",
+      "display_city": "Bridgeport",
+      "state": "CT",
+      "naics": "Flooring Contractors (238330)",
+      "naics_code": "238330",
+      "niche": "flooring",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_short_token:APG"
+      ],
+      "static_path": "ct-flooring/pages/apg-hardwood-floors-bridgeport/index.html",
+      "filing_date": "2026-10-13"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Rd%26kwhomeimprovementllc&c=East%20Hartford",
+      "url_slug": "ct-remodeling",
+      "query_name": "Rd&kwhomeimprovementllc",
+      "query_city": "East Hartford",
+      "registry_name": "Rd&kwhomeimprovementllc Limited Liability Company",
+      "display_name": "Rd&kwhomeimprovementllc",
+      "city_source": "East Hartford",
+      "display_city": "East Hartford",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_glued_suffix"
+      ],
+      "static_path": "ct-remodeling/pages/rd-kwhomeimprovementllc-east-hartford/index.html",
+      "filing_date": "2026-10-13"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Jg%20Nogbe%20Home%20Craftsmen&c=Ansonia",
+      "url_slug": "ct-remodeling",
+      "query_name": "Jg Nogbe Home Craftsmen",
+      "query_city": "Ansonia",
+      "registry_name": "JG NOGBE HOME CRAFTSMEN LLC",
+      "display_name": "JG Nogbe Home Craftsmen",
+      "city_source": "Ansonia",
+      "display_city": "Ansonia",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:JG"
+      ],
+      "static_path": "ct-remodeling/pages/jg-nogbe-home-craftsmen-ansonia/index.html",
+      "filing_date": "2026-10-11"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Torres%20Construction&c=Wallingford",
+      "url_slug": "ct-remodeling",
+      "query_name": "Torres Construction",
+      "query_city": "Wallingford",
+      "registry_name": "torres construction LLC",
+      "display_name": "torres construction",
+      "city_source": "Wallingford",
+      "display_city": "Wallingford",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_all_lowercase"
+      ],
+      "static_path": "ct-remodeling/pages/torres-construction-wallingford/index.html",
+      "filing_date": "2026-10-11"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-carpentry/?n=Ct%20The%20Best%20Construction&c=Waterbury",
+      "url_slug": "ct-carpentry",
+      "query_name": "Ct The Best Construction",
+      "query_city": "Waterbury",
+      "registry_name": "CT THE BEST CONSTRUCTION LLC",
+      "display_name": "CT The Best Construction",
+      "city_source": "Waterbury",
+      "display_city": "Waterbury",
+      "state": "CT",
+      "naics": "Finish Carpentry Contractors (238350)",
+      "naics_code": "238350",
+      "niche": "carpentry",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:CT"
+      ],
+      "static_path": "ct-carpentry/pages/ct-the-best-construction-waterbury/index.html",
+      "filing_date": "2026-10-09"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Emanuel%20Hs%20Painting%20Remodeling&c=New%20Britain",
+      "url_slug": "ct-remodeling",
+      "query_name": "Emanuel Hs Painting Remodeling",
+      "query_city": "New Britain",
+      "registry_name": "EMANUEL HS PAINTING REMODELING LLC",
+      "display_name": "Emanuel HS Painting Remodeling",
+      "city_source": "New Britain",
+      "display_city": "New Britain",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "painting"
+      ],
+      "flags": [
+        "ambiguous_initialism:HS",
+        "trade_conflict"
+      ],
+      "static_path": "ct-remodeling/pages/emanuel-hs-painting-remodeling-new-britain/index.html",
+      "filing_date": "2026-10-09"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Aj%20Development%20%26%20Design&c=Manchester",
+      "url_slug": "ct-remodeling",
+      "query_name": "Aj Development & Design",
+      "query_city": "Manchester",
+      "registry_name": "AJ DEVELOPMENT & DESIGN LLC",
+      "display_name": "AJ Development & Design",
+      "city_source": "Manchester",
+      "display_city": "Manchester",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_short_token:AJ"
+      ],
+      "static_path": "ct-remodeling/pages/aj-development-design-manchester/index.html",
+      "filing_date": "2026-10-08"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Japm%20Services&c=Mystic",
+      "url_slug": "ct-remodeling",
+      "query_name": "Japm Services",
+      "query_city": "Mystic",
+      "registry_name": "japm services llc",
+      "display_name": "japm services",
+      "city_source": "mystic",
+      "display_city": "Mystic",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_all_lowercase",
+        "city_source_all_lowercase"
+      ],
+      "static_path": "ct-remodeling/pages/japm-services-mystic/index.html",
+      "filing_date": "2026-10-08"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Lnz%20Facility%20Solutions&c=New%20Britain",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Lnz Facility Solutions",
+      "query_city": "New Britain",
+      "registry_name": "LNZ FACILITY SOLUTIONS LLC",
+      "display_name": "LNZ Facility Solutions",
+      "city_source": "New Britain",
+      "display_city": "New Britain",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:LNZ"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/lnz-facility-solutions-new-britain/index.html",
+      "filing_date": "2026-10-07"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-painting/?n=Gnm%20Brothers%20Painting%20Company&c=Stamford",
+      "url_slug": "ct-painting",
+      "query_name": "Gnm Brothers Painting Company",
+      "query_city": "Stamford",
+      "registry_name": "GNM BROTHERS PAINTING COMPANY LLC",
+      "display_name": "GNM Brothers Painting Company",
+      "city_source": "Stamford",
+      "display_city": "Stamford",
+      "state": "CT",
+      "naics": "Painting and Wall Covering Contractors (238320)",
+      "naics_code": "238320",
+      "niche": "painting",
+      "trade_status": "verified",
+      "name_trades": [
+        "painting"
+      ],
+      "flags": [
+        "ambiguous_initialism:GNM"
+      ],
+      "static_path": "ct-painting/pages/gnm-brothers-painting-company-stamford/index.html",
+      "filing_date": "2026-10-07"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Amy%27s%20Brillance%20Cleaning&c=Monroe",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Amy's Brillance Cleaning",
+      "query_city": "Monroe",
+      "registry_name": "AMY'S BRILLANCE CLEANING LLC",
+      "display_name": "AMY'S Brillance Cleaning",
+      "city_source": "Monroe",
+      "display_city": "Monroe",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_apostrophe:AMY'S"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/amy-s-brillance-cleaning-monroe/index.html",
+      "filing_date": "2026-10-06"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-property-services/?n=Dgbs%20Cleaning%20Services&c=West%20Haven",
+      "url_slug": "ct-property-services",
+      "query_name": "Dgbs Cleaning Services",
+      "query_city": "West Haven",
+      "registry_name": "DGBS CLEANING SERVICES LLC",
+      "display_name": "DGBS Cleaning Services",
+      "city_source": "WEST HAVEN",
+      "display_city": "West Haven",
+      "state": "CT",
+      "naics": "Other Services to Buildings and Dwellings (561790)",
+      "naics_code": "561790",
+      "niche": "property services",
+      "trade_status": "unresolved",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_initialism:DGBS",
+        "trade_conflict"
+      ],
+      "static_path": "ct-property-services/pages/dgbs-cleaning-services-west-haven/index.html",
+      "filing_date": "2026-10-05"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-auto-repair/?n=Rj%20Auto%20Repair&c=Danbury",
+      "url_slug": "ct-auto-repair",
+      "query_name": "Rj Auto Repair",
+      "query_city": "Danbury",
+      "registry_name": "RJ AUTO REPAIR LLC",
+      "display_name": "RJ Auto Repair",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "General Automotive Repair (811111)",
+      "naics_code": "811111",
+      "niche": "auto repair",
+      "trade_status": "verified",
+      "name_trades": [
+        "auto repair"
+      ],
+      "flags": [
+        "ambiguous_initialism:RJ"
+      ],
+      "static_path": "ct-auto-repair/pages/rj-auto-repair-danbury/index.html",
+      "filing_date": "2026-10-05"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-auto-repair/?n=Mz%20Auto%20Repair&c=Waterbury",
+      "url_slug": "ct-auto-repair",
+      "query_name": "Mz Auto Repair",
+      "query_city": "Waterbury",
+      "registry_name": "MZ AUTO REPAIR LLC",
+      "display_name": "MZ Auto Repair",
+      "city_source": "Waterbury",
+      "display_city": "Waterbury",
+      "state": "CT",
+      "naics": "All Other Automotive Repair and Maintenance (811198)",
+      "naics_code": "811198",
+      "niche": "auto repair",
+      "trade_status": "verified",
+      "name_trades": [
+        "auto repair"
+      ],
+      "flags": [
+        "ambiguous_initialism:MZ"
+      ],
+      "static_path": "ct-auto-repair/pages/mz-auto-repair-waterbury/index.html",
+      "filing_date": "2026-10-03"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Scp%20Construction&c=West%20Haven",
+      "url_slug": "ct-remodeling",
+      "query_name": "Scp Construction",
+      "query_city": "West Haven",
+      "registry_name": "SCP CONSTRUCTION LLC",
+      "display_name": "SCP Construction",
+      "city_source": "West Haven",
+      "display_city": "West Haven",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:SCP"
+      ],
+      "static_path": "ct-remodeling/pages/scp-construction-west-haven/index.html",
+      "filing_date": "2026-10-03"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Np%20Cleaning%20Services&c=Danbury",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Np Cleaning Services",
+      "query_city": "Danbury",
+      "registry_name": "NP CLEANING SERVICES LLC",
+      "display_name": "NP Cleaning Services",
+      "city_source": "Danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_initialism:NP"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/np-cleaning-services-danbury/index.html",
+      "filing_date": "2026-10-02"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Ssm%20Construction&c=West%20Haven",
+      "url_slug": "ct-remodeling",
+      "query_name": "Ssm Construction",
+      "query_city": "West Haven",
+      "registry_name": "SSM CONSTRUCTION LLC",
+      "display_name": "SSM Construction",
+      "city_source": "West Haven",
+      "display_city": "West Haven",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:SSM"
+      ],
+      "static_path": "ct-remodeling/pages/ssm-construction-west-haven/index.html",
+      "filing_date": "2026-10-02"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Cc%20Handyman%20Worker&c=Hartford",
+      "url_slug": "ct-remodeling",
+      "query_name": "Cc Handyman Worker",
+      "query_city": "Hartford",
+      "registry_name": "CC HANDYMAN WORKER LLC",
+      "display_name": "CC Handyman Worker",
+      "city_source": "Hartford",
+      "display_city": "Hartford",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_initialism:CC"
+      ],
+      "static_path": "ct-remodeling/pages/cc-handyman-worker-hartford/index.html",
+      "filing_date": "2026-10-02"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Mh%20Golden%20Cleaning&c=Wethersfield",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Mh Golden Cleaning",
+      "query_city": "Wethersfield",
+      "registry_name": "MH GOLDEN CLEANING LLC",
+      "display_name": "MH Golden Cleaning",
+      "city_source": "Wethersfield",
+      "display_city": "Wethersfield",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [
+        "janitorial / cleaning"
+      ],
+      "flags": [
+        "ambiguous_initialism:MH"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/mh-golden-cleaning-wethersfield/index.html",
+      "filing_date": "2026-10-01"
+    }
+  ],
+  "missing_city": [
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-roofing/?n=Next%20Level%20Home%20Solutions&c=",
+      "url_slug": "ct-roofing",
+      "query_name": "Next Level Home Solutions",
+      "query_city": "",
+      "registry_name": "Next Level Home Solutions Inc",
+      "display_name": "Next Level Home Solutions",
+      "city_source": "",
+      "display_city": "",
+      "state": "CT",
+      "naics": "Roofing Contractors (238160)",
+      "naics_code": "238160",
+      "niche": "roofing",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "missing_city"
+      ],
+      "static_path": "ct-roofing/pages/next-level-home-solutions/index.html",
+      "filing_date": "2026-10-26"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Sig%20Construction&c=",
+      "url_slug": "ct-remodeling",
+      "query_name": "Sig Construction",
+      "query_city": "",
+      "registry_name": "Sig construction Corp",
+      "display_name": "Sig construction",
+      "city_source": "",
+      "display_city": "",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "missing_city"
+      ],
+      "static_path": "ct-remodeling/pages/sig-construction/index.html",
+      "filing_date": "2026-10-16"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-auto-repair/?n=Master%20Tech%20Leon&c=",
+      "url_slug": "ct-auto-repair",
+      "query_name": "Master Tech Leon",
+      "query_city": "",
+      "registry_name": "Master Tech Leon Corporation",
+      "display_name": "Master Tech Leon",
+      "city_source": "",
+      "display_city": "",
+      "state": "CT",
+      "naics": "General Automotive Repair (811111)",
+      "naics_code": "811111",
+      "niche": "auto repair",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "missing_city"
+      ],
+      "static_path": "ct-auto-repair/pages/master-tech-leon/index.html",
+      "filing_date": "2026-10-15"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-electrical/?n=Blue%20Stone%20Ridge%20Industries&c=",
+      "url_slug": "ct-electrical",
+      "query_name": "Blue Stone Ridge Industries",
+      "query_city": "",
+      "registry_name": "Blue Stone Ridge Industries, Inc.",
+      "display_name": "Blue Stone Ridge Industries",
+      "city_source": "",
+      "display_city": "",
+      "state": "CT",
+      "naics": "Electrical Contractors and Other Wiring Installation Contractors (238210)",
+      "naics_code": "238210",
+      "niche": "electrical",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "missing_city"
+      ],
+      "static_path": "ct-electrical/pages/blue-stone-ridge-industries/index.html",
+      "filing_date": "2026-10-01"
+    }
+  ],
+  "city_filed_all_lowercase": [
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-janitorial-cleaning/?n=Antonia%20Perez&c=Nagatuck",
+      "url_slug": "ct-janitorial-cleaning",
+      "query_name": "Antonia Perez",
+      "query_city": "Nagatuck",
+      "registry_name": "ANTONIA PEREZ LLC",
+      "display_name": "Antonia Perez",
+      "city_source": "nagatuck",
+      "display_city": "Nagatuck",
+      "state": "CT",
+      "naics": "Janitorial Services (561720)",
+      "naics_code": "561720",
+      "niche": "janitorial / cleaning",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "city_source_all_lowercase"
+      ],
+      "static_path": "ct-janitorial-cleaning/pages/antonia-perez-nagatuck/index.html",
+      "filing_date": "2026-10-21"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-carpentry/?n=Wd.dk&c=Tolland",
+      "url_slug": "ct-carpentry",
+      "query_name": "Wd.dk",
+      "query_city": "Tolland",
+      "registry_name": "WD.DK LLC",
+      "display_name": "WD.DK",
+      "city_source": "tolland",
+      "display_city": "Tolland",
+      "state": "CT",
+      "naics": "Finish Carpentry Contractors (238350)",
+      "naics_code": "238350",
+      "niche": "carpentry",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "preserved_initialism:WD.DK",
+        "city_source_all_lowercase"
+      ],
+      "static_path": "ct-carpentry/pages/wd-dk-tolland/index.html",
+      "filing_date": "2026-10-21"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=C%20N%20R%20Home%20Improvement&c=Deep%20River",
+      "url_slug": "ct-remodeling",
+      "query_name": "C N R Home Improvement",
+      "query_city": "Deep River",
+      "registry_name": "C N R Home Improvement LLC",
+      "display_name": "C N R Home Improvement",
+      "city_source": "deep river",
+      "display_city": "Deep River",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "city_source_all_lowercase"
+      ],
+      "static_path": "ct-remodeling/pages/c-n-r-home-improvement-deep-river/index.html",
+      "filing_date": "2026-10-19"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-remodeling/?n=Japm%20Services&c=Mystic",
+      "url_slug": "ct-remodeling",
+      "query_name": "Japm Services",
+      "query_city": "Mystic",
+      "registry_name": "japm services llc",
+      "display_name": "japm services",
+      "city_source": "mystic",
+      "display_city": "Mystic",
+      "state": "CT",
+      "naics": "Residential Remodelers (236118)",
+      "naics_code": "236118",
+      "niche": "remodeling",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "ambiguous_all_lowercase",
+        "city_source_all_lowercase"
+      ],
+      "static_path": "ct-remodeling/pages/japm-services-mystic/index.html",
+      "filing_date": "2026-10-08"
+    },
+    {
+      "legacy_url": "https://gotmadterat17.github.io/vincle-demos/ct-auto-repair/?n=Hmotorflow&c=Danbury",
+      "url_slug": "ct-auto-repair",
+      "query_name": "Hmotorflow",
+      "query_city": "Danbury",
+      "registry_name": "Hmotorflow LLC",
+      "display_name": "Hmotorflow",
+      "city_source": "danbury",
+      "display_city": "Danbury",
+      "state": "CT",
+      "naics": "General Automotive Repair (811111)",
+      "naics_code": "811111",
+      "niche": "auto repair",
+      "trade_status": "verified",
+      "name_trades": [],
+      "flags": [
+        "city_source_all_lowercase"
+      ],
+      "static_path": "ct-auto-repair/pages/hmotorflow-danbury/index.html",
+      "filing_date": "2026-10-02"
+    }
+  ]
+}
