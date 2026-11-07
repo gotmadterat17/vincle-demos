@@ -60,6 +60,18 @@ The six mp4s together are about 5.9 MB. No new pictures.
 
 Slow tours, 478 frames at 8 fps, 59.75s each. Desktop file 2.4 MB. Mobile file 1.1 MB. Both start on the hero and end at max scroll with the footer in view. Desktop end scroll 9288/9288, footer top 727 in a 900px viewport. Mobile end scroll 8921/8921, footer top 649 in an 844px viewport. A desktop frame during the sequence shows the nebula plate with the microphone plate fading in over it. Phone load: 14 of 14 videos expose controls. Desktop load: 0 of 14 expose controls, so wide screens can play in view and phones cannot autoplay. The hero canvas was hidden only after it had left the viewport, so later frames could be captured; the opening frame is the real faceted hero.
 
+## 2026-11-07 t707 — video pass rejected
+
+Owner wording, relayed as exact: “الصيغة نفسها خلها صور متتابعة مو مقاطع حرفيا واخير استفيد من كل نواقع الاسيتس و anime.js”. Also relayed: the plates being videos does not make sense. This supersedes the forward/reverse video pass. Same format stays. Literal clips are not the story. Realtime 3D is not required. The hero WebGL stays.
+
+Inventory read. Nothing downloaded. Not used: 3dicons Bulb (CC0 item, not a sequence), Megaphone (license pending), Lummi (license unverified), Oversight Cyanotype (account-gated), SceneAI (premium reference). No cinematic sequence pack was verified, so none was invented.
+
+Used: `media/stills/` and `media/posters/` already in the site (owner/build). Anime.js package tag 3.2.2 from jsDelivr, MIT, Julian Garnier. The file’s own `anime.version` string is `3.2.1`. It crossfades the ordered stills and rewrites the live label when the scroll step changes, and it reveals phone stills on entry. Six stills: nebula, mic, interview, edit, city, banner. Wide screens set the large `src` only when that frame is reached. Phones use the smaller posters and do not show the sticky stage. No `<video>` remains in the page. The enlarged boomerang files were restored to the previous clips and are not the story.
+
+Runtime check, not a score: at 1440 the scroll step changed the visible still from nebula.jpg to mic.jpg, interview.jpg, edit.jpg, city.jpg, then banner.jpg alone at the bottom, with labels 01 through 06. `anime.version` read `3.2.1` from the 3.2.2 file. Zero video elements. Zero failed responses in that pass. Overflow 0 at 360, 390, and 430. Reduced motion set `story-static`, hid the sticky stage, and showed the phone posters. Collaboration button stayed `rgb(107, 47, 140)`. Hero logo stayed `logo-hero-ondark.png`.
+
+Tours: 562 frames at 8 fps, 70.3s. Desktop ended at scroll 7981/7981 with the footer top at 727 in a 900px viewport. Mobile ended at 7736/7736 with the footer top at 649 in an 844px viewport. Both recordings contain zero video elements. Opening frame is the faceted hero.
+
 ## Remaining gaps
 
 - card-city.mp4 still shows a small first/last difference (2.27), much smaller than 21.61, not zero.

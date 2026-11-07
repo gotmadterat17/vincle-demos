@@ -2,80 +2,148 @@
   const root = document.documentElement;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const save = navigator.connection && navigator.connection.saveData;
-  const chapters = document.querySelectorAll('[data-chapter]');
-  const beats = document.querySelectorAll('[data-beat]');
-  const scenes = document.querySelectorAll('[data-scene]');
-  const workBeats = document.querySelectorAll('.story-beat');
+  const wideQuery = matchMedia('(min-width:961px)');
+  const frames = [...document.querySelectorAll('.seq-frame')];
+  const steps = [...document.querySelectorAll('.seq-step')];
+  const label = document.getElementById('seqLabel');
+  const engine = typeof window.anime === 'function' ? window.anime : null;
+  let active = -1;
+  let wide = wideQuery.matches;
 
-  if (reduce || save) {
+  function visibleLabel(step) {
+    const node = step.querySelector('.seq-label');
+    if (!node) return '';
+    const copy = node.cloneNode(true);
+    const english = root.lang === 'en';
+    copy.querySelectorAll(english ? '.ar-only' : '.en-only').forEach((el) => el.remove());
+    return copy.textContent.replace(/\s+/g, ' ').trim();
+  }
+
+  function staticMode() {
     root.classList.add('story-static');
-    for (let i = 0; i < beats.length; i++) beats[i].classList.add('is-in');
+    frames.forEach((img) => {
+      img.style.opacity = '1';
+      img.style.transform = 'none';
+    });
+  }
+
+  if (reduce || save || !engine || !frames.length) {
+    staticMode();
     return;
   }
 
   root.classList.add('story-motion');
+  document.documentElement.dataset.anime = engine.version || 'loaded';
+
+  function loadFrame(img) {
+    if (img.getAttribute('src')) return;
+    const full = img.getAttribute('data-src');
+    if (full) img.src = full;
+  }
+
+  if (wide) frames.forEach(loadFrame);
+
+  function go(index) {
+    if (index === active || index < 0 || index >= frames.length) return;
+    const prev = active >= 0 ? frames[active] : null;
+    active = index;
+    const next = frames[index];
+    loadFrame(next);
+    engine.remove(frames);
+    if (prev) {
+      engine({
+        targets: prev,
+        opacity: 0,
+        scale: 1.045,
+        duration: 480,
+        easing: 'easeInOutCubic'
+      });
+    }
+    engine({
+      targets: next,
+      opacity: [0, 1],
+      scale: [1.06, 1],
+      duration: 700,
+      easing: 'easeOutCubic'
+    });
+    steps.forEach((step, i) => step.classList.toggle('is-current', i === index));
+    if (label && steps[index]) {
+      engine.remove(label);
+      engine({
+        targets: label,
+        opacity: [1, 0],
+        translateY: [0, -8],
+        duration: 160,
+        easing: 'easeInQuad',
+        complete() {
+          if (index !== active) return;
+          label.textContent = visibleLabel(steps[index]);
+          engine({
+            targets: label,
+            opacity: [0, 1],
+            translateY: [12, 0],
+            duration: 420,
+            easing: 'easeOutCubic'
+          });
+        }
+      });
+    }
+  }
+
+  const phoneNodes = [...document.querySelectorAll('.seq-phone, .still-reveal')];
   const io = new IntersectionObserver((entries) => {
-    for (let i = 0; i < entries.length; i++) {
-      if (!entries[i].isIntersecting) continue;
-      entries[i].target.classList.add('is-in');
-      io.unobserve(entries[i].target);
-    }
-  }, { threshold: 0.18, rootMargin: '0px 0px -6% 0px' });
-  for (let i = 0; i < beats.length; i++) io.observe(beats[i]);
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      engine({
+        targets: entry.target,
+        opacity: [0, 1],
+        translateY: [16, 0],
+        duration: 640,
+        easing: 'easeOutCubic'
+      });
+      io.unobserve(entry.target);
+    });
+  }, { threshold: 0.2 });
+  if (!wide) phoneNodes.forEach((node) => io.observe(node));
 
-  const wideQuery = matchMedia('(min-width:961px)');
-  let wide = wideQuery.matches;
-  wideQuery.addEventListener('change', (event) => { wide = event.matches; });
-
-  let ticking = false;
-  function frame() {
-    ticking = false;
-    const vh = window.innerHeight;
-    const mid = vh * 0.46;
-    const start = vh * 0.92;
-    const end = vh * 0.2;
-    const span = start - end;
-    for (let i = 0; i < chapters.length; i++) {
-      const el = chapters[i];
-      const rect = el.getBoundingClientRect();
-      const total = rect.height + vh;
-      const p = total > 0 ? Math.min(1, Math.max(0, (vh - rect.top) / total)) : 0;
-      el.style.setProperty('--p', p.toFixed(3));
-    }
-    for (let i = 0; i < scenes.length; i++) {
-      const el = scenes[i];
-      const rect = el.getBoundingClientRect();
-      let reveal = span > 0 ? (start - rect.top) / span : 1;
-      if (reveal < 0) reveal = 0;
-      else if (reveal > 1) reveal = 1;
-      el.style.setProperty('--reveal', reveal.toFixed(3));
-      const cover = wide && el.classList.contains('cut-plate') && i > 0 ? reveal : 1;
-      el.style.setProperty('--cover', cover.toFixed(3));
-    }
-    let best = null;
+  function nearest() {
+    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    if (window.scrollY >= maxScroll - 8) return steps.length - 1;
+    const mid = window.innerHeight * 0.42;
+    let best = 0;
     let bestDistance = Infinity;
-    for (let i = 0; i < workBeats.length; i++) {
-      const rect = workBeats[i].getBoundingClientRect();
-      const distance = Math.abs(rect.top + rect.height * 0.5 - mid);
+    for (let i = 0; i < steps.length; i++) {
+      const rect = steps[i].getBoundingClientRect();
+      const distance = Math.abs(rect.top + Math.min(rect.height * 0.28, 160) - mid);
       if (distance < bestDistance) {
         bestDistance = distance;
-        best = workBeats[i];
+        best = i;
       }
     }
-    const mark = best && bestDistance < vh * 0.55;
-    for (let i = 0; i < workBeats.length; i++) {
-      const on = mark && workBeats[i] === best;
-      if (workBeats[i].classList.contains('is-current') !== on) {
-        workBeats[i].classList.toggle('is-current', on);
-      }
-    }
+    return best;
   }
-  function requestFrame() {
+
+  let ticking = false;
+  function onFrame() {
+    ticking = false;
+    wide = wideQuery.matches;
+    if (!wide) return;
+    go(nearest());
+  }
+  function request() {
     if (ticking) return;
     ticking = true;
-    requestAnimationFrame(frame);
+    requestAnimationFrame(onFrame);
   }
-  addEventListener('scroll', requestFrame, { passive: true });
-  addEventListener('resize', requestFrame, { passive: true });
-  requestFrame();
+  document.getElementById('langToggle')?.addEventListener('click', () => {
+    requestAnimationFrame(() => {
+      if (label && steps[active]) label.textContent = visibleLabel(steps[active]);
+    });
+  });
+  addEventListener('scroll', request, { passive: true });
+  addEventListener('resize', request, { passive: true });
+  if (wide) {
+    frames.forEach((img, i) => { img.style.opacity = i === 0 ? '1' : '0'; });
+    request();
+  }
 })();
