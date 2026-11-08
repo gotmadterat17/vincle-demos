@@ -13,18 +13,18 @@
     ar: [
       ['01 · المصدر', 'الجملة كاملة كما في «من نحن»، بلا شطب.'],
       ['02 · التعديل', 'الشطب على ما بعد الفاصلة المنقوطة فقط. «لخلق المحتوى» لم يُشطب.'],
-      ['03 · ٠:٠٠', 'افتتاح المعالجة: نحن نجمع الحروف المتفرقة.'],
-      ['04 · ٠:٠٢', 'الصورة تتبدل عند «خارج النص» حتّى نطوّعها.'],
-      ['05 · ٠:٠٤', 'الإغلاق على لخلق المحتوى. الذيل لا يعود.'],
-      ['06 · المعالجة', 'ثلاث لقطات بزمن. الذيل مشطوب تحتها ولم يُعد.']
+      ['03 · ٠:٠٠', 'الفعل وحده في اللقطة. الاسم ظاهر بانتظار الدور، ولم يُحذف.'],
+      ['04 · ٠:٠٢', 'القطع عند الاسم، لأن الجملة تدور عنده.'],
+      ['05 · ٠:٠٤', 'الإغلاق على آخر ما لم يُشطب. الذيل يبقى خارج اللقطة.'],
+      ['06 · المعالجة', 'ثلاث لقطات بالترتيب. الذيل المشطوب لم يُعد.']
     ],
     en: [
       ['01 · Source', 'The full “Who we are” line, with nothing struck.'],
       ['02 · Edit', 'The strike covers only the clause after the semicolon. “To make content” is not struck.'],
-      ['03 · 0:00', 'The treatment opens: we gather the scattered letters.'],
-      ['04 · 0:02', 'The picture changes on “off the script” until we shape them.'],
-      ['05 · 0:04', 'The close is “to make content”. The tail does not return.'],
-      ['06 · Treatment', 'Three timed frames. The tail stays struck underneath and is not restored.']
+      ['03 · 0:00', 'The frame holds only the action. The name is waiting, not deleted.'],
+      ['04 · 0:02', 'The cut is at the name, because that is where the sentence turns.'],
+      ['05 · 0:04', 'The close is the last unstruck words. The tail stays outside the frame.'],
+      ['06 · Treatment', 'The three frames in order. The struck tail is not restored.']
     ]
   };
 

@@ -204,3 +204,21 @@ Chrome on this tree: zero console errors, overflow 0 at 1440 and 390, one displa
 
 No public URL. The live site was not published. An independent critic has not retested this build.
 
+## 2026-11-08 run 12 — the phone frames have to show the cut
+
+Run 11 was not ready. On a phone the treatment was a shrink of the desktop board. At 360, 390, and 430 the first shot was chair fragments and the last was a thin screen crop. The time, the reason, and the disclosure did not stay readable. Chairs, a microphone, and edit screens did not show why the cut happens. Work repeated those pictures.
+
+Frames 01 and 02 are the same stills as run 11. The source is the “who we are” sentence on this page. The only strike is «؛ الذي يُعيد شغفنا، وحبّنا للإبداع.» «نحن», «خارج النص», and «لخلق المحتوى» are not struck. The kept words split as «نحن نجمع الحروف المتفرقة» / «خارج النص» حتّى نطوّعها / «لخلق المحتوى», and those three pieces join back into the kept sentence.
+
+Frames 03–06 are a storyboard of that edit, not the studio stills. At 0:00 the frame holds only the action, and the name waits outside it, not deleted. At 0:02 a cut line is drawn because the sentence turns on the name. At 0:04 the frame holds only «لخلق المحتوى», and the struck tail stays outside. The last frame stacks the three decisions and does not restore the tail. Each frame says تصور توضيحي، ليس حلقة عميل. The times are treatment marks, not a measured export.
+
+Phone files are their own 3:4 layouts. They were read on the stage, not from a magnified crop: 328×437 at 360, 358×477 at 390, 398×531 at 430. The subject, the time, the reason, and the disclosure are on those stages. The desktop board is three cards.
+
+Work keeps the public facts already on the site — Mikhyal, the Sawiris episode, Expo Riyadh 2030 content work — beside studio references. Those pictures are not in the treatment. About keeps the interview still and the source sentence. No service, testimonial, or client was added. There is no filmed short cut to put in their place.
+
+Hero files were not edited. After `is-ready` the collaboration button computed to rgb(107, 47, 140) and the nav contact to rgb(16, 136, 208). The settled frame shows the light wordmark, the violet button, the blue nav contact, and the magenta / blue / teal spectrum, set next to `logo-desktop-1440-ar.png`. The canvas is still moving, so the frame is not a pixel copy.
+
+Chrome on this tree: zero console errors, overflow 0 at 1440, 360, 390, and 430, one displayed frame at rest (opacity 1, scale 1), Anime.js 3.2.1, zero video elements. Reduced motion adds `story-static`, hides the track, and shows the six stills. Language toggle goes ar/rtl to en/ltr and back. An empty form shows «يرجى تعبئة الحقول المطلوبة ببريد صالح.» Desktop tour: 1625 frames at 25 fps, ends at scroll 7988/7988 with the footer in a 900px viewport. Phone tour: 1253 frames at 25 fps, ends at scroll 7955/7955 with the footer in an 844px viewport. Smoothness is not claimed from the recordings.
+
+No public URL. The live site was not published. An independent critic has not retested this build.
+
