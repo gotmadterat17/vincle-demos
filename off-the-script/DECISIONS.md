@@ -145,3 +145,20 @@ Measured in Chrome, not a score:
 Tours are 496 frames at 8 fps, 62.0 seconds. Desktop ends at scroll 6756/6756 with the footer in a 900px viewport. Mobile ends at 8051/8051 with the footer in an 844px viewport. Both files contain zero video elements. They are browse recordings, not a claim that an independent reviewer has watched them.
 
 Hero files were not edited. This is not publication.
+
+## 2026-11-08 — image sequence, designlang, coverage register
+
+The word-only sequence was rejected: it replaced pictures with type, the stage was sparse, and it ended on the studio line. This pass puts eight original stills of one desk under the locked hero. The objects change: loose slips, one page, a metal frame, a microphone, a timeline, a kept bar with scraps, a finished card, an open envelope. The last two are what a visitor receives and how they start. The studio mark is not the ending.
+
+Anime.js sets opacity and scale. Only one frame is visible. At the middle of a step the next still is already the only picture, so two rooms are not ghosted together. Phones keep the picture and the caption together. Reduced motion shows the eight stills in order.
+
+Coverage register read (`COVERAGE.md`, `IMPLEMENTATION-REFERENCES.md`). It is a text recovery, not a visual tour of those sites. Qamaria source and full-page PNGs are not in this VM. designlang was not run on Qamaria because there is no public URL. designlang 13.4.0 MIT was run on this review build. Details and the slop/verify numbers are in `evidence/designlang-2026-11-08/MEASURED.md`. The violet tell and the radius warnings were not used to change the locked CTA or the spectrum. Sky nav and the X button stay blue.
+
+Browser gate on the eight stills: one visible frame at 0/25/50/75/100 of each step, overflow 0, stage not wider than the viewport, caption not under the header, at 360, 390, 430, 768, and 1440. English toggle set `lang=en`, `dir=ltr`, overflow 0. Reduced motion hid the track and showed 8 images. Zero video elements. Zero console errors in that pass.
+
+Tours are 496 frames at 8 fps, 62.0 seconds. Desktop ends at scroll 7926/7926 with the footer in a 900px viewport. Mobile ends at 9181/9181 with the footer in an 844px viewport. They are browse recordings, not page videos, and not an independent review.
+
+No public review URL was created. Publishing to GitHub Pages would replace the live site, which was not approved. The pull request is the review branch.
+
+No team, testimonials, or client results were added. Stageshow’s React kit was not installed. This is not an independent acceptance and not a publication.
+

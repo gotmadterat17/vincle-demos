@@ -1,0 +1,389 @@
+{
+  "$description": "Motion tokens extracted by designlang",
+  "duration": {
+    "xs": {
+      "$value": "100ms",
+      "$type": "duration",
+      "ms": 100
+    },
+    "sm": {
+      "$value": "200ms",
+      "$type": "duration",
+      "ms": 200
+    },
+    "md": {
+      "$value": "300ms",
+      "$type": "duration",
+      "ms": 300
+    },
+    "lg": {
+      "$value": "500ms",
+      "$type": "duration",
+      "ms": 500
+    },
+    "xl": {
+      "$value": "1.2s",
+      "$type": "duration",
+      "ms": 1200,
+      "$extensions": {
+        "designlang.observed": true
+      }
+    },
+    "xxl": {
+      "$value": "76s",
+      "$type": "duration",
+      "ms": 76000,
+      "$extensions": {
+        "designlang.observed": true
+      }
+    }
+  },
+  "easing": {
+    "ease-out-4": {
+      "$value": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "$type": "cubicBezier",
+      "family": "ease-out"
+    },
+    "ease-out-152": {
+      "$value": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "$type": "cubicBezier",
+      "family": "ease-out"
+    }
+  },
+  "spring": {},
+  "$meta": {
+    "feel": "responsive",
+    "scrollLinked": true,
+    "runtime": {
+      "triggers": [
+        "load",
+        "scroll"
+      ],
+      "observed": 54
+    }
+  },
+  "choreography": {
+    "stagger-1": {
+      "$type": "designlang.choreography",
+      "trigger": "load",
+      "staggerMs": 300,
+      "count": 3,
+      "durationMs": 2000,
+      "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "properties": [
+        "opacity"
+      ],
+      "selectorPattern": [
+        "section#top > div:nth-of-type(*) > div:nth-of-type(*) > p:nth-of-type(*)",
+        "section#top > div:nth-of-type(*) > div:nth-of-type(*) > div:nth-of-type(*)"
+      ]
+    },
+    "stagger-2": {
+      "$type": "designlang.choreography",
+      "trigger": "load",
+      "staggerMs": 300,
+      "count": 3,
+      "durationMs": 2000,
+      "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "properties": [
+        "transform"
+      ],
+      "selectorPattern": [
+        "section#top > div:nth-of-type(*) > div:nth-of-type(*) > p:nth-of-type(*)",
+        "section#top > div:nth-of-type(*) > div:nth-of-type(*) > div:nth-of-type(*)"
+      ]
+    },
+    "stagger-3": {
+      "$type": "designlang.choreography",
+      "trigger": "load",
+      "staggerMs": 400,
+      "count": 3,
+      "durationMs": 3600,
+      "easing": "linear",
+      "properties": [
+        "filter"
+      ],
+      "selectorPattern": "div:nth-of-type(*) > div:nth-of-type(*) > div > i"
+    },
+    "stagger-4": {
+      "$type": "designlang.choreography",
+      "trigger": "scroll",
+      "staggerMs": 400,
+      "count": 3,
+      "durationMs": 3600,
+      "easing": "linear",
+      "properties": [
+        "filter"
+      ],
+      "selectorPattern": "div:nth-of-type(*) > div:nth-of-type(*) > div > i"
+    }
+  },
+  "scroll": {
+    "reveal-1": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 2000,
+      "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "selector": "section#top > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1)"
+    },
+    "parallax-2": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "parallax",
+      "properties": [
+        "transform"
+      ],
+      "durationMs": 2000,
+      "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "selector": "section#top > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1)"
+    },
+    "reveal-3": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity"
+      ],
+      "durationMs": 2000,
+      "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "selector": "section#top > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2)"
+    },
+    "parallax-4": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "parallax",
+      "properties": [
+        "transform"
+      ],
+      "durationMs": 2000,
+      "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      "selector": "section#top > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2)"
+    },
+    "reveal-5": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 58000,
+      "easing": "linear",
+      "selector": "html > body > div:nth-of-type(3) > div:nth-of-type(1)"
+    },
+    "reveal-6": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 66000,
+      "easing": "linear",
+      "selector": "html > body > div:nth-of-type(3) > div:nth-of-type(2)"
+    },
+    "reveal-7": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 62000,
+      "easing": "linear",
+      "selector": "html > body > div:nth-of-type(3) > div:nth-of-type(3)"
+    },
+    "reveal-8": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 72000,
+      "easing": "linear",
+      "selector": "html > body > div:nth-of-type(3) > div:nth-of-type(4)"
+    },
+    "reveal-9": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 76000,
+      "easing": "linear",
+      "selector": "html > body > div:nth-of-type(3) > div:nth-of-type(5)"
+    },
+    "parallax-10": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "parallax",
+      "properties": [
+        "transform"
+      ],
+      "durationMs": 8000,
+      "easing": "linear",
+      "selector": "div#heroFallback > div > img"
+    },
+    "reveal-11": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "top"
+      ],
+      "durationMs": 9000,
+      "easing": "linear",
+      "selector": "section#top > div:nth-of-type(3) > div:nth-of-type(3)"
+    },
+    "reveal-12": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter"
+      ],
+      "durationMs": 3600,
+      "easing": "linear",
+      "selector": "div:nth-of-type(4) > div:nth-of-type(1) > div > i"
+    },
+    "reveal-13": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter"
+      ],
+      "durationMs": 3600,
+      "easing": "linear",
+      "selector": "div:nth-of-type(4) > div:nth-of-type(2) > div > i"
+    },
+    "reveal-14": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter"
+      ],
+      "durationMs": 3600,
+      "easing": "linear",
+      "selector": "div:nth-of-type(4) > div:nth-of-type(3) > div > i"
+    },
+    "parallax-15": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "parallax",
+      "properties": [
+        "transform"
+      ],
+      "durationMs": 2800,
+      "easing": "linear",
+      "selector": "div:nth-of-type(3) > div:nth-of-type(11) > div > i"
+    },
+    "reveal-16": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 48000,
+      "easing": "linear",
+      "selector": "div#heroHit > div"
+    },
+    "parallax-17": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "parallax",
+      "properties": [
+        "transform"
+      ],
+      "durationMs": 8000,
+      "easing": "linear",
+      "selector": "div#heroHit > div > img"
+    },
+    "reveal-18": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 2400,
+      "easing": "linear",
+      "selector": "div#orbitHint"
+    },
+    "reveal-19": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 64000,
+      "easing": "linear",
+      "selector": "main#main > div:nth-of-type(1)"
+    },
+    "reveal-20": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 64000,
+      "easing": "linear",
+      "selector": "main#main > div:nth-of-type(2)"
+    },
+    "reveal-21": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 64000,
+      "easing": "linear",
+      "selector": "main#main > div:nth-of-type(3)"
+    },
+    "reveal-22": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 64000,
+      "easing": "linear",
+      "selector": "main#main > div:nth-of-type(4)"
+    },
+    "reveal-23": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 64000,
+      "easing": "linear",
+      "selector": "main#main > div:nth-of-type(5)"
+    },
+    "reveal-24": {
+      "$type": "designlang.scrollRecipe",
+      "kind": "reveal",
+      "properties": [
+        "filter",
+        "opacity",
+        "transform"
+      ],
+      "durationMs": 64000,
+      "easing": "linear",
+      "selector": "main#main > div:nth-of-type(6)"
+    }
+  }
+}
