@@ -7,27 +7,24 @@
   const kicker = document.getElementById('seqKicker');
   const body = document.getElementById('seqBody');
   const shots = [...document.querySelectorAll('#seqStage .seq-shot')];
+  const count = new Set(shots.map((img) => img.dataset.i)).size;
   const engine = typeof window.anime === 'function' ? window.anime : null;
   const copy = {
     ar: [
-      ['01 · فكرة', 'أوراق متفرقة على الطاولة. القرار: ماذا نجمع.'],
-      ['02 · سكربت', 'صارت صفحة واحدة. النبرة قبل أي صورة.'],
-      ['03 · إطار', 'إطار حول الصفحة نفسها. ما يدخل الكادر.'],
-      ['04 · صوت', 'الميكروفون يدخل على الصفحة نفسها.'],
-      ['05 · مونتاج', 'الصفحة بجانب الشريط. البناء يبدأ.'],
-      ['06 · القطع', 'شريط يبقى، والقصاصات تخرج.'],
-      ['07 · ما يصلك', 'بطاقة جاهزة. هذا شكل المخرج، لا شعارنا.'],
-      ['08 · البداية', 'الظرف مفتوح. اكتب موجزك وأرسله.']
+      ['01 · أوراق', 'الكلمات متفرقة على ست ورقات، ومنها «خارج النص».'],
+      ['02 · مسودة', 'نفس الكلمات في ثلاثة أسطر.'],
+      ['03 · إطار', 'المسودة نفسها داخل الإطار.'],
+      ['04 · صوت', 'الصفحة لم تغادر، والميكروفون جاء إليها.'],
+      ['05 · شطب', 'شُطب السطران الزائدان. بقي «خارج النص».'],
+      ['06 · البطاقة', 'البطاقة تحمل السطر الذي بقي، وبجانبها المسودة المشطوبة.']
     ],
     en: [
-      ['01 · Idea', 'Loose slips on the desk. The decision: what to gather.'],
-      ['02 · Script', 'One page. Tone before any picture.'],
-      ['03 · Frame', 'A frame around the same page. What enters the shot.'],
-      ['04 · Voice', 'The microphone arrives at the same page.'],
-      ['05 · Edit', 'The page sits beside the timeline.'],
-      ['06 · Cut', 'One bar stays. The scraps leave.'],
-      ['07 · What you receive', 'A finished card. That is the piece, not our mark.'],
-      ['08 · Begin', 'The envelope is open. Write your brief and send it.']
+      ['01 · Slips', 'The words are apart, including “off the script”.'],
+      ['02 · Draft', 'The same words, in three lines.'],
+      ['03 · Frame', 'The same draft, inside the frame.'],
+      ['04 · Voice', 'The page stays. The microphone comes to it.'],
+      ['05 · Cut', 'The extra lines are struck. “Off the script” stays.'],
+      ['06 · The card', 'The card carries the line that stayed, beside the marked draft.']
     ]
   };
 
@@ -58,16 +55,16 @@
     const stuck = 64;
     const span = Math.max(1, rect.height - sticky.getBoundingClientRect().height);
     const p = Math.min(1, Math.max(0, (stuck - rect.top) / span));
-    const segCount = shots.length - 1;
+    const segCount = count - 1;
     const x = Math.min(0.9999, p) * segCount;
     const seg = Math.min(segCount - 1, Math.floor(x));
     const local = x - seg;
-    const show = p > 0.998 ? shots.length - 1 : (local < 0.45 ? seg : seg + 1);
-    shots.forEach((img, i) => {
+    const show = p > 0.998 ? count - 1 : (local < 0.45 ? seg : seg + 1);
+    shots.forEach((img) => {
+      const i = Number(img.dataset.i);
       if (Math.abs(i - show) <= 1) load(img);
       const on = i === show;
-      const drift = on ? 1.04 - Math.min(local, 1 - local) * 0.06 : 1;
-      engine.set(img, { opacity: on ? 1 : 0, scale: drift });
+      engine.set(img, { opacity: on ? 1 : 0, scale: 1 });
     });
     const line = copy[lang][show];
     if (kicker.textContent !== line[0]) kicker.textContent = line[0];

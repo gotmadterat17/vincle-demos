@@ -162,3 +162,13 @@ No public review URL was created. Publishing to GitHub Pages would replace the l
 
 No team, testimonials, or client results were added. Stageshow’s React kit was not installed. This is not an independent acceptance and not a publication.
 
+## 2026-11-08 run 9 — the same words have to survive
+
+The independent review of the eight tool-swap stills was not ready. A frame, a microphone, and a blank card replaced one another. The phone crop cut the pencil and left empty sky.
+
+Qamaria v6 full-page screenshots were inspected as pictures: a wide farm hero, three close journey cards, a short menu, a person among plants, a four-image gallery, quote cards, then visit and contact. Those files are references, not a live URL, so designlang was not run on them. The person, the quotes, and the coffee were not copied. There is no real Off Script portrait or testimonial to put in their place.
+
+The sequence is now six stills of one sample. The words نكتب / ما / يبقى / خارج / النص / نطوّعها start on separate slips, meet as three lines, stay inside the frame, stay on the page when the microphone arrives, then the first and third lines are struck and «خارج النص» remains. The last still is that kept line on a card, with the struck draft beside it. Phone files are separate reframes. The sticky stage on a phone is 3:4, matching those files, and the scroll scale that was cropping the edges was removed.
+
+Chrome check after that change: zero console errors, overflow 0, one displayed frame, phone files on 360/390/430 and desk files at 1440, caption below the header, at 0 and 0.5 of each step and at the end. Tours are 62.0 seconds, 496 frames at 8 fps. Desktop ends at scroll 7926/7926. Mobile ends at 8799/8799. Both show the footer. Zero video elements in those passes. This is still an illustration, not a client piece, and not a ready claim.
+
