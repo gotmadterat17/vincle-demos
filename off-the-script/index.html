@@ -20,6 +20,7 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="mobile.css">
+<link rel="stylesheet" href="story.css">
 <script type="importmap">
 {
   "imports": {
@@ -54,6 +55,7 @@
   </a>
   <nav class="nav-links" aria-label="رئيسي">
     <a href="#about"><span class="ar-only">من نحن</span><span class="en-only">About</span></a>
+    <a href="#gallery"><span class="ar-only">المثال</span><span class="en-only">Example</span></a>
     <a href="#work"><span class="ar-only">أعمال</span><span class="en-only">Work</span></a>
     <a href="#offer"><span class="ar-only">ماذا نقدم</span><span class="en-only">Offer</span></a>
     <a href="#method"><span class="ar-only">المنهج</span><span class="en-only">Method</span></a>
@@ -71,12 +73,12 @@
   <a href="#work"><span class="ar-only">أعمال</span><span class="en-only">Work</span></a>
   <a href="#offer"><span class="ar-only">ماذا نقدم</span><span class="en-only">Offer</span></a>
   <a href="#method"><span class="ar-only">المنهج</span><span class="en-only">Method</span></a>
-  <a href="#gallery"><span class="ar-only">معرض</span><span class="en-only">Gallery</span></a>
+  <a href="#gallery"><span class="ar-only">المثال</span><span class="en-only">Example</span></a>
   <a href="#contact" class="nav-cta"><span class="ar-only">تواصل</span><span class="en-only">Contact</span></a>
 </nav>
 
 <main id="main">
-<section class="hero" id="top" data-hero>
+<section class="hero" id="top" data-hero data-chapter="mark">
   <div class="hero-stage" id="heroStage" aria-hidden="true"></div>
   <div class="hero-fallback" id="heroFallback" aria-hidden="true">
     <div class="emblem-fallback-wrap">
@@ -152,11 +154,12 @@
 </section>
 
 <div class="fog-band" aria-hidden="true"></div>
-<section class="band band--atm band--about" id="about">
+<section class="band band--atm band--about" id="about" data-story data-chapter="pov">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap grid-phi">
-    <div>
+    <div data-beat class="story-copy">
+      <p class="story-kicker">02</p>
       <p class="meta">ABOUT</p>
       <h2 class="ar-only">من نحن.</h2>
       <h2 class="en-only">Who we are.</h2>
@@ -167,142 +170,184 @@
         <span class="chip glass glass--pill"><span class="ar-only">هوية سعودية</span><span class="en-only">Saudi identity</span></span>
       </div>
     </div>
-    <div class="vid-frame vid-frame--43">
-      <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-interview.mp4" poster="media/posters/card-interview.jpg"></video>
-      <span class="vid-cap glass glass--pill"><span class="ar-only">استوديو الحوار</span><span class="en-only">Interview set</span></span>
+    <img class="about-still still-reveal" src="media/posters/card-interview.jpg" srcset="media/posters/card-interview.jpg 800w, media/stills/interview.jpg 1400w" sizes="(max-width:960px) 100vw, 46vw" alt="" width="1400" height="1050" decoding="async">
+  </div>
+</section>
+
+<div class="fog-band fog-band--soft" aria-hidden="true"></div>
+<section class="band band--atm band--stance" id="gallery" data-story data-chapter="sequence">
+  <div class="band-glow" aria-hidden="true"></div>
+  <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
+  <div class="wrap cut-intro">
+    <p class="story-kicker">03</p>
+    <p class="meta">SEQUENCE</p>
+    <h2 class="ar-only">معالجة مقطع من جملة الاستوديو.</h2>
+    <h2 class="en-only">A short-cut treatment of the studio’s own line.</h2>
+    <p class="lede ar-only">تصور توضيحي لمسار «مقاطع قصيرة»، ليس حلقة عميل. المصدر جملة «من نحن» في هذه الصفحة. يُشطب ما بعد الفاصلة المنقوطة فقط. الجملة الباقية تُقسَّم على ثلاث لقطات من المعالجة: الفعل أولاً، ثم قطع عند الاسم، ثم آخر ما لم يُشطب.</p>
+    <p class="lede en-only">An illustration of the short-cut track, not a client episode. The source is the “Who we are” line on this page. Only the clause after the semicolon is struck. The words that remain are split across three treatment frames: the action first, a cut at the name, then the last words that were not struck.</p>
+  </div>
+  <div class="seq-track wrap" id="seqTrack" data-p="0" data-seg="0" data-local="0" data-title="0">
+    <div class="seq-sticky">
+      <div class="seq-stage" id="seqStage">
+        <img class="seq-shot seq-shot--desk" data-i="0" alt="" width="1280" height="720" decoding="async" src="media/sequence/01.jpg">
+        <img class="seq-shot seq-shot--phone" data-i="0" alt="" width="900" height="1200" decoding="async" src="media/sequence/01m.jpg">
+        <img class="seq-shot seq-shot--desk" data-i="1" alt="" width="1280" height="720" decoding="async" data-src="media/sequence/02.jpg">
+        <img class="seq-shot seq-shot--phone" data-i="1" alt="" width="900" height="1200" decoding="async" data-src="media/sequence/02m.jpg">
+        <img class="seq-shot seq-shot--desk" data-i="2" alt="" width="1280" height="720" decoding="async" data-src="media/sequence/03.jpg">
+        <img class="seq-shot seq-shot--phone" data-i="2" alt="" width="900" height="1200" decoding="async" data-src="media/sequence/03m.jpg">
+        <img class="seq-shot seq-shot--desk" data-i="3" alt="" width="1280" height="720" decoding="async" data-src="media/sequence/04.jpg">
+        <img class="seq-shot seq-shot--phone" data-i="3" alt="" width="900" height="1200" decoding="async" data-src="media/sequence/04m.jpg">
+        <img class="seq-shot seq-shot--desk" data-i="4" alt="" width="1280" height="720" decoding="async" data-src="media/sequence/05.jpg">
+        <img class="seq-shot seq-shot--phone" data-i="4" alt="" width="900" height="1200" decoding="async" data-src="media/sequence/05m.jpg">
+        <img class="seq-shot seq-shot--desk" data-i="5" alt="" width="1280" height="720" decoding="async" data-src="media/sequence/06.jpg">
+        <img class="seq-shot seq-shot--phone" data-i="5" alt="" width="900" height="1200" decoding="async" data-src="media/sequence/06m.jpg">
+      </div>
+      <div class="seq-caption" id="seqCaption">
+        <p class="story-kicker" id="seqKicker">01 · المصدر</p>
+        <p class="lede" id="seqBody">الجملة كاملة كما في «من نحن»، بلا شطب.</p>
+      </div>
+    </div>
+  </div>
+  <div class="seq-static wrap">
+    <article><picture><source media="(max-width:960px)" srcset="media/sequence/01m.jpg"><img src="media/sequence/01.jpg" alt="" width="1280" height="720" decoding="async"></picture><div class="seq-caption"><p class="story-kicker">01 · <span class="ar-only">المصدر</span><span class="en-only">Source</span></p><p class="lede ar-only">الجملة كاملة كما في «من نحن»، بلا شطب.</p><p class="lede en-only">The full “Who we are” line, with nothing struck.</p></div></article>
+    <article><picture><source media="(max-width:960px)" srcset="media/sequence/02m.jpg"><img src="media/sequence/02.jpg" alt="" width="1280" height="720" decoding="async" loading="lazy"></picture><div class="seq-caption"><p class="story-kicker">02 · <span class="ar-only">التعديل</span><span class="en-only">Edit</span></p><p class="lede ar-only">الشطب على ما بعد الفاصلة المنقوطة فقط. «لخلق المحتوى» لم يُشطب.</p><p class="lede en-only">The strike covers only the clause after the semicolon. “To make content” is not struck.</p></div></article>
+    <article><picture><source media="(max-width:960px)" srcset="media/sequence/03m.jpg"><img src="media/sequence/03.jpg" alt="" width="1280" height="720" decoding="async" loading="lazy"></picture><div class="seq-caption"><p class="story-kicker">03 · <span class="ar-only">٠:٠٠</span><span class="en-only">0:00</span></p><p class="lede ar-only">الفعل وحده في اللقطة. الاسم ظاهر بانتظار الدور، ولم يُحذف.</p><p class="lede en-only">The frame holds only the action. The name is waiting, not deleted.</p></div></article>
+    <article><picture><source media="(max-width:960px)" srcset="media/sequence/04m.jpg"><img src="media/sequence/04.jpg" alt="" width="1280" height="720" decoding="async" loading="lazy"></picture><div class="seq-caption"><p class="story-kicker">04 · <span class="ar-only">٠:٠٢</span><span class="en-only">0:02</span></p><p class="lede ar-only">القطع عند الاسم، لأن الجملة تدور عنده.</p><p class="lede en-only">The cut is at the name, because that is where the sentence turns.</p></div></article>
+    <article><picture><source media="(max-width:960px)" srcset="media/sequence/05m.jpg"><img src="media/sequence/05.jpg" alt="" width="1280" height="720" decoding="async" loading="lazy"></picture><div class="seq-caption"><p class="story-kicker">05 · <span class="ar-only">٠:٠٤</span><span class="en-only">0:04</span></p><p class="lede ar-only">الإغلاق على آخر ما لم يُشطب. الذيل يبقى خارج اللقطة.</p><p class="lede en-only">The close is the last unstruck words. The tail stays outside the frame.</p></div></article>
+    <article><picture><source media="(max-width:960px)" srcset="media/sequence/06m.jpg"><img src="media/sequence/06.jpg" alt="" width="1280" height="720" decoding="async" loading="lazy"></picture><div class="seq-caption"><p class="story-kicker">06 · <span class="ar-only">المعالجة</span><span class="en-only">Treatment</span></p><p class="lede ar-only">ثلاث لقطات بالترتيب. الذيل المشطوب لم يُعد.</p><p class="lede en-only">The three frames in order. The struck tail is not restored.</p></div></article>
+    <p class="seq-note ar-only">تصور توضيحي من جملة «من نحن» في هذا الموقع. اللقطات لوحة معالجة: ما يدخل الإطار، وأين يقع القطع، وما يبقى مشطوباً. ليست حلقة عميل ولا نتيجة منشورة.</p>
+    <p class="seq-note en-only">An illustration made from the “Who we are” line on this site. The frames are a treatment board: what enters the shot, where the cut falls, and what stays struck. Not a client episode and not a published result.</p>
+  </div>
+</section>
+
+<div class="fog-band" aria-hidden="true"></div>
+<section class="band band--atm band--work" id="work" data-story data-chapter="work">
+  <div class="band-glow" aria-hidden="true"></div>
+  <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
+  <div class="wrap">
+    <div class="journey-head" data-beat>
+      <p class="story-kicker">04</p>
+      <p class="meta">WORK</p>
+      <h2 class="ar-only">أعمال مختارة.</h2>
+      <h2 class="en-only">Selected work.</h2>
+      <p class="lede ar-only">حقائق عامة فقط. الصور المرافقة مراجع استوديو، وليست لقطات من هذه الأعمال. بلا أرقام مخترعة ولا شهادات وهمية.</p>
+      <p class="lede en-only">Public facts only. The pictures beside them are studio references, not frames from those programs. No invented metrics or fake testimonials.</p>
+    </div>
+    <div class="work-gallery">
+      <figure class="work-wide" data-beat>
+        <img src="media/stills/mic.jpg" alt="" width="1400" height="788" decoding="async" loading="lazy">
+        <figcaption>
+          <h3 class="ar-only">مخيال</h3>
+          <h3 class="en-only">Mikhyal</h3>
+          <p class="ar-only">برنامج حواري طويل بهوية كلاسيكية صحافية — الضيف يروي قصته بلا مبالغة تسويقية.</p>
+          <p class="en-only">A long-form interview show with classic journalistic identity — the guest tells their story without marketing fluff.</p>
+        </figcaption>
+      </figure>
+      <figure data-beat>
+        <img src="media/stills/edit.jpg" alt="" width="1400" height="788" decoding="async" loading="lazy">
+        <figcaption>
+          <h3 class="ar-only">سميح ساويرس</h3>
+          <h3 class="en-only">Samih Sawiris</h3>
+          <p class="ar-only">حلقة تجاوزت المليون مشاهدة على يوتيوب — عنوان بهوك واضح وقصة ضيف ثقيل.</p>
+          <p class="en-only">An episode that passed one million YouTube views — a clear hook and a heavyweight guest story.</p>
+        </figcaption>
+      </figure>
+      <figure data-beat>
+        <img src="media/stills/city.jpg" alt="" width="1400" height="788" decoding="async" loading="lazy">
+        <figcaption>
+          <h3 class="ar-only">إكسبو الرياض ٢٠٣٠</h3>
+          <h3 class="en-only">Expo Riyadh 2030</h3>
+          <p class="ar-only">أعمال محتوى ظهرت علناً مرتبطة بإكسبو الرياض ٢٠٣٠ — نذكرها كعمل محتوى، لا كشراكة رسمية غير مؤكدة.</p>
+          <p class="en-only">Public content work tied to Expo Riyadh 2030 — listed as content work, not an unverified official partnership.</p>
+        </figcaption>
+      </figure>
     </div>
   </div>
 </section>
 
 <div class="fog-band fog-band--soft" aria-hidden="true"></div>
-<section class="band band--atm band--work" id="work">
+<section class="band band--atm band--offer" id="offer" data-story data-chapter="craft">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap">
-    <div class="journey-head">
-      <p class="meta">WORK</p>
-      <h2 class="ar-only">أعمال مختارة.</h2>
-      <h2 class="en-only">Selected work.</h2>
-      <p class="lede ar-only">حقائق عامة فقط — بلا أرقام مخترعة ولا شهادات وهمية.</p>
-      <p class="lede en-only">Public facts only — no invented metrics or fake testimonials.</p>
-    </div>
-    <div class="journey-grid">
-      <article class="journey-card glass">
-        <div class="vid-frame">
-          <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-mic.mp4" poster="media/posters/card-mic.jpg"></video>
-          <span class="vid-cap glass glass--pill">01 · مخيال</span>
-        </div>
-        <div class="body">
-          <h3 class="ar-only">مخيال</h3>
-          <h3 class="en-only">Mikhyal</h3>
-          <p class="lede ar-only" style="margin:0">برنامج حواري طويل بهوية كلاسيكية صحافية — الضيف يروي قصته بلا مبالغة تسويقية.</p>
-          <p class="lede en-only" style="margin:0">A long-form interview show with classic journalistic identity — the guest tells their story without marketing fluff.</p>
-        </div>
-      </article>
-      <article class="journey-card glass">
-        <div class="vid-frame">
-          <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-edit.mp4" poster="media/posters/card-edit.jpg"></video>
-          <span class="vid-cap glass glass--pill">02 · ساويرس</span>
-        </div>
-        <div class="body">
-          <h3 class="ar-only">سميح ساويرس</h3>
-          <h3 class="en-only">Samih Sawiris</h3>
-          <p class="lede ar-only" style="margin:0">حلقة تجاوزت المليون مشاهدة على يوتيوب — عنوان بهوك واضح وقصة ضيف ثقيل.</p>
-          <p class="lede en-only" style="margin:0">An episode that passed one million YouTube views — a clear hook and a heavyweight guest story.</p>
-        </div>
-      </article>
-      <article class="journey-card glass">
-        <div class="vid-frame">
-          <video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-city.mp4" poster="media/posters/card-city.jpg"></video>
-          <span class="vid-cap glass glass--pill">03 · إكسبو</span>
-        </div>
-        <div class="body">
-          <h3 class="ar-only">إكسبو الرياض ٢٠٣٠</h3>
-          <h3 class="en-only">Expo Riyadh 2030</h3>
-          <p class="lede ar-only" style="margin:0">أعمال محتوى ظهرت علناً مرتبطة بإكسبو الرياض ٢٠٣٠ — نذكرها كعمل محتوى، لا كشراكة رسمية غير مؤكدة.</p>
-          <p class="lede en-only" style="margin:0">Public content work tied to Expo Riyadh 2030 — listed as content work, not an unverified official partnership.</p>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<div class="fog-band" aria-hidden="true"></div>
-<section class="band band--atm band--offer" id="offer">
-  <div class="band-glow" aria-hidden="true"></div>
-  <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
-  <div class="wrap">
+    <p class="story-kicker">05</p>
     <p class="meta">OFFER</p>
     <h2 class="ar-only">ماذا نقدم.</h2>
     <h2 class="en-only">What we offer.</h2>
     <p class="lede ar-only">ثلاثة مسارات إنتاج — التسعير يُحدَّد بعد موجز المشروع.</p>
     <p class="lede en-only">Three production tracks — pricing after a project brief.</p>
-    <div class="offer-rail" style="margin-top:var(--space-5)">
-      <article class="menu-card glass glow-mag offer-card">
+    <div class="offer-seq">
+      <article class="menu-card glass glow-mag offer-card" data-beat>
         <span class="offer-idx" aria-hidden="true">01</span>
         <div class="offer-accent" aria-hidden="true"></div>
         <p class="card-meta">TRACK · LONG</p>
         <h3 class="ar-only">حوار طويل</h3>
         <h3 class="en-only">Long-form talk</h3>
-        <p class="offer-copy ar-only">زاوية، ضيف، إيقاع صحافي على الشاشة.</p>
-        <p class="offer-copy en-only">Angle, guest, journalistic rhythm on screen.</p>
+        <p class="offer-copy ar-only">لبرنامج يريد حلقة حوار. المسار: زاوية وضيف وإيقاع. المخرجات تُحدَّد بعد الموجز، ثم انسخ المسودة وأرسلها على إكس.</p>
+        <p class="offer-copy en-only">For a show that needs a long conversation. The track is angle, guest, and rhythm. What you receive is set after the brief. Copy the draft and send it on X.</p>
         <ul class="offer-ticks" aria-hidden="true"><li></li><li></li><li></li></ul>
       </article>
-      <article class="menu-card glass glow-sky offer-card">
+      <div class="offer-pair">
+      <article class="menu-card glass glow-sky offer-card" data-beat>
         <span class="offer-idx" aria-hidden="true">02</span>
         <div class="offer-accent" aria-hidden="true"></div>
         <p class="card-meta">TRACK · SHORT</p>
         <h3 class="ar-only">مقاطع قصيرة</h3>
         <h3 class="en-only">Short cuts</h3>
-        <p class="offer-copy ar-only">هوك سؤال أو اقتباس حرفي بهوية البرنامج.</p>
-        <p class="offer-copy en-only">Question hooks or verbatim quotes in show identity.</p>
+        <p class="offer-copy ar-only">لمن يريد مقطعاً من حوار. المسار: سؤال أو اقتباس قصير بهوية البرنامج. المخرجات بعد الموجز. الخطوة التالية: انسخ المسودة.</p>
+        <p class="offer-copy en-only">For a short cut from a conversation. The track is a question or a short quote in the show’s identity. Output follows the brief. Next step: copy the draft.</p>
         <ul class="offer-ticks" aria-hidden="true"><li></li><li></li><li></li></ul>
       </article>
-      <article class="menu-card glass glow-teal offer-card">
+      <article class="menu-card glass glow-teal offer-card" data-beat>
         <span class="offer-idx" aria-hidden="true">03</span>
         <div class="offer-accent" aria-hidden="true"></div>
         <p class="card-meta">TRACK · ID</p>
         <h3 class="ar-only">هوية محتوى</h3>
         <h3 class="en-only">Content identity</h3>
-        <p class="offer-copy ar-only">صوت تحريري وقوالب بصرية لمعايير ثابتة.</p>
-        <p class="offer-copy en-only">Editorial voice and visual templates with fixed standards.</p>
+        <p class="offer-copy ar-only">لبرنامج متكرر. المسار: صوت تحريري وقوالب. نثبّت المعايير بعد الموجز، بلا باقة أسعار معلنة.</p>
+        <p class="offer-copy en-only">For a recurring show. The track is an editorial voice and templates. Standards are fixed after the brief. No public price list.</p>
         <ul class="offer-ticks" aria-hidden="true"><li></li><li></li><li></li></ul>
       </article>
+      </div>
     </div>
   </div>
 </section>
 
 <div class="fog-band fog-band--soft" aria-hidden="true"></div>
-<section class="band band--atm band--method" id="method">
+<section class="band band--atm band--method" id="method" data-story data-chapter="method">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
-  <div class="wrap">
-    <p class="meta">METHOD</p>
-    <h2 class="ar-only">من الموجز إلى النشر.</h2>
-    <h2 class="en-only">From brief to publish.</h2>
-    <div class="method-grid method-timeline" style="margin-top:var(--space-5)">
-      <article class="method-step glass" data-tone="mag">
+  <div class="wrap method-layout">
+    <div class="method-sticky">
+      <p class="story-kicker">06</p>
+      <p class="meta">METHOD</p>
+      <h2 class="ar-only">من الموجز إلى النشر.</h2>
+      <h2 class="en-only">From brief to publish.</h2>
+      <div class="method-thread" aria-hidden="true"><i></i></div>
+    </div>
+    <div class="method-steps">
+      <article class="method-step glass" data-beat data-tone="mag">
         <span class="num">01</span>
         <h3 class="ar-only">موجز</h3>
         <h3 class="en-only">Brief</h3>
         <p class="ar-only">هدف الجمهور والنبرة قبل أي تصوير.</p>
         <p class="en-only">Audience goal and tone before any shoot.</p>
       </article>
-      <article class="method-step glass" data-tone="violet">
+      <article class="method-step glass" data-beat data-tone="violet">
         <span class="num">02</span>
         <h3 class="ar-only">اختيار</h3>
         <h3 class="en-only">Select</h3>
         <p class="ar-only">ضيف وزاوية بمعايير ذوق ثابتة.</p>
         <p class="en-only">Guest and angle with fixed taste criteria.</p>
       </article>
-      <article class="method-step glass" data-tone="sky">
+      <article class="method-step glass" data-beat data-tone="sky">
         <span class="num">03</span>
         <h3 class="ar-only">إنتاج</h3>
         <h3 class="en-only">Produce</h3>
         <p class="ar-only">تصوير ميداني ثم بناء الحلقات والمقاطع.</p>
         <p class="en-only">Field shoot, then build episodes and cuts.</p>
       </article>
-      <article class="method-step glass" data-tone="teal">
+      <article class="method-step glass" data-beat data-tone="teal">
         <span class="num">04</span>
         <h3 class="ar-only">نشر واعٍ</h3>
         <h3 class="en-only">Publish</h3>
@@ -313,33 +358,13 @@
   </div>
 </section>
 
-<div class="fog-band" aria-hidden="true"></div>
-<section class="band band--atm band--gallery" id="gallery">
-  <div class="band-glow" aria-hidden="true"></div>
-  <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
-  <div class="wrap">
-    <p class="meta">MOTION</p>
-    <h2 class="ar-only">معرض حركة.</h2>
-    <h2 class="en-only">Motion gallery.</h2>
-    <p class="lede ar-only">لوحات سينمائية بدرجة طيف الشعار — استوديو، مونتاج، مدينة.</p>
-    <p class="lede en-only">Cinematic plates graded with the logo spectrum — studio, edit bay, city.</p>
-    <div class="gal-grid" style="margin-top:var(--space-5)">
-      <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-mic.mp4" poster="media/posters/card-mic.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">مايك</span><span class="en-only">Mic</span></span></div>
-      <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-edit.mp4" poster="media/posters/card-edit.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">مونتاج</span><span class="en-only">Edit</span></span></div>
-      <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-interview.mp4" poster="media/posters/card-interview.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">حوار</span><span class="en-only">Talk</span></span></div>
-      <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-city.mp4" poster="media/posters/card-city.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">مدينة</span><span class="en-only">City</span></span></div>
-      <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/hero-nebula.mp4" poster="media/posters/hero-nebula.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">سديم</span><span class="en-only">Nebula</span></span></div>
-      <div class="vid-frame"><video muted loop playsinline preload="none" data-lazy data-src="media/videos/card-banner.mp4" poster="media/posters/card-banner.jpg"></video><span class="vid-cap glass glass--pill"><span class="ar-only">هوية</span><span class="en-only">Brand</span></span></div>
-    </div>
-  </div>
-</section>
-
 <div class="fog-band fog-band--soft" aria-hidden="true"></div>
-<section class="band band--atm band--contact" id="contact">
+<section class="band band--atm band--contact" id="contact" data-story data-chapter="invite">
   <div class="band-glow" aria-hidden="true"></div>
   <div class="band-hud" aria-hidden="true"><span class="bh-tick"></span><span class="bh-rail"></span><span class="bh-spec"></span></div>
   <div class="wrap grid-phi">
     <div class="visit-card glass glass--strong">
+      <p class="story-kicker">08</p>
       <p class="meta">CONTACT</p>
       <h2 class="ar-only">لنبنِ مشروعاً بذوق خارج النص.</h2>
       <h2 class="en-only">Let’s build with Off The Script taste.</h2>
@@ -370,14 +395,22 @@
       <h3 class="ar-only">موجز سريع.</h3>
       <h3 class="en-only">Quick brief.</h3>
       <form id="contactForm" class="visit-form" novalidate>
-        <label class="sr-only" for="cf-name"><span class="ar-only">الاسم</span><span class="en-only">Name</span></label>
-        <input id="cf-name" name="name" type="text" required autocomplete="name" maxlength="80" placeholder="الاسم / Name">
-        <label class="sr-only" for="cf-org"><span class="ar-only">الجهة</span><span class="en-only">Org</span></label>
-        <input id="cf-org" name="org" type="text" autocomplete="organization" maxlength="120" placeholder="الجهة / Organization">
-        <label class="sr-only" for="cf-email"><span class="ar-only">بريدك</span><span class="en-only">Email</span></label>
-        <input id="cf-email" name="email" type="email" required autocomplete="email" maxlength="120" dir="ltr" placeholder="you@email.com">
-        <label class="sr-only" for="cf-msg"><span class="ar-only">عن المشروع</span><span class="en-only">Project</span></label>
-        <textarea id="cf-msg" name="message" required maxlength="2000" rows="3" placeholder="نوع المحتوى، الجمهور، الموعد…"></textarea>
+        <div class="field">
+          <label class="field-label" for="cf-name"><span class="ar-only">الاسم</span><span class="en-only">Name</span> <span class="req ar-only">مطلوب</span><span class="req en-only">Required</span></label>
+          <input id="cf-name" name="name" type="text" required autocomplete="name" maxlength="80" placeholder="الاسم">
+        </div>
+        <div class="field">
+          <label class="field-label" for="cf-org"><span class="ar-only">الجهة أو الشركة</span><span class="en-only">Organization</span> <span class="req ar-only">اختياري</span><span class="req en-only">Optional</span></label>
+          <input id="cf-org" name="org" type="text" autocomplete="organization" maxlength="120" placeholder="الجهة">
+        </div>
+        <div class="field">
+          <label class="field-label" for="cf-email"><span class="ar-only">البريد الإلكتروني</span><span class="en-only">Email</span> <span class="req ar-only">مطلوب</span><span class="req en-only">Required</span></label>
+          <input id="cf-email" name="email" type="email" required autocomplete="email" maxlength="120" dir="ltr" placeholder="you@email.com">
+        </div>
+        <div class="field">
+          <label class="field-label" for="cf-msg"><span class="ar-only">عن المشروع</span><span class="en-only">About the project</span> <span class="req ar-only">مطلوب</span><span class="req en-only">Required</span></label>
+          <textarea id="cf-msg" name="message" required maxlength="2000" rows="3" placeholder="نوع المحتوى، الجمهور، الموعد…"></textarea>
+        </div>
         <button type="submit" class="btn btn-primary">
           <span class="ar-only">نسخ المسودة</span><span class="en-only">Copy draft</span>
         </button>
@@ -413,6 +446,8 @@
 <script src="main.js"></script>
 <script src="mobile.js" defer></script>
 <script src="a-motion.js" defer></script>
+<script defer src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+<script src="story-scroll.js" defer></script>
 <script type="module" src="hero-emblem.js"></script>
 
 <div class="variant-chip" hidden role="navigation" aria-label="Hero variants">

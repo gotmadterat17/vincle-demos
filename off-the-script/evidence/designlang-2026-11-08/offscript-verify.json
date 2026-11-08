@@ -1,0 +1,108 @@
+{
+  "pass": false,
+  "onBrand": 77,
+  "generic": 61,
+  "genericBand": "mixed",
+  "tells": [
+    {
+      "id": "indigo-gradient",
+      "label": "Indigo or violet gradient",
+      "evidence": [
+        {
+          "where": "gradient 3",
+          "value": "radial-gradient(rgba(48, 16, 208, 0.48) 0%, rgba(0, 0, 0, 0) 70%)"
+        },
+        {
+          "where": "gradient 7",
+          "value": "radial-gradient(50% 40% at 90% 70%, rgba(48, 16, 208, 0.12), rgba(0, 0, 0, 0) 50%)"
+        }
+      ]
+    },
+    {
+      "id": "hero-three-cards",
+      "label": "Hero, then three equal cards",
+      "evidence": [
+        {
+          "where": "section 2 (hero)",
+          "value": "SCRIPT LAYERS"
+        },
+        {
+          "where": "section 8",
+          "value": "3 cards in a 3-column grid: أعمال مختارة."
+        }
+      ]
+    },
+    {
+      "id": "glow-shadows",
+      "label": "Coloured glow shadows",
+      "evidence": [
+        {
+          "where": "shadow used 1×",
+          "value": "rgba(58, 163, 224, 0.25) 0px 0px 18px 0px"
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "token": "radius",
+      "where": "element",
+      "viewport": 390,
+      "viewports": [
+        390,
+        768,
+        1280
+      ],
+      "scheme": "light",
+      "state": "default",
+      "expected": "18px",
+      "actual": "1px",
+      "severity": "warn"
+    },
+    {
+      "token": "radius",
+      "where": "element",
+      "viewport": 390,
+      "viewports": [
+        390,
+        768,
+        1280
+      ],
+      "scheme": "light",
+      "state": "default",
+      "expected": "18px",
+      "actual": "8px",
+      "severity": "warn"
+    },
+    {
+      "token": "radius",
+      "where": "element",
+      "viewport": 390,
+      "viewports": [
+        390,
+        768,
+        1280
+      ],
+      "scheme": "light",
+      "state": "default",
+      "expected": "18px",
+      "actual": "12px",
+      "severity": "warn"
+    },
+    {
+      "token": "radius",
+      "where": "element",
+      "viewport": 390,
+      "viewports": [
+        390,
+        768,
+        1280
+      ],
+      "scheme": "light",
+      "state": "default",
+      "expected": "18px",
+      "actual": "50px",
+      "severity": "warn"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "url": "http://127.0.0.1:8765/",
+  "readAt": "2026-11-08T04:41:07.095Z",
+  "generic": {
+    "score": 61,
+    "band": "mixed",
+    "flags": [
+      {
+        "id": "indigo-gradient",
+        "label": "Indigo or violet gradient",
+        "why": "Default indigo-to-purple gradients are the most common look of generated pages.",
+        "weight": 3,
+        "evidence": [
+          {
+            "where": "gradient 3",
+            "value": "radial-gradient(rgba(48, 16, 208, 0.48) 0%, rgba(0, 0, 0, 0) 70%)"
+          },
+          {
+            "where": "gradient 7",
+            "value": "radial-gradient(50% 40% at 90% 70%, rgba(48, 16, 208, 0.12), rgba(0, 0, 0, 0) 50%)"
+          },
+          {
+            "where": "gradient 15",
+            "value": "radial-gradient(70% 50% at 50% 0%, rgba(48, 16, 208, 0.14), rgba(0, 0, 0, 0) 55%)"
+          }
+        ]
+      },
+      {
+        "id": "hero-three-cards",
+        "label": "Hero, then three equal cards",
+        "why": "A centred hero followed by a row of three identical feature cards is the default generated layout.",
+        "weight": 2,
+        "evidence": [
+          {
+            "where": "section 2 (hero)",
+            "value": "SCRIPT LAYERS"
+          },
+          {
+            "where": "section 8",
+            "value": "3 cards in a 3-column grid: أعمال مختارة."
+          }
+        ]
+      },
+      {
+        "id": "glow-shadows",
+        "label": "Coloured glow shadows",
+        "why": "Zero-offset, wide-blur coloured shadows (\"glows\") are a generator favourite.",
+        "weight": 2,
+        "evidence": [
+          {
+            "where": "shadow used 1×",
+            "value": "rgba(58, 163, 224, 0.25) 0px 0px 18px 0px"
+          }
+        ]
+      }
+    ]
+  },
+  "unreadable": null
+}
