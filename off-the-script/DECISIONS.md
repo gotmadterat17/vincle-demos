@@ -172,3 +172,19 @@ The sequence is now six stills of one sample. The words نكتب / ما / يبق
 
 Chrome check after that change: zero console errors, overflow 0, one displayed frame, phone files on 360/390/430 and desk files at 1440, caption below the header, at 0 and 0.5 of each step and at the end. Tours are 62.0 seconds, 496 frames at 8 fps. Desktop ends at scroll 7926/7926. Mobile ends at 8799/8799. Both show the footer. Zero video elements in those passes. This is still an illustration, not a client piece, and not a ready claim.
 
+## 2026-11-08 run 10 — the letters have to face the reader
+
+The run 9 retest found the Arabic painted on the stills reversed. Interface Arabic was fine. The bake had used python-bidi, which put the glyphs in the wrong visual order. That bake is gone. The lines were set in headless Chrome with `dir=rtl` and IBM Plex Sans Arabic, then placed on the blank desk photos. The scene is not flipped.
+
+The piece is one illustration of the existing short-cut track («مقاطع قصيرة»). The source is the “who we are” sentence already on this site. Audience: a long line that needs one speakable sentence. The draft is that sentence. The strike removes «الذي يعيد شغفنا، وحبّنا للإبداع». The card keeps «نجمع الحروف المتفرقة حتى نطوّعها لخلق المحتوى» and is labeled «مقطع قصير · تصور توضيحي». It is not a client job, not a published result, and not the logo.
+
+Words read from the stage at display size, not from the source string: the six slips نحن / نجمع الحروف / المتفرقة / حتى نطوّعها / لخلق المحتوى / الذي يعيد شغفنا; the draft نحن نجمع الحروف المتفرقة / «خارج النص» حتى نطوّعها / لخلق المحتوى؛ الذي يعيد / شغفنا، وحبّنا للإبداع; the same four lines inside the frame; the kept two lines beside the microphone; the last two lines struck; the card label, the kept sentence, and the struck clause.
+
+The desktop stage is 16:9 so the still is not side-cropped. The phone stage stays 3:4. Phone frames are their own layouts so each line stays whole, and the black front of the desk is cropped off. A teal lip remains. The second work row swaps image and text, and the third work image is wider. No new stock and no coffee.
+
+Hero files were not edited. After `is-ready`, the CTA computed to rgb(107, 47, 140), which is #6B2F8C. The settled frame shows the light wordmark, the blue nav contact, and the magenta / blue / teal spectrum. It was compared with `logo-desktop-1440-ar.png`.
+
+Chrome on this tree: zero console errors, overflow 0 at 1440, 360, 390, and 430, one displayed frame, Anime.js 3.2.1 setting opacity, zero video elements. Reduced motion adds `story-static`, hides the track, and shows the six stills. Language toggle goes ar/rtl to en/ltr and back. An empty form shows the required-field status and does not send mail. Desktop tour: 1759 frames at 25 fps, ends at scroll 7824/7824 with the footer in a 900px viewport. Phone tour: 1453 frames at 25 fps, ends at scroll 8788/8788 with the footer in an 844px viewport. Those are browse recordings. Smoothness is not claimed from them.
+
+No public URL. The live site was not published. This is not an acceptance.
+

@@ -44,7 +44,11 @@ html.story-motion .seq-static{display:none}
 @media (min-width:961px){
   .seq-track{height:calc(100svh + 280vh)}
   .seq-sticky{grid-template-columns:minmax(0,1.45fr) minmax(240px,.62fr);gap:28px;align-items:center}
-  .seq-stage{height:calc(100svh - 108px);min-height:420px}
+  .seq-stage{height:auto;aspect-ratio:16/9;min-height:0}
+  .seq-shot{object-position:center center}
+  .band--work .story-beat:nth-of-type(2){grid-template-columns:minmax(0,.85fr) 1.25fr}
+  .band--work .story-beat:nth-of-type(2) .beat-still{order:2}
+  .band--work .story-beat:nth-of-type(3) .beat-still{aspect-ratio:21/9}
   .seq-static article{grid-template-columns:minmax(0,1.3fr) minmax(220px,.7fr);align-items:center}
 }
 

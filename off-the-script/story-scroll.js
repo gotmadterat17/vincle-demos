@@ -11,20 +11,20 @@
   const engine = typeof window.anime === 'function' ? window.anime : null;
   const copy = {
     ar: [
-      ['01 · أوراق', 'الكلمات متفرقة على ست ورقات، ومنها «خارج النص».'],
-      ['02 · مسودة', 'نفس الكلمات في ثلاثة أسطر.'],
-      ['03 · إطار', 'المسودة نفسها داخل الإطار.'],
-      ['04 · صوت', 'الصفحة لم تغادر، والميكروفون جاء إليها.'],
-      ['05 · شطب', 'شُطب السطران الزائدان. بقي «خارج النص».'],
-      ['06 · البطاقة', 'البطاقة تحمل السطر الذي بقي، وبجانبها المسودة المشطوبة.']
+      ['01 · أوراق', 'أجزاء الجملة على ست ورقات، قبل أن تُجمع.'],
+      ['02 · مسودة', 'الجملة كما هي في «من نحن»، بلا شطب.'],
+      ['03 · إطار', 'المسودة نفسها داخل الإطار. لم يُحذف شيء.'],
+      ['04 · صوت', 'السطر الذي سيبقى، بجانب الميكروفون.'],
+      ['05 · شطب', 'شُطب ما زاد عن المقطع: الذي يعيد شغفنا، وحبّنا للإبداع.'],
+      ['06 · المقطع', 'المخرجات مقطع قصير: نجمع الحروف المتفرقة حتى نطوّعها لخلق المحتوى.']
     ],
     en: [
-      ['01 · Slips', 'The words are apart, including “off the script”.'],
-      ['02 · Draft', 'The same words, in three lines.'],
-      ['03 · Frame', 'The same draft, inside the frame.'],
-      ['04 · Voice', 'The page stays. The microphone comes to it.'],
-      ['05 · Cut', 'The extra lines are struck. “Off the script” stays.'],
-      ['06 · The card', 'The card carries the line that stayed, beside the marked draft.']
+      ['01 · Slips', 'The sentence in six slips, before it is gathered.'],
+      ['02 · Draft', 'The line as it stands in “Who we are”, before any cut.'],
+      ['03 · Frame', 'The same draft, inside the frame. Nothing removed yet.'],
+      ['04 · Voice', 'The line that will stay, beside the microphone.'],
+      ['05 · Cut', 'What is more than the cut is struck: the clause about passion and love of making.'],
+      ['06 · The cut', 'The output is a short cut: we gather the scattered letters until we shape them into content.']
     ]
   };
 
