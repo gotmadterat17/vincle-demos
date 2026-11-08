@@ -188,3 +188,19 @@ Chrome on this tree: zero console errors, overflow 0 at 1440, 360, 390, and 430,
 
 No public URL. The live site was not published. This is not an acceptance.
 
+## 2026-11-08 run 11 — the strike and the treatment have to match
+
+Run 10 was rejected. The strike crossed «لخلق المحتوى» and the card put it back. «نحن» and «خارج النص» disappeared with no mark. A labeled sentence was not a short cut.
+
+The source is the “who we are” sentence already on the page, unchanged. The only strike is the clause from the semicolon to the end: «؛ الذي يُعيد شغفنا، وحبّنا للإبداع.» The note on that still says the words before the semicolon stay as written. «نحن», «خارج النص», and «لخلق المحتوى» are not struck.
+
+Those kept words are then the quote inside a three-frame treatment, using the studio stills already on the site: 0:00 opens on «نحن نجمع الحروف المتفرقة», 0:02 changes picture on «خارج النص» حتّى نطوّعها, 0:04 closes on «لخلق المحتوى». The struck clause is repeated under the board and is not put back into a frame. The board is labeled an illustration, not a client episode. The times are treatment marks, not a published runtime.
+
+Phone frames are 3:4 and were read at the stage size for 360, 390, and 430, not from a magnified crop. The source sheet fills the portrait. The treatment lines stay whole.
+
+After the hero, the about line sits on a wide still, the sequence is the treatment, the work block is one tall picture beside two shorter ones, the offer is a numbered list, the method is a four-step rail, and contact stays the form. Hero files were not edited. After `is-ready` the collaboration button computed to rgb(107, 47, 140).
+
+Chrome on this tree: zero console errors, overflow 0 at 1440 and 390, one displayed frame, Anime.js 3.2.1, zero video elements. Reduced motion shows the six stills. Language toggle goes ar/rtl to en/ltr and back. An empty form shows the required-field status. Desktop tour: 1762 frames at 25 fps, ends at scroll 7988/7988 with the footer in a 900px viewport. Phone tour: 1417 frames at 25 fps, ends at scroll 7926/7926 with the footer in an 844px viewport. Smoothness is not claimed from the recordings.
+
+No public URL. The live site was not published. An independent critic has not retested this build.
+
