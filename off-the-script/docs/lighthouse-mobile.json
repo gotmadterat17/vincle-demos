@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-11",
+  "url": "http://127.0.0.1:8765/off-the-script/",
+  "formFactor": "mobile",
+  "performance": 58,
+  "accessibility": 100,
+  "bestPractices": 100,
+  "seo": 100,
+  "lcp": "3.3 s",
+  "cls": "0.002",
+  "tbt": "4.6 s",
+  "fcp": "2.7 s",
+  "transfer": "873 KiB",
+  "note": "Performance is capped by the locked hero: three.js plus bloom stays on the main thread. The hero wordmark was resized to a 38KB WebP at the size it is displayed. Target of 85 / LCP under 2.5s was not met without removing that motion layer."
+}
