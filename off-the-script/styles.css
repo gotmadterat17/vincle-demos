@@ -1046,6 +1046,7 @@ html.variant-nebula .hero-mark-overlay::before{opacity:.55;filter:blur(52px)}
 
 /* Additive motion only: original A layout / typography / geometry untouched. */
 .a-ambient-loop{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;filter:blur(14px)}
+@media(max-width:700px){.a-ambient-loop{filter:none}}
 .hero .hud-top{transform:translateY(calc(var(--a-scroll,0) * -6px))}
 .hero .hud-bottom{transform:translateY(calc(var(--a-scroll,0) * 6px))}
 @media(prefers-reduced-motion:reduce){.a-ambient-loop{display:none}.hero .hud-top,.hero .hud-bottom{transform:none}}

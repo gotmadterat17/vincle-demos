@@ -39,7 +39,7 @@ if (!stage || !hero || reduce || saveData) {
 function boot() {
   const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' });
   const isMobile = matchMedia('(max-width:960px)').matches || (navigator.maxTouchPoints > 1 && innerWidth < 900);
-  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, isMobile ? 1 : 1.5));
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, isMobile ? 1.25 : 1.5));
   renderer.setClearColor(0x000000, 0);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -108,8 +108,8 @@ function boot() {
       bevelEnabled: true,
       bevelThickness: 0.045,
       bevelSize: 0.035,
-      bevelSegments: 4,
-      curveSegments: 4,
+      bevelSegments: isMobile ? 2 : 4,
+      curveSegments: isMobile ? 2 : 4,
     });
     g.center();
     return g;
@@ -231,11 +231,12 @@ function boot() {
     { c: 0x3aa3e0, p: [0.45, 0.12, 0.14], r: 0.07 },
     { c: 0x18d090, p: [0.95, -0.9, 0.1], r: 0.065 },
   ].forEach((o) => {
-    const s = new THREE.Mesh(new THREE.SphereGeometry(o.r, 20, 20), glowMat(o.c));
+    const seg = isMobile ? 10 : 20;
+    const s = new THREE.Mesh(new THREE.SphereGeometry(o.r, seg, seg), glowMat(o.c));
     s.position.set(...o.p);
     mark.add(s);
     const soft = new THREE.Mesh(
-      new THREE.SphereGeometry(o.r * 2.1, 16, 16),
+      new THREE.SphereGeometry(o.r * 2.1, isMobile ? 8 : 16, isMobile ? 8 : 16),
       new THREE.MeshBasicMaterial({ color: o.c, transparent: true, opacity: 0.09, depthWrite: false })
     );
     soft.position.copy(s.position);
@@ -250,14 +251,14 @@ function boot() {
   tealLight.position.set(0.95, -0.85, 0.4); mark.add(tealLight);
 
   const ring = new THREE.Mesh(
-    new THREE.TorusGeometry(1.65, 0.012, 8, 96),
+    new THREE.TorusGeometry(1.65, 0.012, isMobile ? 6 : 8, isMobile ? 48 : 96),
     new THREE.MeshBasicMaterial({ color: 0x3aa3e0, transparent: true, opacity: 0.32 })
   );
   ring.rotation.x = Math.PI / 2;
   ring.position.y = -1.4;
   scene.add(ring);
   const floorGlow = new THREE.Mesh(
-    new THREE.CircleGeometry(1.9, 48),
+    new THREE.CircleGeometry(1.9, isMobile ? 24 : 48),
     new THREE.MeshBasicMaterial({ color: 0x6020a0, transparent: true, opacity: 0.1, side: THREE.DoubleSide })
   );
   floorGlow.rotation.x = -Math.PI / 2;
@@ -336,6 +337,7 @@ function boot() {
 
   surface.addEventListener('pointerdown', (e) => {
     dragging = true;
+    resume();
     lastX = e.clientX; lastY = e.clientY;
     lastInteract = performance.now();
     hero.classList.add('is-dragged');
@@ -386,22 +388,24 @@ function boot() {
   resize();
   addEventListener('resize', resize, { passive: true });
 
+  let raf = 0;
   const io = new IntersectionObserver((entries) => {
     visible = entries.some((en) => en.isIntersecting);
+    if (visible) resume(); else pause();
   }, { threshold: 0.05 });
   io.observe(hero);
+  document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); else resume(); });
 
   // Motion offsets never accumulate into drag state. Active time pauses offscreen.
-  let activeTime = 0, lastFrame = performance.now(), scrollPose = 0;
+  let activeTime = 0, lastFrame = performance.now(), scrollPose = 0, mobileFrames = 0;
   const updateScrollPose = () => {
     const rect = hero.getBoundingClientRect();
     hero.dataset.motionProgress = String(Math.min(1, Math.max(0, -rect.top / Math.max(1, rect.height))));
   };
   addEventListener('scroll', updateScrollPose, { passive: true });
   updateScrollPose();
-  function frame() {
-    requestAnimationFrame(frame);
-    const now = performance.now();
+  function frame(now) {
+    raf = 0;
     const dt = Math.min((now - lastFrame) / 1000, 0.05);
     lastFrame = now;
     if (!visible || document.hidden) return;
@@ -443,7 +447,18 @@ function boot() {
     }
 
     composer.render();
+    if (isMobile) mobileFrames += 1;
+    if (!isMobile || dragging || mobileFrames < 2) raf = requestAnimationFrame(frame);
   }
-  frame();
+  function resume() {
+    if (raf || !visible || document.hidden) return;
+    lastFrame = performance.now();
+    raf = requestAnimationFrame(frame);
+  }
+  function pause() {
+    cancelAnimationFrame(raf);
+    raf = 0;
+  }
+  resume();
   hero.classList.add('is-ready');
 }
