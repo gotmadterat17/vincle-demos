@@ -1,0 +1,36 @@
+{
+  "lighthouseVersion": "13.6.0",
+  "formFactor": "mobile",
+  "url": "http://127.0.0.1:8765/off-the-script/",
+  "before": {
+    "note": "Phones used the still emblem. a491307.",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": "1.8 s",
+    "cls": "0.002",
+    "tbt": "50 ms",
+    "transfer": "548 KiB"
+  },
+  "after": {
+    "note": "Phones boot the 3D emblem after first paint, draw two frames, then rest until drag. Nebula is one still wash.",
+    "scores": {
+      "performance": 73,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "largest-contentful-paint": "1.8 s",
+      "cumulative-layout-shift": "0.002",
+      "total-blocking-time": "1,400 ms",
+      "first-contentful-paint": "1.8 s",
+      "interactive": "5.3 s",
+      "speed-index": "1.8 s",
+      "total-byte-weight": "Total size was 837 KiB"
+    }
+  }
+}

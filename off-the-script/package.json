@@ -1,0 +1,7 @@
+{
+  "name": "off-the-script",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
