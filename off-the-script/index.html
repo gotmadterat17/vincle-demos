@@ -336,9 +336,18 @@
     <p class="prose ar-only" data-source="profile:p16">فيديو الموشن رسوم حاسوب، مع تعليق صوتي ومؤثرات صوتية وبصرية، ويُنجز عبر خطوات عديدة.</p>
     <p class="prose en-only" data-source="profile:p16">A motion film is computer drawing, with voice-over and sound and picture effects, made through many steps.</p>
   </div>
-  <div class="wrap chapter-intro" data-source="profile:p17">
-    <h2 class="ar-only">أعمالنا</h2>
-    <h2 class="en-only">Our work</h2>
+  <div class="wrap chapter-intro works-head" data-source="profile:p17">
+    <div>
+      <h2 class="ar-only">أعمالنا</h2>
+      <h2 class="en-only">Our work</h2>
+    </div>
+    <svg class="cam" id="cam" viewBox="0 0 128 96" aria-hidden="true">
+      <path class="cam-part cam-body" d="M26 32h76a12 12 0 0 1 12 12v34a12 12 0 0 1-12 12H26a12 12 0 0 1-12-12V44a12 12 0 0 1 12-12z"/>
+      <path class="cam-part cam-top" d="M46 32 L56 16 H84 L94 32"/>
+      <circle class="cam-part cam-ring" cx="64" cy="58" r="18"/>
+      <path class="cam-part cam-iris" d="M64 58 m-7 0 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+      <circle class="cam-part cam-dot" cx="102" cy="42" r="3.5"/>
+    </svg>
   </div>
   <div class="wrap reel" data-reel>
     <div class="reel-sticky">
@@ -759,6 +768,8 @@
 <script src="mobile.js" defer></script>
 <script src="a-motion.js" defer></script>
 <script src="story.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js" defer></script>
+<script src="showcase.js" defer></script>
 <script type="module">
 const hero = document.querySelector('[data-hero]');
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;

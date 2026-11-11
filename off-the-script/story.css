@@ -13,6 +13,18 @@ input,textarea{caret-color:#e7d7f5}
 .cite{margin:8px 0 0;font-size:14px;line-height:1.6;color:#cbb6e4}
 .cite a{color:#9fd4ef;text-decoration:underline;text-underline-offset:3px}
 .chapter-intro{margin-bottom:clamp(28px,4vh,48px)}
+.works-head{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.cam{width:min(148px,32vw);height:auto;overflow:visible;flex:none}
+.cam-part{fill:none;stroke:#f4f7fc;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round;transform-box:fill-box;transform-origin:center}
+.cam-top{stroke:#e7b6ef}
+.cam-ring{stroke:#9fd4ef}
+.cam-iris{fill:#6B2F8C;stroke:none}
+.cam-dot{fill:#dc0cc4;stroke:none}
+html.motion .cam-part{opacity:0}
+html.motion .rise{opacity:0}
+@media (prefers-reduced-motion:reduce){
+  html.motion .cam-part,html.motion .rise{opacity:1}
+}
 
 .split{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(22px,4vw,48px);align-items:center}
 .split > *{min-width:0}

@@ -13,7 +13,8 @@ const files = [
   'mobile.js',
   'story.js',
   'a-motion.js',
-  'hero-emblem.js'
+  'hero-emblem.js',
+  'showcase.js'
 ];
 
 await rm(out, { recursive: true, force: true });
