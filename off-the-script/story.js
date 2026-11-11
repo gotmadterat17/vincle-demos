@@ -17,6 +17,7 @@
   if (reel && !reduce && desktop.matches) {
     const frames = [...reel.querySelectorAll('.reel-frame')];
     const label = reel.querySelector('[data-reel-label]');
+    const progress = reel.querySelector('[data-reel-progress]');
     reel.style.setProperty('--n', String(frames.length));
     reel.classList.add('is-live');
     let last = -1;
@@ -29,6 +30,7 @@
         const en = frames[i].getAttribute('data-title-en') || title;
         label.textContent = root.lang === 'en' ? en : title;
       }
+      if (progress) progress.textContent = (i + 1) + ' / ' + frames.length;
     };
     const onScroll = () => {
       const rect = reel.getBoundingClientRect();

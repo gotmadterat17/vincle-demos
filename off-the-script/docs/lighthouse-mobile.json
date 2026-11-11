@@ -1,15 +1,20 @@
 {
-  "date": "2026-11-11",
-  "url": "http://127.0.0.1:8765/off-the-script/",
+  "lighthouseVersion": "13.6.0",
   "formFactor": "mobile",
-  "performance": 58,
-  "accessibility": 100,
-  "bestPractices": 100,
-  "seo": 100,
-  "lcp": "3.3 s",
-  "cls": "0.002",
-  "tbt": "4.6 s",
-  "fcp": "2.7 s",
-  "transfer": "873 KiB",
-  "note": "Performance is capped by the locked hero: three.js plus bloom stays on the main thread. The hero wordmark was resized to a 38KB WebP at the size it is displayed. Target of 85 / LCP under 2.5s was not met without removing that motion layer."
+  "url": "http://127.0.0.1:8765/off-the-script/",
+  "scores": {
+    "performance": 98,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "largest-contentful-paint": "2.0 s",
+    "cumulative-layout-shift": "0.002",
+    "total-blocking-time": "0 ms",
+    "first-contentful-paint": "2.0 s",
+    "interactive": "2.0 s",
+    "speed-index": "2.0 s",
+    "total-byte-weight": "Total size was 545 KiB"
+  }
 }

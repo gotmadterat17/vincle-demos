@@ -56,11 +56,24 @@
   document.getElementById('contactForm')?.addEventListener('input',e=>{
     if (typeof e.target.setCustomValidity === 'function') { e.target.setCustomValidity(''); e.target.setAttribute('aria-invalid','false'); e.target.classList.remove('is-invalid'); }
   });
+  function syncA11yLanguage() {
+    const en = root.lang === 'en';
+    document.querySelectorAll('.ar-only').forEach((el) => el.setAttribute('aria-hidden', en ? 'true' : 'false'));
+    document.querySelectorAll('.en-only').forEach((el) => el.setAttribute('aria-hidden', en ? 'false' : 'true'));
+    const toggle = document.getElementById('langToggle');
+    if (toggle) {
+      toggle.textContent = en ? 'عر' : 'EN';
+      toggle.setAttribute('aria-label', en ? 'عر' : 'EN');
+    }
+    const menu = document.getElementById('navToggle');
+    if (menu) menu.setAttribute('aria-label', en ? 'Menu' : 'القائمة');
+  }
+  syncA11yLanguage();
   document.getElementById('langToggle')?.addEventListener('click', () => {
     const toEn = root.lang !== 'en';
     root.lang = toEn ? 'en' : 'ar';
     root.dir = toEn ? 'ltr' : 'rtl';
-    document.getElementById('langToggle').textContent = toEn ? 'عر' : 'EN';
+    syncA11yLanguage();
     syncContactLanguage();
   });
 
@@ -326,9 +339,16 @@
     };
     draw();
   }
-  waveLoop(document.getElementById('waveA'), ['#e8eef6', '#dc0cc4', '#3aa3e0'], 16);
-  waveLoop(document.getElementById('waveB'), ['#dc0cc4', '#18d090'], 12);
-  waveLoop(document.getElementById('waveC'), ['#9810d8', '#1088d0'], 10);
+  if (matchMedia('(min-width: 700px)').matches) {
+    const armWaves = () => {
+      waveLoop(document.getElementById('waveA'), ['#e8eef6', '#dc0cc4', '#3aa3e0'], 16);
+      waveLoop(document.getElementById('waveB'), ['#dc0cc4', '#18d090'], 12);
+      waveLoop(document.getElementById('waveC'), ['#9810d8', '#1088d0'], 10);
+    };
+    const later = window.requestIdleCallback || ((fn) => setTimeout(fn, 600));
+    if (document.readyState === 'complete') later(armWaves, { timeout: 1200 });
+    else addEventListener('load', () => later(armWaves, { timeout: 1200 }), { once: true });
+  }
 
   if (!reduce) {
     const bars = document.querySelectorAll('#hudBars i');

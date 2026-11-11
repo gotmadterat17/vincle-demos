@@ -37,7 +37,7 @@
     active += dt;
     eased += (target - eased) * (1 - Math.exp(-7 * dt));
     hero.style.setProperty('--a-scroll', eased.toFixed(4));
-    if (!flat) {
+    if (!flat && innerWidth > 700) {
       ctx.clearRect(0,0,width,height);
       const phase = active * Math.PI * 2 / 24;
       volumes.forEach(([x,y,r,c,a],i) => {
