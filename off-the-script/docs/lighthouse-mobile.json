@@ -9,12 +9,12 @@
     "seo": 100
   },
   "metrics": {
-    "largest-contentful-paint": "2.0 s",
+    "largest-contentful-paint": "1.8 s",
     "cumulative-layout-shift": "0.002",
-    "total-blocking-time": "0 ms",
-    "first-contentful-paint": "2.0 s",
-    "interactive": "2.0 s",
-    "speed-index": "2.0 s",
-    "total-byte-weight": "Total size was 545 KiB"
+    "total-blocking-time": "50 ms",
+    "first-contentful-paint": "1.8 s",
+    "interactive": "1.9 s",
+    "speed-index": "1.8 s",
+    "total-byte-weight": "Total size was 548 KiB"
   }
 }

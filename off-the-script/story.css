@@ -75,7 +75,7 @@ html[lang="en"] .steps strong.en-only{display:block!important}
 .reel{position:relative}
 .reel-stage{display:grid;gap:28px}
 .reel-side{display:none}
-.reel.is-live{height:calc(var(--n, 8) * 450px)}
+.reel.is-live{height:calc(var(--n, 9) * 450px)}
 .reel.is-live .reel-sticky{position:sticky;top:0;height:100vh;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(220px,.65fr);gap:28px;align-items:center}
 .reel.is-live .reel-stage{position:relative;height:min(74vh,760px);display:block;background:#100818;border-radius:18px;overflow:hidden}
 .reel.is-live .reel-frame{position:absolute;inset:0;margin:0;opacity:0;transition:opacity .45s linear}

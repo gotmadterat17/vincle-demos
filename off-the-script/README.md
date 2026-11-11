@@ -1,5 +1,15 @@
 # Off The Script — full mobile static site
 
+## Cloudflare Pages
+
+Root directory: `off-the-script`
+
+Build command: `npm run build`
+
+Output directory: `dist`
+
+The build copies the page, styles, scripts, `assets/`, and `media/` into `dist/`. Paths stay relative, so the same output works at the domain root. The profile PDF prints no email, phone, or street address, and the build does not add any.
+
 Isolated demo inside the existing public repository `gotmadterat17/vincle-demos`. Root index, sitemap, robots, `.nojekyll`, and every other project folder are untouched. Repository visibility is unchanged.
 
 ## Direct URL
